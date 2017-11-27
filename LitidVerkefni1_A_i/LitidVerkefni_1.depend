@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511795101 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni_1\main.cpp
+	<iostream>
+	<fstream>
+
