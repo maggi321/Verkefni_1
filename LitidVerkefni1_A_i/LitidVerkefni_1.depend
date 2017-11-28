@@ -3,7 +3,11 @@
 	<iostream>
 	<fstream>
 
+<<<<<<< HEAD
 1511795482 source:c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni1_a_i\main.cpp
+=======
+1511795101 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni1_a_i\main.cpp
+>>>>>>> d690528d49846ea0c073a7c99192050abe53f67a
 	<iostream>
 	<fstream>
 
