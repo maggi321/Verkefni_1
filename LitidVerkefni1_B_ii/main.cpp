@@ -93,23 +93,17 @@ int main()
     Superhero hero1;
 
     int howmany = hero1.getMany();
-    Superhero *hero = new Superhero[howmany];
 
     ofstream fout;
     fout.open("SuperHeros.dat", ios::binary);
 
     for(int i = 0; i < howmany; i++) {
-        cin >> hero[i];
+        cin >> hero1;
         cout << endl;
 
         fout.write((char*)(&hero1), sizeof(Superhero));
     }
 
-    /*ofstream fout;
-    fout.open("SuperHeros.dat", ios::binary);
-
-    fout.write((char*)(&hero1), sizeof(Superhero));
-*/
     fout.close();
 
     Superhero hero2;
