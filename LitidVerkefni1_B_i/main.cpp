@@ -53,7 +53,7 @@ class Superhero {
 
         out << hero.age;
         if(hero.verbose) {
-        out << ") : ";
+            out << ") : ";
         }
 
         if(hero.verbose) {
