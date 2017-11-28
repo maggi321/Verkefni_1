@@ -6,7 +6,7 @@ using namespace std;
 class Superhero {
 
  private:
-    char name[20];
+    char name[25];
     int age;
     char superpower;
 
@@ -78,6 +78,13 @@ class Superhero {
         }
     return out;
     }
+    int getMany() {
+        cout << "How many superheros are in the Superteam ? ";
+        int input;
+        cin >> input;
+
+        return input;
+    }
 
 };
 
@@ -85,13 +92,24 @@ int main()
 {
     Superhero hero1;
 
-    cin >> hero1;
+    int howmany = hero1.getMany();
+    Superhero *hero = new Superhero[howmany];
 
     ofstream fout;
-    fout.open("SuperHeros.dat", ios::binary|ios::app);
+    fout.open("SuperHeros.dat", ios::binary);
+
+    for(int i = 0; i < howmany; i++) {
+        cin >> hero[i];
+        cout << endl;
+
+        fout.write((char*)(&hero1), sizeof(Superhero));
+    }
+
+    /*ofstream fout;
+    fout.open("SuperHeros.dat", ios::binary);
 
     fout.write((char*)(&hero1), sizeof(Superhero));
-
+*/
     fout.close();
 
     Superhero hero2;
@@ -101,12 +119,16 @@ int main()
 
     if(fin.is_open()) {
         fin.seekg(0, fin.end);
-        int recordCount = fin.tellg() / sizeof(Superhero);
+        int records = fin.tellg() / sizeof(Superhero);
         fin.seekg(0, fin.beg);
 
-        for(int i = 0; i < recordCount; i++) {
-            fin.read((char*)(&hero2), sizeof(Superhero));
-            cout << hero2 << endl;
+        Superhero *hero = new Superhero[records];
+        fin.read((char*)hero, sizeof(Superhero) * records);
+        fin.close();
+
+        for(int i = 0; i < records; i++) {
+            hero[i].setVerbose(true);
+            cout << hero[i];
         }
     }
     else {
