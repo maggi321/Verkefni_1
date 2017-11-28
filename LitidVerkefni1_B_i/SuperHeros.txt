@@ -1,1 +1,10 @@
-kall 21 g
+batman 45 n
+kalli 21 f
+jonas 34 f
+halli 56 g
+kalli 45 g
+golum 44 d
+jonatan 99 w
+kaka 11 f
+nana 1 d
+maggi 34 h

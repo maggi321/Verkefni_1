@@ -53,7 +53,7 @@ class Superhero {
 
         out << hero.age;
         if(hero.verbose) {
-            out << ") : ";
+        out << ") : ";
         }
 
         if(hero.verbose) {
@@ -78,11 +78,11 @@ class Superhero {
         }
     return out;
     }
-
 };
 
 int main()
 {
+    /*
     Superhero hero1;
 
     hero1.setVerbose(true);
@@ -90,12 +90,12 @@ int main()
     cin >> hero1;
 
     ofstream fout;
-    fout.open("SuperHeros.txt");
+    fout.open("SuperHeros.txt", ios::app);
 
     hero1.setVerbose(false);
-    fout << hero1;
+    fout << hero1 << endl;
     fout.close();
-
+*/
     Superhero hero2;
 
     ifstream fin;
@@ -103,14 +103,17 @@ int main()
 
     hero2.setVerbose(false);
     if(fin.is_open()) {
+        while(!fin.eof()) {
+        hero2.setVerbose(false);
         fin >> hero2;
+        hero2.setVerbose(true);
+        cout << hero2;
+        }
     }
     else {
         cout << "Could not open file!" << endl;
     }
-
-    hero2.setVerbose(true);
-    cout << hero2;
+    fin.close();
 
     return 0;
 }
