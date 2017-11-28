@@ -82,7 +82,6 @@ class Superhero {
 
 int main()
 {
-    /*
     Superhero hero1;
 
     hero1.setVerbose(true);
@@ -95,7 +94,7 @@ int main()
     hero1.setVerbose(false);
     fout << hero1 << endl;
     fout.close();
-*/
+
     Superhero hero2;
 
     ifstream fin;
@@ -107,7 +106,9 @@ int main()
         hero2.setVerbose(false);
         fin >> hero2;
         hero2.setVerbose(true);
-        cout << hero2;
+        if(!fin.eof()) {
+            cout << hero2;
+            }
         }
     }
     else {
