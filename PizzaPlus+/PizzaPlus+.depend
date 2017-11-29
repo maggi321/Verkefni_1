@@ -5,7 +5,21 @@
 
 1511970107 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\mainui.h
 
-1511970678 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\mainui.cpp
+1511985451 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
+	"Pizza.h"
+	<fstream>
+
+1511971373 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\toppings.cpp
+	"Toppings.h"
+
+1511971373 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\toppings.h
+
+1511985444 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\pizza.h
+	<iostream>
+
+1511985459 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\pizza.cpp
+	"Pizza.h"
+	<fstream>
 

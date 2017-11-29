@@ -1,5 +1,7 @@
 #include "MainUI.h"
 #include <iostream>
+#include "Pizza.h"
+#include <fstream>
 using namespace std;
 
 MainUI::MainUI() {
@@ -41,8 +43,8 @@ void MainUI::skraningUI() {
         cout << "-------Skraningar-------" << endl;
         cout << "========================" << endl;
 
-        cout << "g: Grunnpizza"  << endl;
-        cout << "a: Alegg" << endl;
+        cout << "g: Grunnpizza (verd)"  << endl;
+        cout << "a: Aleggstegundir" << endl;
         cout << "p: Pontun" << endl;
         cout << "q: Fara til baka" << endl;
 
@@ -50,7 +52,8 @@ void MainUI::skraningUI() {
         cout << endl;
 
         if(selection == 'g') {
-
+            Pizza pizza;
+            pizza.makeGpizzaVerd();
         }
         else if(selection == 'a') {
 
