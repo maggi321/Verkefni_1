@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1511967081 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\main.cpp
+	<iostream>
+	"mainUI.h"
+
+1511966774 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\mainui.h
+
+1511967184 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\mainui.cpp
+	"MainUI.h"
+	<iostream>
+
