@@ -9,6 +9,7 @@ class MainUI
         virtual ~MainUI();
 
         void StartUI();
+        void skraningUI();
 
     protected:
 
