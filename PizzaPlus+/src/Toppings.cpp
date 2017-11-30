@@ -8,6 +8,7 @@ Toppings::Toppings() {
     name = " ";
     price = 0;
     howmany = 0;
+    id = 100;
 }
 
 Toppings::~Toppings() {
@@ -15,12 +16,7 @@ Toppings::~Toppings() {
 }
 void Toppings::makeToppings() {
     Toppings toppings;
-/*
-    cout << "Nafn: ";
-    cin >> toppings.name;
-    cout << "verd: ";
-    cin >> toppings.price;
-*/
+
     cout << "Hve margar aleggstegundir vildu setja i kerfid ? ";
     cin >> howmany;
     ofstream fout;
@@ -28,11 +24,12 @@ void Toppings::makeToppings() {
 
     if(fout.is_open()) {
         for(int i = 0; i < howmany; i++) {
+            toppings.id += i;
             cout << "Nafn: ";
             cin >> toppings.name;
             cout << "verd: ";
             cin >> toppings.price;
-            fout << toppings.name << " " << toppings.price << endl;
+            fout << toppings.id << '\t' << toppings.name << '\t' << toppings.price << endl;
         }
         fout.close();
     }

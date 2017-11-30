@@ -14,6 +14,7 @@ class Toppings
         string name;
         int price;
         int howmany;
+        int id;
 };
 
 #endif // TOPPINGS_H

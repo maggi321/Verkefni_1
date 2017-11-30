@@ -102,6 +102,7 @@ void MainUI::flettaUppUI() {
             fin.open("aleggstegundir.txt");
             if(fin.is_open()) {
                 cout << "Aleggstegundir i kerfinu:" << endl;
+                cout << "Vorunr" << '\t' << "Nafn" << '\t' << "Verd" << endl;
                 while(!fin.eof()) {
                 getline(fin, toppings);
                 cout << toppings << endl;

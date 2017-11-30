@@ -1,4 +1,3 @@
-pepp 350
-sveppir 120
-ostur 100
-beikon 400
+100	sveppir	230
+101	beikon	370
+103	ananas	230
