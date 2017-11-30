@@ -32,8 +32,7 @@ void Toppings::makeToppings() {
             cin >> toppings.name;
             cout << "verd: ";
             cin >> toppings.price;
-            fout << toppings.name << " ";
-            fout << toppings.price << endl;
+            fout << toppings.name << " " << toppings.price << endl;
         }
         fout.close();
     }

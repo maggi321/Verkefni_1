@@ -20,7 +20,7 @@ void MainUI::StartUI () {
         cout << "=======================" << endl;
 
         cout << "s: Skraningar"  << endl;
-        cout << "f: Fletta upp pantanir" << endl;
+        cout << "f: Fletta upp" << endl;
         cout << "m: Merkja pantanir" << endl;
         cout << "q: Loka forrit" << endl;
 
