@@ -8,3 +8,4 @@ jonatan 99 w
 kaka 11 f
 nana 1 d
 maggi 34 h
+arnor 34 d
