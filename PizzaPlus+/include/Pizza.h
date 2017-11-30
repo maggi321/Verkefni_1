@@ -10,8 +10,6 @@ class Pizza
         virtual ~Pizza();
         void makeGpizzaVerd();
 
-    protected:
-
     private:
         int price;
 };

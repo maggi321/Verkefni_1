@@ -3,6 +3,7 @@
 #include <string>
 #include "MainUI.h"
 #include "Pizza.h"
+#include "Toppings.h"
 using namespace std;
 
 MainUI::MainUI() {
@@ -57,7 +58,8 @@ void MainUI::skraningUI() {
             pizza.makeGpizzaVerd();
         }
         else if(selection == 'a') {
-
+            Toppings toppings;
+            toppings.makeToppings();
         }
         else if(selection == 'p') {
 
@@ -84,7 +86,7 @@ void MainUI::flettaUppUI() {
             string price;
             fin.open("grunnverd.txt");
             if(fin.is_open()) {
-                cout << "Verd a Grunnpizzu er: ";
+                cout << "Verd a Grunnpizzu er ";
                 getline(fin, price);
                 cout << price << endl;
                 cout << endl;
@@ -95,7 +97,20 @@ void MainUI::flettaUppUI() {
             }
         }
         else if(selection == 'a') {
-
+            ifstream fin;
+            string toppings;
+            fin.open("aleggstegundir.txt");
+            if(fin.is_open()) {
+                cout << "Aleggstegundir i kerfinu:" << endl;
+                while(!fin.eof()) {
+                getline(fin, toppings);
+                cout << toppings << endl;
+                }
+                fin.close();
+            }
+            else {
+                cout << "File could not be opened!" << endl;
+            }
         }
         else if(selection == 'p') {
 

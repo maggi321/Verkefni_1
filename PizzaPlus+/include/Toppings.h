@@ -1,16 +1,19 @@
 #ifndef TOPPINGS_H
 #define TOPPINGS_H
-
+#include <string>
+using namespace std;
 
 class Toppings
 {
     public:
         Toppings();
         virtual ~Toppings();
-
-    protected:
+        void makeToppings();
 
     private:
+        string name;
+        int price;
+        int howmany;
 };
 
 #endif // TOPPINGS_H

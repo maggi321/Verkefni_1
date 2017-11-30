@@ -1,13 +1,11 @@
 #include "Pizza.h"
 #include <fstream>
 
-Pizza::Pizza()
-{
+Pizza::Pizza() {
     price = 0;
 }
 
-Pizza::~Pizza()
-{
+Pizza::~Pizza() {
     //dtor
 }
 void Pizza::makeGpizzaVerd() {

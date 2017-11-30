@@ -1,0 +1,4 @@
+pepp 350
+sveppir 120
+ostur 100
+beikon 400
