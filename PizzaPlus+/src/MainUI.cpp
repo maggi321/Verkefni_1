@@ -1,7 +1,8 @@
-#include "MainUI.h"
 #include <iostream>
-#include "Pizza.h"
 #include <fstream>
+#include <string>
+#include "MainUI.h"
+#include "Pizza.h"
 using namespace std;
 
 MainUI::MainUI() {
@@ -29,7 +30,7 @@ void MainUI::StartUI () {
             skraningUI();
         }
         else if(selection == 'f') {
-
+            flettaUppUI();
         }
         else if(selection == 'm') {
 
@@ -54,6 +55,44 @@ void MainUI::skraningUI() {
         if(selection == 'g') {
             Pizza pizza;
             pizza.makeGpizzaVerd();
+        }
+        else if(selection == 'a') {
+
+        }
+        else if(selection == 'p') {
+
+        }
+    }
+}
+void MainUI::flettaUppUI() {
+    char selection = '\0';
+
+    while(selection != 'q') {
+        cout << "-------Fletta upp-------" << endl;
+        cout << "========================" << endl;
+
+        cout << "g: Grunnpizza (verd)"  << endl;
+        cout << "a: Aleggstegundir" << endl;
+        cout << "p: Pantanir" << endl;
+        cout << "q: Fara til baka" << endl;
+
+        cin >> selection;
+        cout << endl;
+
+        if(selection == 'g') {
+            ifstream fin;
+            string price;
+            fin.open("grunnverd.txt");
+            if(fin.is_open()) {
+                cout << "Verd a Grunnpizzu er: ";
+                getline(fin, price);
+                cout << price << endl;
+                cout << endl;
+                fin.close();
+            }
+            else {
+                cout << "File could not be opened!" << endl;
+            }
         }
         else if(selection == 'a') {
 

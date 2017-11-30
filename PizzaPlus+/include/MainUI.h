@@ -10,6 +10,7 @@ class MainUI
 
         void StartUI();
         void skraningUI();
+        void flettaUppUI();
 
     protected:
 
