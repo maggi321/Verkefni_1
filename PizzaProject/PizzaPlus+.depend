@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1512138924 source:c:\users\notandi\desktop\pizzaplus+\main.cpp
+	<iostream>
+	<MainUI.h>
+
+1512138026 c:\users\notandi\desktop\pizzaplus+\include\mainui.h
+
+1512140886 source:c:\users\notandi\desktop\pizzaplus+\src\afhending.cpp
+	"Afhending.h"
+	<iostream>
+
+1512139882 c:\users\notandi\desktop\pizzaplus+\include\afhending.h
+
+1512139756 source:c:\users\notandi\desktop\pizzaplus+\src\bakstur.cpp
+	"Bakstur.h"
+	<iostream>
+
+1512139690 c:\users\notandi\desktop\pizzaplus+\include\bakstur.h
+
+1512139035 source:c:\users\notandi\desktop\pizzaplus+\src\mainui.cpp
+	"MainUI.h"
+	"Umsjon.h"
+	"Sala.h"
+	"Bakstur.h"
+	"Afhending.h"
+	<iostream>
+
+1512138903 c:\users\notandi\desktop\pizzaplus+\include\umsjon.h
+
+1512139423 c:\users\notandi\desktop\pizzaplus+\include\sala.h
+
+1512141104 source:c:\users\notandi\desktop\pizzaplus+\src\sala.cpp
+	"Sala.h"
+	<iostream>
+
+1512140294 source:c:\users\notandi\desktop\pizzaplus+\src\pizza.cpp
+	"Pizza.h"
+	<fstream>
+
+1512140294 c:\users\notandi\desktop\pizzaplus+\include\pizza.h
+	<iostream>
+
+1512140623 source:c:\users\notandi\desktop\pizzaplus+\src\toppings.cpp
+	"Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512140623 c:\users\notandi\desktop\pizzaplus+\include\toppings.h
+	<string>
+
+1512140809 source:c:\users\notandi\desktop\pizzaplus+\src\umsjon.cpp
+	"Umsjon.h"
+	"Pizza.h"
+	"Toppings.h"
+	<iostream>
+
+1512138924 source:c:\users\notandi\desktop\pizzaproject\main.cpp
+	<iostream>
+	<MainUI.h>
+
+1512140886 source:c:\users\notandi\desktop\pizzaproject\src\afhending.cpp
+	"Afhending.h"
+	<iostream>
+
+1512139756 source:c:\users\notandi\desktop\pizzaproject\src\bakstur.cpp
+	"Bakstur.h"
+	<iostream>
+
+1512139035 source:c:\users\notandi\desktop\pizzaproject\src\mainui.cpp
+	"MainUI.h"
+	"Umsjon.h"
+	"Sala.h"
+	"Bakstur.h"
+	"Afhending.h"
+	<iostream>
+
+1512140294 source:c:\users\notandi\desktop\pizzaproject\src\pizza.cpp
+	"Pizza.h"
+	<fstream>
+
+1512141104 source:c:\users\notandi\desktop\pizzaproject\src\sala.cpp
+	"Sala.h"
+	<iostream>
+
+1512141831 source:c:\users\notandi\desktop\pizzaproject\src\toppings.cpp
+	"../include/Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512140809 source:c:\users\notandi\desktop\pizzaproject\src\umsjon.cpp
+	"Umsjon.h"
+	"Pizza.h"
+	"Toppings.h"
+	<iostream>
+
+1512140623 c:\users\notandi\desktop\pizzaproject\include\toppings.h
+	<string>
+
+1512138924 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\main.cpp
+	<iostream>
+	<MainUI.h>
+
+1512140886 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\afhending.cpp
+	"Afhending.h"
+	<iostream>
+
+1512139756 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\bakstur.cpp
+	"Bakstur.h"
+	<iostream>
+
+1512139035 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\mainui.cpp
+	"MainUI.h"
+	"Umsjon.h"
+	"Sala.h"
+	"Bakstur.h"
+	"Afhending.h"
+	<iostream>
+
+1512395282 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\pizza.cpp
+	"../include/Pizza.h"
+	<fstream>
+
+1512395572 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\sala.cpp
+	"../include/Sala.h"
+	"../include/Toppings.h"
+
+1512398770 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\toppings.cpp
+	"../include/Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512396187 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\include\toppings.h
+	<string>
+	<vector>
+
+1512140809 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\src\umsjon.cpp
+	"Umsjon.h"
+	"Pizza.h"
+	"Toppings.h"
+	<iostream>
+
+1512392163 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\include\sala.h
+	<iostream>
+	<fstream>
+
+1512395282 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\include\pizza.h
+	<iostream>
+
