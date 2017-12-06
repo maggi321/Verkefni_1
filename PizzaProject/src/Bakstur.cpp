@@ -1,4 +1,4 @@
-#include "Bakstur.h"
+#include "../include/Bakstur.h"
 #include <iostream>
 using namespace std;
 

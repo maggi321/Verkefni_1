@@ -149,3 +149,62 @@
 1512395282 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\include\pizza.h
 	<iostream>
 
+1512403008 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\main.cpp
+	<iostream>
+	"include/MainUI.h"
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\mainui.h
+
+1512403024 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\afhending.cpp
+	"../include/Afhending.h"
+	<iostream>
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\afhending.h
+
+1512403033 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\bakstur.cpp
+	"../include/Bakstur.h"
+	<iostream>
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\bakstur.h
+
+1512403040 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\mainui.cpp
+	"../include/MainUI.h"
+	"../include/Umsjon.h"
+	"../include/Sala.h"
+	"../include/Bakstur.h"
+	"../include/Afhending.h"
+	<iostream>
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\umsjon.h
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\sala.h
+	<iostream>
+	<fstream>
+
+1512399366 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\pizza.cpp
+	"../include/Pizza.h"
+	<fstream>
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\pizza.h
+	<iostream>
+
+1512399366 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\sala.cpp
+	"../include/Sala.h"
+	"../include/Toppings.h"
+
+1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\toppings.h
+	<string>
+	<vector>
+
+1512399366 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\toppings.cpp
+	"../include/Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512403047 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\umsjon.cpp
+	"../include/Umsjon.h"
+	"../include/Pizza.h"
+	"../include/Toppings.h"
+	<iostream>
+

@@ -1,8 +1,8 @@
-#include "MainUI.h"
-#include "Umsjon.h"
-#include "Sala.h"
-#include "Bakstur.h"
-#include "Afhending.h"
+#include "../include/MainUI.h"
+#include "../include/Umsjon.h"
+#include "../include/Sala.h"
+#include "../include/Bakstur.h"
+#include "../include/Afhending.h"
 #include <iostream>
 using namespace std;
 

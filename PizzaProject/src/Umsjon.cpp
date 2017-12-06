@@ -1,6 +1,6 @@
-#include "Umsjon.h"
-#include "Pizza.h"
-#include "Toppings.h"
+#include "../include/Umsjon.h"
+#include "../include/Pizza.h"
+#include "../include/Toppings.h"
 #include <iostream>
 using namespace std;
 

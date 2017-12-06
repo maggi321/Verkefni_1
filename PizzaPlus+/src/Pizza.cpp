@@ -63,7 +63,7 @@ void Pizza::makePizzaOrder() {
     cout << "sladu inn vorunr til ad setja alegg a pizzu :";
     cin >> velja;
 
-    if(velja == currenttoppings.at(id)) {
+    if(velja == currenttoppings[id]) {
         cout << name << " " << price;
     }
 }
