@@ -11,6 +11,9 @@ void EmployeeRepository::add_employee(const Employee& employee) {
         fout.close();
     }
     else {
-        ///throw error
+        cout << "File write error" << endl;
     }
+}
+string EmployeeRepository::find_ssn(string ssn) {
+
 }

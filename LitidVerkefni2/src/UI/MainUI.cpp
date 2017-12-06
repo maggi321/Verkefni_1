@@ -5,26 +5,33 @@ MainUI::MainUI() {
 }
 void MainUI::StartUI () {
     char select = '\0';
+
     while(select != 'q') {
-        cout << "press a to add" << endl;
-        cout << "press v to view" << endl;
+        cout << "Pick a option:" << endl;
+        cout << "1. Add a salary record" << endl;
+        cout << "2. Get all salary records for a given SSN" << endl;
+        cout << "3. Get a total salary for a given year and a given SSN" << endl;
+        cout << "4. Get the name of the employee with the highest total salary for a given year" << endl;
+        cout << "q. To quit program" << endl;
         cin >> select;
 
-        validate_user_input(select);
+        user_selection(select);
     }
 }
-void MainUI::validate_user_input(char input) {
-    if(input == 'a') {
-        try {
-            employee_service.add_employee(create_employee());
-        }
-        catch(InvalidNameException) {
-            system("CLS");
-            cout << "Invalid Name!" << endl << endl;
-        }
+void MainUI::user_selection(char input) {
+    string ssn, year;
+    if(input == '1') {
+        employee_service.add_employee(create_employee());
     }
-    else if(input == 'v') {
-        cout << "view employee" << endl;
+    else if(input == '2') {
+        cout << "SSN: ";
+        cin >> ssn;
+
+        cout << employee_service.find_ssn(ssn) << endl;
+    }
+    else if(input == '3') {
+    }
+    else if(input == '4') {
     }
 }
 Employee MainUI::create_employee() {
@@ -34,7 +41,7 @@ Employee MainUI::create_employee() {
     do {
         try {
             cout << "Name: ";
-            cin >> name;
+            cin >> ws;
             getline(cin, name);
             allowed = employee_service.isValidName(name);
         }
@@ -44,14 +51,59 @@ Employee MainUI::create_employee() {
     }
     while(!allowed);
 
-    cout << "Ssn: ";
-    cin >> ssn;
-    cout << "Salary: ";
-    cin >> salary;
-    cout << "Month: ";
-    cin >> month;
-    cout << "Year: ";
-    cin >> year;
+    allowed = false;
+    do {
+        try {
+            cout << "Ssn: ";
+            cin >> ssn;
+            allowed = employee_service.isValidSsn(ssn);
+        }
+        catch(InvalidSsnException) {
+            cout << "Invalid SSN!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Salary: ";
+            cin >> salary;
+            allowed = employee_service.isValidSalary(salary);
+        }
+        catch(InvalidSalaryException) {
+            cout << "Invalid Salary!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Month: ";
+            cin >> month;
+            allowed = employee_service.isValidMonth(month);
+        }
+        catch(InvalidMonthException) {
+            cout << "Invalid Month!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Year: ";
+            cin >> year;
+            allowed = employee_service.isValidYear(year);
+        }
+        catch(InvalidYearException) {
+            cout << "Invalid year" << endl << endl;
+        }
+    }
+    while(!allowed);
+    cout << endl;
+
     Employee employee(name, ssn, salary, month, year);
     return employee;
 }

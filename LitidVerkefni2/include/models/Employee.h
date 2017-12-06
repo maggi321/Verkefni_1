@@ -8,12 +8,15 @@ class Employee
 {
     public:
         Employee(string name, string ssn, int salary, int month, int year);
+
         string get_name() const;
         string get_ssn() const;
         int get_salary() const;
         int get_month() const;
         int get_year() const;
+
         friend ostream& operator<< (ostream& out, const Employee& employee);
+        friend istream& operator >>(istream& in, Employee employee);
 
     private:
         string name;

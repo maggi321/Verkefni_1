@@ -26,8 +26,24 @@ int Employee::get_year() const {
     return this->year;
 }
 ostream& operator<< (ostream& out, const Employee& employee) {
-    out << employee.name << ", " << employee.ssn << ", ";
-    out << employee.salary << ", " << employee.month << ", ";
-    out << employee.year << endl;
+    out << employee.name << ", " << employee.ssn << ", " << employee.salary << ", " << employee.month << ", " << employee.year << endl;
     return out;
+}
+istream& operator >>(istream& in, Employee employee){
+    cout << "Name: ";
+    in >> ws;
+    getline(in, employee.name);
+
+    cout << "Id: ";
+    in >> employee.ssn;
+
+    cout << "Salary: ";
+    in >> employee.salary;
+
+    cout << "Month: ";
+    in >> employee.month;
+
+    cout << "Year: ";
+    in >> employee.year;
+    return in;
 }
