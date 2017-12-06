@@ -13,6 +13,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/UI" />
+					<Add directory="include/models" />
+					<Add directory="include/exceptions" />
+					<Add directory="include/services" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +27,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/UI" />
+					<Add directory="include/models" />
+					<Add directory="include/exceptions" />
+					<Add directory="include/services" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +42,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/UI/MainUI.h" />
+		<Unit filename="include/exceptions/Exception.h" />
+		<Unit filename="include/models/Employee.h" />
+		<Unit filename="include/services/EmployeeService.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/UI/MainUI.cpp" />
+		<Unit filename="src/exceptions/Exception.cpp" />
+		<Unit filename="src/models/Employee.cpp" />
+		<Unit filename="src/services/EmployeeService.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
