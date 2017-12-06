@@ -149,6 +149,7 @@
 1512395282 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\include\pizza.h
 	<iostream>
 
+<<<<<<< HEAD
 1512403008 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\main.cpp
 	<iostream>
 	"include/MainUI.h"
@@ -168,6 +169,27 @@
 1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\bakstur.h
 
 1512403040 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\mainui.cpp
+=======
+1512479985 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\main.cpp
+	<iostream>
+	"include/MainUI.h"
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\mainui.h
+
+1512480117 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\afhending.cpp
+	"../include/Afhending.h"
+	<iostream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\afhending.h
+
+1512480127 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\bakstur.cpp
+	"../include/Bakstur.h"
+	<iostream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\bakstur.h
+
+1512480152 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\mainui.cpp
+>>>>>>> d77fb11a23d91669d9a144c0871ab249caf9c9ba
 	"../include/MainUI.h"
 	"../include/Umsjon.h"
 	"../include/Sala.h"
@@ -175,6 +197,7 @@
 	"../include/Afhending.h"
 	<iostream>
 
+<<<<<<< HEAD
 1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\umsjon.h
 
 1512399366 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\include\sala.h
@@ -197,14 +220,41 @@
 	<vector>
 
 1512399366 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\toppings.cpp
+=======
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\umsjon.h
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\sala.h
+	<iostream>
+	<fstream>
+
+1512420131 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\pizza.cpp
+	"../include/Pizza.h"
+	<fstream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\pizza.h
+	<iostream>
+
+1512420131 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\sala.cpp
+	"../include/Sala.h"
+	"../include/Toppings.h"
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\toppings.h
+	<string>
+	<vector>
+
+1512420131 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\toppings.cpp
+>>>>>>> d77fb11a23d91669d9a144c0871ab249caf9c9ba
 	"../include/Toppings.h"
 	<fstream>
 	<string>
 	<iostream>
 
+<<<<<<< HEAD
 1512403047 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject\src\umsjon.cpp
 	"../include/Umsjon.h"
 	"../include/Pizza.h"
 	"../include/Toppings.h"
 	<iostream>
 
+=======
+>>>>>>> d77fb11a23d91669d9a144c0871ab249caf9c9ba
