@@ -8,6 +8,9 @@ class Toppings
     public:
         Toppings();
         virtual ~Toppings();
+        void set_id(int id);
+        void set_name(string name);
+        void set_price(int price);
         void makeToppings();
 
     private:

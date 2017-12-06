@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1512570681 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\main.cpp
+	"MainUI.h"
+
+1512575338 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\ui\mainui.h
+	"Employee.h"
+	"EmployeeService.h"
+
+1512575352 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\ui\mainui.cpp
+	"MainUI.h"
+
+1512570149 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\models\employee.cpp
+	"Employee.h"
+	<string>
+	<iostream>
+
+1512570149 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\models\employee.h
+	<string>
+	<iostream>
+
+1512568452 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\exception.cpp
+	"Exception.h"
+
+1512568452 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\exception.h
+
+1512573761 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\services\employeeservice.h
+	"Employee.h"
+
+1512573714 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\services\employeeservice.cpp
+	"EmployeeService.h"
+

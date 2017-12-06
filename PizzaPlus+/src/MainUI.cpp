@@ -63,7 +63,8 @@ void MainUI::skraningUI() {
             toppings.makeToppings();
         }
         else if(selection == 'p') {
-
+            Pizza pizza;
+            pizza.makePizzaOrder();
         }
     }
 }
