@@ -1,5 +1,5 @@
 #include "MainUI.h"
-
+#include <cstdlib>
 MainUI::MainUI() {
     //ctor
 }
@@ -15,8 +15,13 @@ void MainUI::StartUI () {
 }
 void MainUI::validate_user_input(char input) {
     if(input == 'a') {
-        employee_service.add_employee(create_employee());
-
+        try {
+            employee_service.add_employee(create_employee());
+        }
+        catch(InvalidNameException) {
+            system("CLS");
+            cout << "Invalid Name!" << endl << endl;
+        }
     }
     else if(input == 'v') {
         cout << "view employee" << endl;
@@ -25,8 +30,20 @@ void MainUI::validate_user_input(char input) {
 Employee MainUI::create_employee() {
     string name, ssn;
     int salary, month, year;
-    cout << "Name: ";
-    cin >> name;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Name: ";
+            cin >> name;
+            getline(cin, name);
+            allowed = employee_service.isValidName(name);
+        }
+        catch(InvalidNameException) {
+            cout << "Invalid Name!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
     cout << "Ssn: ";
     cin >> ssn;
     cout << "Salary: ";
