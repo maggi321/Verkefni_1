@@ -3,3 +3,6 @@ Ananas 140 kr.
 Pepperoni 240 kr.
 Skinka 240 kr.
 Paprika 140 kr.
+pepp 300 kr.
+svepp 300 kr.
+hakk 350 kr.

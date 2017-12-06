@@ -1,4 +1,4 @@
-#include "Afhending.h"
+#include "../include/Afhending.h"
 #include <iostream>
 using namespace std;
 

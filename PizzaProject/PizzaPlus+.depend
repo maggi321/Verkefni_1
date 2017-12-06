@@ -149,3 +149,56 @@
 1512395282 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject\include\pizza.h
 	<iostream>
 
+1512479985 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\main.cpp
+	<iostream>
+	"include/MainUI.h"
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\mainui.h
+
+1512480117 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\afhending.cpp
+	"../include/Afhending.h"
+	<iostream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\afhending.h
+
+1512480127 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\bakstur.cpp
+	"../include/Bakstur.h"
+	<iostream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\bakstur.h
+
+1512480152 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\mainui.cpp
+	"../include/MainUI.h"
+	"../include/Umsjon.h"
+	"../include/Sala.h"
+	"../include/Bakstur.h"
+	"../include/Afhending.h"
+	<iostream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\umsjon.h
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\sala.h
+	<iostream>
+	<fstream>
+
+1512420131 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\pizza.cpp
+	"../include/Pizza.h"
+	<fstream>
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\pizza.h
+	<iostream>
+
+1512420131 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\sala.cpp
+	"../include/Sala.h"
+	"../include/Toppings.h"
+
+1512420131 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\include\toppings.h
+	<string>
+	<vector>
+
+1512420131 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject\src\toppings.cpp
+	"../include/Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+

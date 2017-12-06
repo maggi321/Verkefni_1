@@ -1,5 +1,5 @@
 #include <iostream>
-#include "mainUI.h"
+#include "MainUI.h"
 //(include/)
 
 using namespace std;
