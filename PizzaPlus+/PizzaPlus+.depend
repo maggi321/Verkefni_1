@@ -5,7 +5,7 @@
 
 1512041633 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\mainui.h
 
-1512051182 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\mainui.cpp
+1512131449 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\mainui.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -13,19 +13,22 @@
 	"Pizza.h"
 	"Toppings.h"
 
-1512051182 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\toppings.cpp
+1512397862 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\toppings.cpp
 	"../include/Toppings.h"
 	<fstream>
 	<string>
 	<iostream>
 
-1512051182 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\toppings.h
+1512396969 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\toppings.h
 	<string>
 
-1512051182 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\pizza.h
+1512133198 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\include\pizza.h
 	<iostream>
 
-1512051182 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\pizza.cpp
+1512398664 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaplus+\src\pizza.cpp
 	"Pizza.h"
 	<fstream>
+	"Toppings.h"
+	<vector>
+	<iostream>
 

@@ -1,3 +1,3 @@
-100	sveppir	123
-101	beikon	321
-100	osutr	43
+100	pepp	350
+101	sveppir	230
+102	beikon	400

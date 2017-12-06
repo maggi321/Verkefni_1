@@ -6,7 +6,7 @@
 using namespace std;
 
 Toppings::Toppings() {
-    name = " ";
+    name = "";
     price = 0;
     howmany = 0;
     id = 100;
@@ -14,6 +14,15 @@ Toppings::Toppings() {
 
 Toppings::~Toppings() {
     //dtor
+}
+void Toppings::set_id(int id) {
+    this->id = id;
+}
+void Toppings::set_name(string name) {
+    this->name = name;
+}
+void Toppings::set_price(int price) {
+    this->price = price;
 }
 void Toppings::makeToppings() {
     Toppings toppings;

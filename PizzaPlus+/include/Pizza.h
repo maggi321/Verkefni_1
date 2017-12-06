@@ -9,9 +9,11 @@ class Pizza
         Pizza();
         virtual ~Pizza();
         void makeGpizzaVerd();
+        void makePizzaOrder();
 
     private:
         int price;
+        int total;
 };
 
 #endif // PIZZA_H
