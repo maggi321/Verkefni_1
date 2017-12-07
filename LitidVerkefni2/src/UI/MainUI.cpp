@@ -27,9 +27,39 @@ void MainUI::user_selection(char input) {
         cout << "SSN: ";
         cin >> ssn;
 
-        cout << employee_service.find_ssn(ssn) << endl;
+        vector<Employee> test = employee_service.find_ssn(ssn);
+        for (unsigned int i = 0; i < test.size(); i++){
+            string name = test[i].get_name();
+            string ssn = test[i].get_ssn();
+            int salary = test[i].get_salary();
+            int month = test[i].get_month();
+            int year = test[i].get_year();
+            cout << name << ", " << ssn << ", " << salary << ", " << month << ", " << year << endl;
+        }
+        if (test.size() == 0){
+            cout << "No people with that social security number " << endl;
+        }
+        cout << endl;
     }
     else if(input == '3') {
+        int year1;
+        cout << "SSN: ";
+        cin >> ssn;
+        cout << "Year: ";
+        cin >> year1;
+
+        vector<Employee> test = employee_service.find_ssn(ssn);
+        int total = 0;
+        for (unsigned int i = 0; i < test.size(); i++){
+            string ssnTest = test[i].get_ssn();
+            int salary = test[i].get_salary();
+            //int month = test[i].get_month();
+            int yearTest = test[i].get_year();
+            if(ssn == ssnTest && year1 == yearTest) {
+                total += salary;
+            }
+        }
+        cout << "Total salary for " << year << " and ssn " << ssn << " is " << total << "isk." << endl;
     }
     else if(input == '4') {
     }

@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 
+Employee::Employee(){}
+
 Employee::Employee(string name, string ssn, int salary, int month, int year) {
     this->name = name;
     this->ssn = ssn;
@@ -25,8 +27,28 @@ int Employee::get_month() const {
 int Employee::get_year() const {
     return this->year;
 }
+
+void Employee::set_name(string newname){
+    name = newname;
+}
+
+void Employee::set_ssn(string newssn){
+    ssn = newssn;
+}
+void Employee::set_salary(int newsalary){
+    salary = newsalary;
+}
+void Employee::set_month(int newmonth){
+    month = newmonth;
+}
+void Employee::set_year(int newyear){
+    year = newyear;
+}
+
+
+
 ostream& operator<< (ostream& out, const Employee& employee) {
-    out << employee.name << ", " << employee.ssn << ", " << employee.salary << ", " << employee.month << ", " << employee.year << endl;
+    out << employee.name << "," << employee.ssn << "," << employee.salary << "," << employee.month << "," << employee.year << "," << endl;
     return out;
 }
 istream& operator >>(istream& in, Employee employee){

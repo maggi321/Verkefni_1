@@ -21,7 +21,7 @@ class EmployeeService
         bool isValidMonth(int month);
         bool isValidYear(int year);
 
-        string find_ssn(string ssn);
+        vector<Employee> find_ssn(string ssn);
 
 
     private:

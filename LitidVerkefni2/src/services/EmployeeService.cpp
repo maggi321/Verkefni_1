@@ -42,6 +42,7 @@ bool EmployeeService::isValidYear(int year) {
     }
     return true;
 }
-string EmployeeService::find_ssn(string ssn) {
+
+vector<Employee> EmployeeService::find_ssn(string ssn) {
     return employee_repo.find_ssn(ssn);
 }

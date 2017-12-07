@@ -2,20 +2,20 @@
 1512570681 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\main.cpp
 	"MainUI.h"
 
-1512575338 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\ui\mainui.h
+1512599892 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\ui\mainui.h
 	"Employee.h"
 	"EmployeeService.h"
 
-1512581972 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\ui\mainui.cpp
+1512682069 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\ui\mainui.cpp
 	"MainUI.h"
 	<cstdlib>
 
-1512580648 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\models\employee.cpp
+1512662717 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\models\employee.cpp
 	"Employee.h"
 	<string>
 	<iostream>
 
-1512580648 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\models\employee.h
+1512662653 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\models\employee.h
 	<string>
 	<iostream>
 
@@ -24,20 +24,28 @@
 
 1512568452 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\exception.h
 
-1512589829 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\services\employeeservice.h
+1512663498 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\services\employeeservice.h
 	"Employee.h"
 	"EmployeeRepository.h"
 	"InvalidNameException.h"
+	"InvalidSsnException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
 
-1512582512 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\services\employeeservice.cpp
+1512664277 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\services\employeeservice.cpp
 	"EmployeeService.h"
 
-1512577802 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\repositories\employeerepository.h
+1512663455 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\repositories\employeerepository.h
 	"Employee.h"
 	<fstream>
+	<vector>
+	<sstream>
+	<string>
 
-1512578219 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\repositories\employeerepository.cpp
+1512681904 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\repositories\employeerepository.cpp
 	"EmployeeRepository.h"
+	<sstream>
 
 1512580331 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\invalidnameexception.h
 
@@ -108,4 +116,20 @@
 
 1512594386 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidyearexception.cpp
 	"InvalidYearException.h"
+
+1512599892 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\invalidssnexception.h
+
+1512599892 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\invalidsalaryexception.h
+
+1512599892 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\invalidmonthexception.h
+
+1512599892 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\invalidyearexception.h
+
+1512659944 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\models\findssn.cpp
+	"FindSsn.h"
+
+1512659592 c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\include\models\findssn.h
+	<string>
+	<iostream>
+	<sstream>
 

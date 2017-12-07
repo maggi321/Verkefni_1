@@ -4,16 +4,20 @@
 #include "Employee.h"
 #include <fstream>
 #include <vector>
+#include <sstream>
+#include <string>
 
 class EmployeeRepository
 {
     public:
         EmployeeRepository();
         void add_employee(const Employee& employee);
-        string find_ssn(string ssn);
+        void load_salaries();
+        vector<Employee> find_ssn(string ssn);
 
     private:
-        vector<string> salaries;
+        string file;
+        vector<Employee> salaries;
 };
 
 #endif // EMPLOYEEREPOSITORY_H
