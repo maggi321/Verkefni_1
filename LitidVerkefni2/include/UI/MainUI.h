@@ -10,7 +10,7 @@ class MainUI
         void StartUI();
 
     private:
-        void validate_user_input(char input);
+        void user_selection(char input);
         Employee create_employee();
         EmployeeService employee_service;
 };
