@@ -2,7 +2,13 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
 	<File name="src\UI\MainUI.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+<<<<<<< HEAD
+=======
+	<File name="include\UI\MainUI.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 1c7abafee8c7fa5f6add19104f97c4744cf62598
 		<Cursor>
 			<Cursor1 position="903" topLine="0" />
 		</Cursor>
@@ -57,4 +63,5 @@
 			<Cursor1 position="1109" topLine="7" />
 		</Cursor>
 	</File>
+>>>>>>> ce0a7c12907e0f7a8786e6129ff8bd08385873b1
 </CodeBlocks_layout_file>

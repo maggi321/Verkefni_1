@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1512478603 source:c:\users\notandi\desktop\pizzaproject\main.cpp
+	"MainUI.h"
+
+1512484150 source:c:\users\notandi\desktop\pizzaproject\src\model\pizza.cpp
+	"Pizza.h"
+	<fstream>
+
+1512484171 c:\users\notandi\desktop\pizzaproject\include\model\pizza.h
+	"Toppings.h"
+	<iostream>
+	<vector>
+
+1512483426 c:\users\notandi\desktop\pizzaproject\include\model\toppings.h
+	<string>
+	<vector>
+
+1512484456 source:c:\users\notandi\desktop\pizzaproject\src\model\toppings.cpp
+	"Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512478374 source:c:\users\notandi\desktop\pizzaproject\src\ui\bakstur.cpp
+	"Bakstur.h"
+	<iostream>
+
+1512478374 c:\users\notandi\desktop\pizzaproject\include\ui\bakstur.h
+
+1512478455 source:c:\users\notandi\desktop\pizzaproject\src\ui\afhending.cpp
+	"Afhending.h"
+	<iostream>
+
+1512478455 c:\users\notandi\desktop\pizzaproject\include\ui\afhending.h
+
+1512477731 source:c:\users\notandi\desktop\pizzaproject\src\ui\mainui.cpp
+	"MainUI.h"
+
+1512477731 c:\users\notandi\desktop\pizzaproject\include\ui\mainui.h
+	"Umsjon.h"
+	"Sala.h"
+	"Bakstur.h"
+	"Afhending.h"
+	<iostream>
+
+1512483426 c:\users\notandi\desktop\pizzaproject\include\ui\umsjon.h
+	"Pizza.h"
+	"Toppings.h"
+	"PizzaRepository.h"
+	"ToppingRepository.h"
+
+1512484671 c:\users\notandi\desktop\pizzaproject\include\ui\sala.h
+	<iostream>
+	<fstream>
+
+1512484526 source:c:\users\notandi\desktop\pizzaproject\src\ui\sala.cpp
+	"Sala.h"
+	"Umsjon.h"
+	"Toppings.h"
+	"Pizza.h"
+	<vector>
+
+1512483426 source:c:\users\notandi\desktop\pizzaproject\src\ui\umsjon.cpp
+	"Umsjon.h"
+
+1512483426 c:\users\notandi\desktop\pizzaproject\include\repo\pizzarepository.h
+	"Pizza.h"
+	<fstream>
+
+1512483426 c:\users\notandi\desktop\pizzaproject\include\repo\toppingrepository.h
+	<vector>
+	"Toppings.h"
+
+1512484394 source:c:\users\notandi\desktop\pizzaproject\src\repo\pizzarepository.cpp
+	"PizzaRepository.h"
+
+1512483524 source:c:\users\notandi\desktop\pizzaproject\src\repo\toppingrepository.cpp
+	"ToppingRepository.h"
+	<fstream>
+
+1512456022 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\main.cpp
+	"MainUI.h"
+
+1512755661 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\ui\mainui.h
+	"Umsjon.h"
+	"Sala.h"
+	"Bakstur.h"
+	"Afhending.h"
+	<iostream>
+	<cstdlib>
+
+1512756646 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\ui\umsjon.h
+	"Pizza.h"
+	"Toppings.h"
+	"OtherProducts.h"
+	"PizzaRepository.h"
+	"ToppingRepository.h"
+	"OtherProductsRepository.h"
+	<stdlib.h>
+
+1512456030 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\model\pizza.h
+	"Toppings.h"
+	<iostream>
+	<vector>
+
+1512456030 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\model\toppings.h
+	<string>
+	<vector>
+
+1512670175 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\repo\pizzarepository.h
+	"Pizza.h"
+	<fstream>
+
+1512456032 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\repo\toppingrepository.h
+	<vector>
+	"Toppings.h"
+
+1512456028 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\ui\sala.h
+	<iostream>
+	<fstream>
+
+1512756757 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\ui\bakstur.h
+	<stdlib.h>
+
+1512756739 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\ui\afhending.h
+	<stdlib.h>
+
+1512456026 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\model\pizza.cpp
+	"Pizza.h"
+	<fstream>
+
+1512456026 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\model\toppings.cpp
+	"Toppings.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512670533 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\repo\pizzarepository.cpp
+	"PizzaRepository.h"
+
+1512456026 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\repo\toppingrepository.cpp
+	"ToppingRepository.h"
+	<fstream>
+
+1512757397 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\ui\afhending.cpp
+	"Afhending.h"
+	<iostream>
+
+1512757061 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\ui\bakstur.cpp
+	"Bakstur.h"
+	<iostream>
+
+1512757532 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\ui\mainui.cpp
+	"MainUI.h"
+
+1512757122 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\ui\sala.cpp
+	"Sala.h"
+	"Umsjon.h"
+	"Toppings.h"
+	"Pizza.h"
+	<vector>
+
+1512757122 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\ui\umsjon.cpp
+	"Umsjon.h"
+
+1512663657 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\model\otherproducts.h
+	<string>
+	<vector>
+
+1512670480 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\include\repo\otherproductsrepository.h
+	<vector>
+	"OtherProducts.h"
+
+1512751841 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\model\otherproducts.cpp
+	"OtherProducts.h"
+	<fstream>
+	<string>
+	<iostream>
+
+1512754808 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject2\src\repo\otherproductsrepository.cpp
+	"OtherProductsRepository.h"
+	<fstream>
+
