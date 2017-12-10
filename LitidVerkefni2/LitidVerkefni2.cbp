@@ -47,12 +47,14 @@
 		<Unit filename="include/UI/MainUI.h" />
 		<Unit filename="include/exceptions/InvalidNameException.h" />
 		<Unit filename="include/models/Employee.h" />
+		<Unit filename="include/models/FindSsn.h" />
 		<Unit filename="include/repositories/EmployeeRepository.h" />
 		<Unit filename="include/services/EmployeeService.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/UI/MainUI.cpp" />
 		<Unit filename="src/exceptions/InvalidNameException.cpp" />
 		<Unit filename="src/models/Employee.cpp" />
+		<Unit filename="src/models/FindSsn.cpp" />
 		<Unit filename="src/repositories/EmployeeRepository.cpp" />
 		<Unit filename="src/services/EmployeeService.cpp" />
 		<Extensions>
