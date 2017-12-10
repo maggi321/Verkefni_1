@@ -9,45 +9,59 @@ void UmsjonUI::displayUmsjonUI() {
     char selection = '\0';
 
     while(selection != 'q') {
-        cout << "-------Umsjon-------" << endl;
-        cout << "=======================" << endl;
+        cout << "--------Umsjon--------" << endl;
+        cout << "======================" << endl;
 
-        cout << "1: fletta upp alegg" << endl;
-        cout << "2: Skra mismunandi gerdir af pizzum (staerd/botn)"  << endl;
-        cout << "3: Skra aleggstegundir" << endl;
-        cout << "4: Skra matsedil" << endl;
-        cout << "5: Skra adrar vorur" << endl;
-        cout << "6: Skra verd" << endl;
-        cout << "7: Skra afhendingarstadi" << endl;
+        cout << "1: skra pizzu steard" << endl; ///(stærð/botn) stærð komið(hafa botn líka ?).
+        cout << "2: Skra aleggstegundir"  << endl; ///áleggstegundir komið.
+        cout << "3: Skra matsedil" << endl;
+        cout << "4: Skra medlaeti" << endl;
+        cout << "5: Skra gos" << endl;
+        cout << "6: Skra afhendingarstadi" << endl;
         cout << "q: Til baka" << endl;
 
         cin >> selection;
         cout << endl;
+        char select = 'y';
 
         if(selection == '1') {
-
+            system("CLS");
+            cout << "Pizzu staerdir og verd i kerfinu" << endl;
+            vector<PizzaSize> pizza_size = pizza_size_service.load_pizza_size();
+            for (unsigned int i = 0; i < pizza_size.size(); i++){
+                int tommur = pizza_size[i].get_tommur();
+                int price = pizza_size[i].get_price();
+                cout << "[" << i+1 << "] " << tommur << ", " << price << endl;
+            }
+            while(select == 'y') {
+                cout << endl;
+                cout << "Baeta vid pizzu staerd i kerfi (y/n) ? ";
+                cin >> select;
+                if(select == 'y') {
+                    pizza_size_service.add_pizza_size(create_pizza_size());
+                }
+            }
         }
         else if (selection == '2') {
-
-        }
-        else if(selection == '3') {
             system("cls");
             cout << "Aleggstegund og verd i kerfi: " << endl;
-            vector<Topping> test = topping_service.load_topping();
-            for (unsigned int i = 0; i < test.size(); i++){
-                string name = test[i].get_name();
-                int price = test[i].get_price();
+            vector<Topping> topping = topping_service.load_topping();
+            for (unsigned int i = 0; i < topping.size(); i++){
+                string name = topping[i].get_name();
+                int price = topping[i].get_price();
                 cout << "[" << i+1 << "] " << name << ", " << price << endl;
             }
-            char select = 'y';
             while(select == 'y') {
                 cout << endl;
                 cout << "Baeta vid aleggstegund i kerfi (y/n) ? ";
                 cin >> select;
-                if(selection == 'y') {
+                if(select == 'y') {
                     topping_service.add_topping(create_topping());
                 }
             }
+        }
+        else if(selection == '3') {
+
         }
         else if(selection == '4') {
 
@@ -58,24 +72,32 @@ void UmsjonUI::displayUmsjonUI() {
         else if(selection == '6') {
 
         }
-        else if(selection == '7') {
-
+        else if(selection == 'q') {
+            system("cls");
         }
-    }
-
-    if(selection == 'q') {
-    system("cls");
     }
 }
 Topping UmsjonUI::create_topping() {
     string name;
     int price;
 
-    cout << "Name: ";
+    cout << "Nafn: ";
     cin >> name;
-    cout << "Price: ";
+    cout << "Verd: ";
     cin >> price;
 
     Topping topping(name, price);
     return topping;
+}
+PizzaSize UmsjonUI::create_pizza_size() {
+    int tommur;
+    int price;
+
+    cout << "Staerd i tommum: ";
+    cin >> tommur;
+    cout << "Verd: ";
+    cin >> price;
+
+    PizzaSize pizza_size(tommur, price);
+    return pizza_size;
 }

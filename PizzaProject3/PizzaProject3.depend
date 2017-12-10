@@ -7,19 +7,19 @@
 	<iostream>
 	<cstdlib>
 
-1512923594 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+1512936355 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\umsjonui.h
 	"Service.h"
 	"Topping.h"
-	"Pizza.h"
-	"Toppings.h"
+	"PizzaSize.h"
 	"OtherProducts.h"
 	"PizzaRepository.h"
 	"ToppingRepository.h"
 	"OtherProductsRepository.h"
 	<stdlib.h>
 
-1512927278 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\service\service.h
+1512936921 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\service\service.h
 	"Topping.h"
+	"PizzaSize.h"
 	"Repositories.h"
 
 1512925790 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\topping.h
@@ -38,7 +38,7 @@
 1512929271 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\topping.cpp
 	"Topping.h"
 
-1512927278 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\service\service.cpp
+1512936903 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\service\service.cpp
 	"Service.h"
 
 1512922439 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
@@ -58,16 +58,28 @@
 	"Topping.h"
 	<vector>
 
-1512927128 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
+1512937870 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
 	"Topping.h"
+	"PizzaSize.h"
 	<fstream>
 	<string>
 	<vector>
 	<sstream>
 
-1512927128 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+1512937988 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
 	"Repositories.h"
 
-1512931543 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+1512937767 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
+
+1512935719 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizza.h
+
+1512936574 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzasize.h
+	<iostream>
+
+1512935719 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizza.cpp
+	"Pizza.h"
+
+1512936591 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
+	"PizzaSize.h"
 

@@ -2,9 +2,8 @@
 #define UMSJONUI_H
 #include "Service.h"
 #include "Topping.h"
+#include "PizzaSize.h"
 /*
-#include "Pizza.h"
-#include "Toppings.h"
 #include "OtherProducts.h"
 #include "PizzaRepository.h"
 #include "ToppingRepository.h"
@@ -22,6 +21,8 @@ class UmsjonUI {
     private:
         Topping create_topping();
         Service topping_service;
+        PizzaSize create_pizza_size();
+        Service pizza_size_service;
 };
 
 #endif // UMSJONUI_H
