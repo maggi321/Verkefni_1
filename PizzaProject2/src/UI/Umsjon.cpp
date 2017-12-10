@@ -25,8 +25,7 @@ void Umsjon::displayUmsjon()
         cout << "3: Skra aleggstegundir" << endl;
         cout << "4: Skra matsedil" << endl;
         cout << "5: Skra adrar vorur" << endl;
-        cout << "6: Skra verd" << endl;
-        cout << "7: Skra afhendingarstadi" << endl;
+        cout << "6: Skra afhendingarstadi" << endl;
         cout << "q: Til baka" << endl;
 
         cin >> selection;
