@@ -43,7 +43,7 @@ void UmsjonUI::displayUmsjonUI() {
             }
         }
         else if (selection == '2') {
-            system("cls");
+            system("CLS");
             cout << "Aleggstegund og verd i kerfi: " << endl;
             vector<Topping> topping = topping_service.load_topping();
             for (unsigned int i = 0; i < topping.size(); i++){
