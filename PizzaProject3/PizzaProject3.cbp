@@ -46,6 +46,7 @@
 		<Unit filename="include/Models/Pizza.h" />
 		<Unit filename="include/Models/PizzaBotn.h" />
 		<Unit filename="include/Models/PizzaSize.h" />
+		<Unit filename="include/Models/Sala.h" />
 		<Unit filename="include/Models/Topping.h" />
 		<Unit filename="include/Repositories/Repositories.h" />
 		<Unit filename="include/Service/Service.h" />
@@ -61,6 +62,7 @@
 		<Unit filename="src/Models/Pizza.cpp" />
 		<Unit filename="src/Models/PizzaBotn.cpp" />
 		<Unit filename="src/Models/PizzaSize.cpp" />
+		<Unit filename="src/Models/Sala.cpp" />
 		<Unit filename="src/Models/Topping.cpp" />
 		<Unit filename="src/Repositories/Repositories.cpp" />
 		<Unit filename="src/Service/Service.cpp" />
