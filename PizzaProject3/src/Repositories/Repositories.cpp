@@ -17,9 +17,10 @@ void Repositories::retrive_topping() {
     fin.open("topping.txt");
 
     if(fin.is_open()) {
-        while(!fin.eof()) {
+        while(fin >> file) {
             Topping T;
-            fin >> file;
+
+            //fin >> file;
             stringstream ss(file);
             string item;
             int counter = 0;
@@ -38,6 +39,7 @@ void Repositories::retrive_topping() {
                 counter++;
             }
             toppings.push_back(T);
+
         }
         fin.close();
     }
@@ -71,9 +73,9 @@ void Repositories::retrive_pizza_size() {
     fin.open("pizzasize.txt");
 
     if(fin.is_open()) {
-        while(!fin.eof()) {
+        while(fin >> file) {
             PizzaSize PS;
-            fin >> file;
+            //fin >> file;
             stringstream ss(file);
             string item;
             int counter = 0;
@@ -129,9 +131,9 @@ void Repositories::retrive_medlaeti() {
     fin.open("medlaeti.txt");
 
     if(fin.is_open()) {
-        while(!fin.eof()) {
+        while(fin >> file) {
             Medlaeti M;
-            fin >> file;
+            //fin >> file;
             stringstream ss(file);
             string item;
             int counter = 0;
@@ -183,9 +185,9 @@ void Repositories::retrive_gos() {
     fin.open("gos.txt");
 
     if(fin.is_open()) {
-        while(!fin.eof()) {
+        while(fin >> file) {
             Gos G;
-            fin >> file;
+            //fin >> file;
             stringstream ss(file);
             string item;
             int counter = 0;

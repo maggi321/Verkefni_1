@@ -1,2 +1,2 @@
-kok,400,
-sprite,400,
+Pepsi,400,
+Appelsin,400,
