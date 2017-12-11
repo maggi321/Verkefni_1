@@ -1,2 +1,3 @@
 Sukkuladisprengja,400,
 Namminamm,300,
+kanill,450,
