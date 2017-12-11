@@ -3,12 +3,9 @@
 #include "Service.h"
 #include "Topping.h"
 #include "PizzaSize.h"
-/*
-#include "OtherProducts.h"
-#include "PizzaRepository.h"
-#include "ToppingRepository.h"
-#include "OtherProductsRepository.h"
-*/
+#include "Medlaeti.h"
+#include "Gos.h"
+
 #include <stdlib.h>
 
 class UmsjonUI {
@@ -21,8 +18,15 @@ class UmsjonUI {
     private:
         Topping create_topping();
         Service topping_service;
+
         PizzaSize create_pizza_size();
         Service pizza_size_service;
+
+        Medlaeti create_medlaeti();
+        Service medlaeti_service;
+
+        Gos create_gos();
+        Service gos_service;
 };
 
 #endif // UMSJONUI_H
