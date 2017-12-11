@@ -224,3 +224,61 @@ vector<Gos> Repositories::load_gos() {
     return all_gos;
 }
 
+
+void Repositories::add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur) {
+    ofstream fout;
+    fout.open("afhendingarstadur.txt", ios::app);
+    if(fout.is_open()) {
+        fout << afhendingarstadur;
+        fout.close();
+    }
+    else {
+        cout << "File write error!" << endl;
+    }
+}
+void Repositories::retrive_afhendingarstadur() {
+    ifstream fin;
+    fin.open("afhendingarstadur.txt");
+
+    if(fin.is_open()) {
+        while(fin >> file) {
+            Afhendingarstadir A;
+
+            //fin >> file;
+            stringstream ss(file);
+            string item;
+            int counter = 0;
+
+            while(getline(ss, item, ',')) {
+                if(counter == 0) {
+                    A.set_name(item);
+                }
+                else if(counter == 1) {
+                    string s = item;
+                    stringstream testing(s);
+                    int x = 0;
+                    testing >> x;
+                    A.set_number(x);
+                }
+                counter++;
+            }
+            afhendingarstadur.push_back(A);
+
+        }
+        fin.close();
+    }
+    else {
+        cout << "File not opened!" << endl;
+    }
+}
+vector<Afhendingarstadir> Repositories::load_afhendingarstadir() {
+    afhendingarstadur.clear();
+    retrive_afhendingarstadur();
+    vector<Afhendingarstadir> all_afhendingarstadur;
+
+    for(unsigned int i = 0; i < afhendingarstadur.size(); i++) {
+        all_afhendingarstadur.push_back(afhendingarstadur[i]);
+    }
+    return all_afhendingarstadur;
+}
+

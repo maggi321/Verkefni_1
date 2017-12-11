@@ -100,6 +100,22 @@ void UmsjonUI::displayUmsjonUI() {
             }
         }
         else if(selection == '6') {
+            system("CLS");
+            cout << "Afhendingarstadir i kerfi: " << endl;
+            vector<Afhendingarstadir> afhendingarstadur = afhendingarstadir_service.load_afhendingarstadur();
+            for (unsigned int i = 0; i < afhendingarstadur.size(); i++){
+                string name = afhendingarstadur[i].get_name();
+                int number = afhendingarstadur[i].get_number();
+                cout << "[" << i+1 << "] " << name << ", " << number << endl;
+            }
+            while(select == 'y') {
+                cout << endl;
+                cout << "Baeta vid afhendingarstad (y/n) ? ";
+                cin >> select;
+                if(select == 'y') {
+                    afhendingarstadir_service.add_afhendingarstadur(create_afhendingarstadir());
+                }
+            }
 
         }
         else if(selection == 'q') {
@@ -154,4 +170,16 @@ Gos UmsjonUI::create_gos() {
 
     Gos gos(name, price);
     return gos;
+}
+Afhendingarstadir UmsjonUI::create_afhendingarstadir() {
+    string name;
+    int number;
+
+    cout << "Gotuheiti: ";
+    cin >> name;
+    cout << "Numer: ";
+    cin >> number;
+
+    Afhendingarstadir afhendingarstadir(name, number);
+    return afhendingarstadir;
 }

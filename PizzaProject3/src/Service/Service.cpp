@@ -28,3 +28,9 @@ void Service::add_gos(const Gos& gos) {
 vector<Gos> Service::load_gos() {
     return gos_repo.load_gos();
 }
+void Service::add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur) {
+    afhendingarstadir_repo.add_afhendingarstadur(afhendingarstadur);
+}
+vector<Afhendingarstadir> Service::load_afhendingarstadur() {
+    return afhendingarstadir_repo.load_afhendingarstadir();
+}

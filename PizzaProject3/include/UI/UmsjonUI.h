@@ -5,6 +5,7 @@
 #include "PizzaSize.h"
 #include "Medlaeti.h"
 #include "Gos.h"
+#include "Afhendingarstadir.h"
 
 #include <stdlib.h>
 
@@ -27,6 +28,9 @@ class UmsjonUI {
 
         Gos create_gos();
         Service gos_service;
+
+        Afhendingarstadir create_afhendingarstadir();
+        Service afhendingarstadir_service;
 };
 
 #endif // UMSJONUI_H

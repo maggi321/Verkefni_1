@@ -95,20 +95,22 @@
 	<iostream>
 	<cstdlib>
 
-1512951099 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+1512998619 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\umsjonui.h
 	"Service.h"
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
 	"Gos.h"
+	"Afhendingarstadir.h"
 	<stdlib.h>
 
-1512992976 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
+1512996053 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
 	"Repositories.h"
 	"Gos.h"
+	"Afhendingarstadir.h"
 
 1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\topping.h
 	<iostream>
@@ -116,11 +118,12 @@
 1512992976 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzasize.h
 	<iostream>
 
-1512992976 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
+1512996053 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
 	"Gos.h"
+	"Afhendingarstadir.h"
 	<fstream>
 	<string>
 	<vector>
@@ -129,10 +132,10 @@
 1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\topping.cpp
 	"Topping.h"
 
-1512993999 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+1512996314 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
 	"Repositories.h"
 
-1512992976 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\service\service.cpp
+1512998988 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\service\service.cpp
 	"Service.h"
 
 1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
@@ -162,7 +165,7 @@
 	<iostream>
 	<fstream>
 
-1512992976 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+1512999127 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
 1512946369 h"
@@ -200,4 +203,10 @@
 
 1512951099 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
 	"Medlaeti.h"
+
+1512996053 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\afhendingarstadir.h
+	<iostream>
+
+1512996093 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
 
