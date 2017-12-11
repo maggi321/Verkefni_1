@@ -20,7 +20,6 @@ class Service {
         vector<Gos> load_gos();
 
     private:
-
         Repositories topping_repo;
         Repositories pizza_size_repo;
         Repositories medlaeti_repo;
