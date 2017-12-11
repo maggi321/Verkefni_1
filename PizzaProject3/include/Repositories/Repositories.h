@@ -9,8 +9,7 @@
 #include <vector>
 #include <sstream>
 
-class Repositories
-{
+class Repositories {
     public:
         Repositories();
         void add_topping(const Topping& topping);

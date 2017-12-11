@@ -27,8 +27,7 @@ void ToppingRepository::storeAllToppings(const vector<Toppings> &toppings)
     fout.close();
 
 }
-vector<Toppings> ToppingRepository::retrieveAllToppings()
-{
+vector<Toppings> ToppingRepository::retrieveAllToppings() {
     vector<Toppings> toppings;
     Toppings topping;
 
