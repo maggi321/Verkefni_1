@@ -44,6 +44,7 @@
 		<Unit filename="include/Models/Gos.h" />
 		<Unit filename="include/Models/Medlaeti.h" />
 		<Unit filename="include/Models/Pizza.h" />
+		<Unit filename="include/Models/PizzaBotn.h" />
 		<Unit filename="include/Models/PizzaSize.h" />
 		<Unit filename="include/Models/Topping.h" />
 		<Unit filename="include/Repositories/Repositories.h" />
@@ -58,6 +59,7 @@
 		<Unit filename="src/Models/Gos.cpp" />
 		<Unit filename="src/Models/Medlaeti.cpp" />
 		<Unit filename="src/Models/Pizza.cpp" />
+		<Unit filename="src/Models/PizzaBotn.cpp" />
 		<Unit filename="src/Models/PizzaSize.cpp" />
 		<Unit filename="src/Models/Topping.cpp" />
 		<Unit filename="src/Repositories/Repositories.cpp" />

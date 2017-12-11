@@ -13,7 +13,7 @@ void UmsjonUI::displayUmsjonUI() {
         cout << "======================" << endl;
 
         cout << "1: Skra pizzu staerd" << endl; ///(stærð/botn) stærð komið(hafa botn líka ?).
-        cout << "2. Skra pizza botn" << endl;
+        cout << "2. Skra pizza botn" << endl;///botn komið.
         cout << "3: Skra aleggstegundir"  << endl; ///áleggstegundir komið.
         cout << "4: Skra matsedil" << endl;
         cout << "5: Skra medlaeti" << endl; ///Meðlæti komið.
