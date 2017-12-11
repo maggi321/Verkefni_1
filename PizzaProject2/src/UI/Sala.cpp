@@ -20,8 +20,8 @@ void Sala::displaySala()
     char selection = '\0';
 
     while(selection != 'q') {
-        cout << "-------Sala-------" << endl;
-        cout << "=======================" << endl;
+        cout << "---------Sala---------" << endl;
+        cout << "======================" << endl;
 
         cout << "1: Skra pontun"  << endl;
         cout << "2: Baeta vid pontun" << endl;

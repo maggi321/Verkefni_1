@@ -1,18 +1,15 @@
 #include "Umsjon.h"
 
-Umsjon::Umsjon()
-{
+Umsjon::Umsjon() {
     //ctor
 }
 
-Umsjon::~Umsjon()
-{
+Umsjon::~Umsjon() {
     //dtor
 }
 
 
-void Umsjon::displayUmsjon()
-{
+void Umsjon::displayUmsjon() {
     system("cls");
     char selection = '\0';
 
@@ -64,8 +61,7 @@ void Umsjon::displayUmsjon()
 }
 
 
-void Umsjon::addToppings()
-{
+void Umsjon::addToppings() {
     vector<Toppings> toppings = toppingRepo.retrieveAllToppings();
 
     cout << "Aleggstegundir og verd: " << endl;
@@ -80,7 +76,6 @@ void Umsjon::addToppings()
     while (selection == 'y')
     {
         cout << endl;
-
         cout << "Baeta vid aleggstegund (y)? ";
         cin >> selection;
         if (selection == 'y')
@@ -90,12 +85,9 @@ void Umsjon::addToppings()
         }
     }
     toppingRepo.storeAllToppings(toppings);
-
-
 }
 
-void Umsjon::addOtherProducts()
-{
+void Umsjon::addOtherProducts() {
     vector<OtherProducts> otherproducts = otherRepo.retrieveAllOtherProducts();
 
     cout << "Adrar vorur: " << endl;
@@ -120,8 +112,6 @@ void Umsjon::addOtherProducts()
         }
     }
     otherRepo.storeAllOtherProducts(otherproducts);
-
-
 }
 
 

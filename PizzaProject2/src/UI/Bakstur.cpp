@@ -18,7 +18,7 @@ void Bakstur::displayBakstur()
     char selection = '\0';
 
     while(selection != 'q') {
-        cout << "-------Bakstur-------" << endl;
+        cout << "--------Bakstur--------" << endl;
         cout << "=======================" << endl;
 
         cout << "1: Velja afhendingarstad"  << endl;

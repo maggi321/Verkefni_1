@@ -28,8 +28,7 @@ void OtherProductsRepository::storeAllOtherProducts(const vector<OtherProducts> 
 
 }
 
-vector
-<OtherProducts> OtherProductsRepository::retrieveAllOtherProducts() {
+vector <OtherProducts> OtherProductsRepository::retrieveAllOtherProducts() {
 
     vector<OtherProducts> otherproducts;
     OtherProducts otherproduct;
