@@ -1,2 +1,2 @@
-sukkuladisprengja,400,
-namminamm,300,
+Sukkuladisprengja,400,
+Namminamm,300,
