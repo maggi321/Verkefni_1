@@ -171,11 +171,14 @@
 	"Topping.h"
 	<vector>
 
-1513008499 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
+1513012001 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
+	"Order.h"
+	"PizzaSize.h"
 	<iostream>
 	<fstream>
 	<Service.h>
 	"PizzaSize.h"
+	<stdlib.h>
 
 1513002625 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
@@ -246,4 +249,8 @@
 
 1513011861 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
 	"Order.h"
+
+1513012000 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
+	"Service.h"
+	"PizzaSize.h"
 
