@@ -1,6 +1,6 @@
 #include "SalaUI.h"
-#include "UmsjonUI.h"
-#include "Topping.h"
+//#include "UmsjonUI.h"
+//#include "Topping.h"
 //#include "Pizza.h"
 #include <vector>
 
@@ -9,13 +9,11 @@
 SalaUI::SalaUI() {
     //ctor
 }
-
 SalaUI::~SalaUI() {
     //dtor
 }
-
-void SalaUI::displaySala() {
-    system("cls");
+void SalaUI::displaySalaUI() {
+    system("CLS");
     char selection = '\0';
 
     while(selection != 'q') {
@@ -35,6 +33,7 @@ void SalaUI::displaySala() {
         cout << endl;
 
         if (selection == '1') {
+<<<<<<< HEAD
             char selection = '\0';
             system("CLS");
             cout << "Pizza staerd: " << endl;
@@ -47,6 +46,14 @@ void SalaUI::displaySala() {
             }
             cin >> selection;
 
+=======
+            system("CLS");
+            Order order;
+            order.order_pizza_size();
+
+        }
+        else if(selection == '2') {
+>>>>>>> ba5a1cba6973b406503a2ddc93d5a8f7cfe9f183
 
         }
     }
@@ -84,29 +91,6 @@ void SalaUI::getOrder() {
     cout << endl;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*void Sala::getOrder()
 {
     cout << "Aleggstegundir og verd: " << endl;
