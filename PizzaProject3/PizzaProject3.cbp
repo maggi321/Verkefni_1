@@ -40,6 +40,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Models/Pizza.h" />
+		<Unit filename="include/Models/PizzaSize.h" />
 		<Unit filename="include/Models/Topping.h" />
 		<Unit filename="include/Repositories/Repositories.h" />
 		<Unit filename="include/Service/Service.h" />
@@ -49,6 +51,8 @@
 		<Unit filename="include/UI/SalaUI.h" />
 		<Unit filename="include/UI/UmsjonUI.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Models/Pizza.cpp" />
+		<Unit filename="src/Models/PizzaSize.cpp" />
 		<Unit filename="src/Models/Topping.cpp" />
 		<Unit filename="src/Repositories/Repositories.cpp" />
 		<Unit filename="src/Service/Service.cpp" />
