@@ -40,6 +40,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Models/Afhendingarstadir.h" />
 		<Unit filename="include/Models/Gos.h" />
 		<Unit filename="include/Models/Medlaeti.h" />
 		<Unit filename="include/Models/Pizza.h" />
@@ -53,6 +54,7 @@
 		<Unit filename="include/UI/SalaUI.h" />
 		<Unit filename="include/UI/UmsjonUI.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Models/Afhendingarstadir.cpp" />
 		<Unit filename="src/Models/Gos.cpp" />
 		<Unit filename="src/Models/Medlaeti.cpp" />
 		<Unit filename="src/Models/Pizza.cpp" />

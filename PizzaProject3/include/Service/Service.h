@@ -23,7 +23,6 @@ class Service {
         vector<Afhendingarstadir> load_afhendingarstadur();
 
     private:
-
         Repositories topping_repo;
         Repositories pizza_size_repo;
         Repositories medlaeti_repo;
