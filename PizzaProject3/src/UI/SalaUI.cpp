@@ -4,8 +4,6 @@
 //#include "Pizza.h"
 #include <vector>
 
-
-
 SalaUI::SalaUI() {
     //ctor
 }
@@ -33,27 +31,12 @@ void SalaUI::displaySalaUI() {
         cout << endl;
 
         if (selection == '1') {
-<<<<<<< HEAD
-            char selection = '\0';
-            system("CLS");
-            cout << "Pizza staerd: " << endl;
-
-            vector<PizzaSize> pizza_size = pizza_size_service.load_pizza_size();
-            for (unsigned int i = 0; i < pizza_size.size(); i++){
-                int tommur = pizza_size[i].get_tommur();
-                int price = pizza_size[i].get_price();
-                cout << "[" << i+1 << "] " << tommur << ", " << price << endl;
-            }
-            cin >> selection;
-
-=======
             system("CLS");
             Order order;
             order.order_pizza_size();
 
         }
         else if(selection == '2') {
->>>>>>> ba5a1cba6973b406503a2ddc93d5a8f7cfe9f183
 
         }
     }
