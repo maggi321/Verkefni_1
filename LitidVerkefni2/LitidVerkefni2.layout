@@ -2,6 +2,59 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	<File name="src\UI\MainUI.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1398" topLine="0" />
+=======
+<<<<<<< HEAD
+	<File name="src\UI\MainUI.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+<<<<<<< HEAD
+=======
+	<File name="include\UI\MainUI.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 1c7abafee8c7fa5f6add19104f97c4744cf62598
+		<Cursor>
+<<<<<<< HEAD
+			<Cursor1 position="84" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\exceptions\InvalidNameException.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+			<Cursor1 position="903" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 40a580760074969018a4a22bfe1872d795149a69
+		<Cursor>
+			<Cursor1 position="101" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="101" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\models\FindSsn.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="98" topLine="0" />
+=======
+	<File name="src\exceptions\InvalidNameException.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+>>>>>>> 40a580760074969018a4a22bfe1872d795149a69
+		</Cursor>
+	</File>
+	<File name="src\models\Employee.cpp" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+<<<<<<< HEAD
+			<Cursor1 position="408" topLine="0" />
+		</Cursor>
+	</File>
+>>>>>>> af523a52a41aecd2c4cd26afa4dc84d41564f4f9
 	<File name="src\models\Employee.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="977" topLine="0" />
@@ -34,10 +87,20 @@
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
+<<<<<<< HEAD
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\services\EmployeeService.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+			<Cursor1 position="350" topLine="0" />
+=======
+			<Cursor1 position="522" topLine="0" />
+>>>>>>> 7c78cd37108c69011945a3fbecca1f4a3f5a0788
+		</Cursor>
+	</File>
+	<File name="src\models\Employee.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> af523a52a41aecd2c4cd26afa4dc84d41564f4f9
 		<Cursor>
 			<Cursor1 position="1208" topLine="16" />
 		</Cursor>
