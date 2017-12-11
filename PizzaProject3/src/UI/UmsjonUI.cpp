@@ -1,8 +1,6 @@
 #include "UmsjonUI.h"
 
-UmsjonUI::UmsjonUI() {
-    //ctor
-}
+UmsjonUI::UmsjonUI() {}
 
 void UmsjonUI::displayUmsjonUI() {
     system("cls");
@@ -18,7 +16,7 @@ void UmsjonUI::displayUmsjonUI() {
         cout << "4: Skra matsedil" << endl;
         cout << "5: Skra medlaeti" << endl; ///Meðlæti komið.
         cout << "6: Skra gos" << endl; ///Gos komið.
-        cout << "7: Skra afhendingarstadi" << endl;///Afhendingarstaðir komnir
+        cout << "7: Skra afhendingarstadi" << endl; ///Afhendingarstaðir komnir
         cout << "q: Til baka" << endl;
 
         cin >> selection;

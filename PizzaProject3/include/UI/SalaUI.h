@@ -1,7 +1,10 @@
 #ifndef SALAUI_H
 #define SALAUI_H
+#include "Order.h"
+#include "PizzaSize.h"
 #include <iostream>
 #include <fstream>
+#include <stdlib.h>
 using namespace std;
 
 
@@ -9,10 +12,8 @@ class SalaUI {
     public:
         SalaUI();
         virtual ~SalaUI();
-        void displaySala();
-        void getOrder();
-
-    protected:
+        void displaySalaUI();
+        //void getOrder();
 
     private:
 };

@@ -27,10 +27,8 @@ void MainUI::displayMainUI() {
             umsjonui.displayUmsjonUI();
         }
         else if(selection == 's') {
-                /*
-            SalaUI sala;
-            sala.displaySala();
-            */
+            SalaUI salaui;
+            salaui.displaySalaUI();
         }
         else if(selection == 'b') {
             /*
