@@ -34,3 +34,10 @@ void Service::add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur) 
 vector<Afhendingarstadir> Service::load_afhendingarstadur() {
     return afhendingarstadir_repo.load_afhendingarstadir();
 }
+void Service::add_pizzabotn(const PizzaBotn& pizzabotn) {
+    pizzabotn_repo.add_pizzabotn(pizzabotn);
+}
+vector<PizzaBotn> Service::load_pizzabotn() {
+    return pizzabotn_repo.load_pizzabotn();
+}
+

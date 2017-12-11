@@ -12,12 +12,13 @@ void UmsjonUI::displayUmsjonUI() {
         cout << "--------Umsjon--------" << endl;
         cout << "======================" << endl;
 
-        cout << "1: Skra pizzu steard" << endl; ///(stærð/botn) stærð komið(hafa botn líka ?).
-        cout << "2: Skra aleggstegundir"  << endl; ///áleggstegundir komið.
-        cout << "3: Skra matsedil" << endl;
-        cout << "4: Skra medlaeti" << endl; ///Meðlæti komið.
-        cout << "5: Skra gos" << endl; ///Gos komið.
-        cout << "6: Skra afhendingarstadi" << endl;
+        cout << "1: Skra pizzu staerd" << endl; ///(stærð/botn) stærð komið(hafa botn líka ?).
+        cout << "2. Skra pizza botn" << endl;
+        cout << "3: Skra aleggstegundir"  << endl; ///áleggstegundir komið.
+        cout << "4: Skra matsedil" << endl;
+        cout << "5: Skra medlaeti" << endl; ///Meðlæti komið.
+        cout << "6: Skra gos" << endl; ///Gos komið.
+        cout << "7: Skra afhendingarstadi" << endl;///Afhendingarstaðir komnir
         cout << "q: Til baka" << endl;
 
         cin >> selection;
@@ -42,7 +43,27 @@ void UmsjonUI::displayUmsjonUI() {
                 }
             }
         }
+
         else if (selection == '2') {
+            system("CLS");
+            cout << "Pizza botnar og verd i kerfi: " << endl;
+            vector<PizzaBotn> pizzabotn = pizzabotn_service.load_pizzabotn();
+            for (unsigned int i = 0; i < pizzabotn.size(); i++){
+                string name = pizzabotn[i].get_name();
+                int price = pizzabotn[i].get_price();
+                cout << "[" << i+1 << "] " << name << ", " << price << endl;
+            }
+            while(select == 'y') {
+                cout << endl;
+                cout << "Baeta vid botn i kerfi (y/n) ? ";
+                cin >> select;
+                if(select == 'y') {
+                    pizzabotn_service.add_pizzabotn(create_pizzabotn());
+                }
+            }
+        }
+
+        else if (selection == '3') {
             system("CLS");
             cout << "Aleggstegund og verd i kerfi: " << endl;
             vector<Topping> topping = topping_service.load_topping();
@@ -60,10 +81,8 @@ void UmsjonUI::displayUmsjonUI() {
                 }
             }
         }
-        else if(selection == '3') {
 
-        }
-        else if(selection == '4') {
+        else if(selection == '5') {
             system("CLS");
             cout << "Medlaeti og verd i kerfinu: " << endl;
             vector<Medlaeti> medlaeti = medlaeti_service.load_medlaeti();
@@ -81,7 +100,7 @@ void UmsjonUI::displayUmsjonUI() {
                 }
             }
         }
-        else if(selection == '5') {
+        else if(selection == '6') {
             system("CLS");
             cout << "Gos og verd i kerfi: " << endl;
             vector<Gos> gos = gos_service.load_gos();
@@ -99,7 +118,7 @@ void UmsjonUI::displayUmsjonUI() {
                 }
             }
         }
-        else if(selection == '6') {
+        else if(selection == '7') {
             system("CLS");
             cout << "Afhendingarstadir i kerfi: " << endl;
             vector<Afhendingarstadir> afhendingarstadur = afhendingarstadir_service.load_afhendingarstadur();
@@ -182,4 +201,16 @@ Afhendingarstadir UmsjonUI::create_afhendingarstadir() {
 
     Afhendingarstadir afhendingarstadir(name, number);
     return afhendingarstadir;
+}
+PizzaBotn UmsjonUI::create_pizzabotn() {
+    string name;
+    int price;
+
+    cout << "Tegund a botni: ";
+    cin >> name;
+    cout << "Verd: ";
+    cin >> price;
+
+    PizzaBotn pizzabotn(name, price);
+    return pizzabotn;
 }

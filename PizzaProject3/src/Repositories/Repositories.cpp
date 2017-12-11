@@ -282,3 +282,59 @@ vector<Afhendingarstadir> Repositories::load_afhendingarstadir() {
     return all_afhendingarstadur;
 }
 
+void Repositories::add_pizzabotn(const PizzaBotn& pizzabotn) {
+    ofstream fout;
+    fout.open("pizzabotn.txt", ios::app);
+    if(fout.is_open()) {
+        fout << pizzabotn;
+        fout.close();
+    }
+    else {
+        cout << "File write error!" << endl;
+    }
+}
+void Repositories::retrive_pizzabotn() {
+    ifstream fin;
+    fin.open("pizzabotn.txt");
+
+    if(fin.is_open()) {
+        while(fin >> file) {
+            PizzaBotn P;
+
+            //fin >> file;
+            stringstream ss(file);
+            string item;
+            int counter = 0;
+
+            while(getline(ss, item, ',')) {
+                if(counter == 0) {
+                    P.set_name(item);
+                }
+                else if(counter == 1) {
+                    string s = item;
+                    stringstream testing(s);
+                    int x = 0;
+                    testing >> x;
+                    P.set_price(x);
+                }
+                counter++;
+            }
+            pizzabotn.push_back(P);
+
+        }
+        fin.close();
+    }
+    else {
+        cout << "File not opened!" << endl;
+    }
+}
+vector<PizzaBotn> Repositories::load_pizzabotn() {
+    pizzabotn.clear();
+    retrive_pizzabotn();
+    vector<PizzaBotn> all_pizzabotn;
+
+    for(unsigned int i = 0; i < pizzabotn.size(); i++) {
+        all_pizzabotn.push_back(pizzabotn[i]);
+    }
+    return all_pizzabotn;
+}

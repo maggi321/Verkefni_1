@@ -6,6 +6,7 @@
 #include "Medlaeti.h"
 #include "Gos.h"
 #include "Afhendingarstadir.h"
+#include "PizzaBotn.h"
 
 #include <stdlib.h>
 
@@ -31,6 +32,9 @@ class UmsjonUI {
 
         Afhendingarstadir create_afhendingarstadir();
         Service afhendingarstadir_service;
+
+        PizzaBotn create_pizzabotn();
+        Service pizzabotn_service;
 };
 
 #endif // UMSJONUI_H

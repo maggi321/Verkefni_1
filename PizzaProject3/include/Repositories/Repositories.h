@@ -5,6 +5,7 @@
 #include "Medlaeti.h"
 #include "Gos.h"
 #include "Afhendingarstadir.h"
+#include "PizzaBotn.h"
 #include <fstream>
 #include <string>
 #include <vector>
@@ -33,6 +34,10 @@ class Repositories {
         void retrive_afhendingarstadur();
         vector<Afhendingarstadir> load_afhendingarstadir();
 
+        void add_pizzabotn(const PizzaBotn& pizzabotn);
+        void retrive_pizzabotn();
+        vector<PizzaBotn> load_pizzabotn();
+
     private:
         string file;
         vector<Topping> toppings;
@@ -40,6 +45,7 @@ class Repositories {
         vector<Medlaeti> medlaeti;
         vector<Gos> gos;
         vector<Afhendingarstadir> afhendingarstadur;
+        vector<PizzaBotn> pizzabotn;
 };
 
 #endif // REPOSITORIES_H

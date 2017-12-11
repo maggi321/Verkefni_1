@@ -15,12 +15,14 @@ class Service {
         void add_medlaeti(const Medlaeti& medlaeti);
         void add_gos(const Gos& gos);
         void add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur);
+        void add_pizzabotn(const PizzaBotn& pizzabotn);
 
         vector<Topping> load_topping();
         vector<PizzaSize> load_pizza_size();
         vector<Medlaeti> load_medlaeti();
         vector<Gos> load_gos();
         vector<Afhendingarstadir> load_afhendingarstadur();
+        vector<PizzaBotn> load_pizzabotn();
 
     private:
         Repositories topping_repo;
@@ -28,6 +30,7 @@ class Service {
         Repositories medlaeti_repo;
         Repositories gos_repo;
         Repositories afhendingarstadir_repo;
+        Repositories pizzabotn_repo;
 };
 
 #endif // SERVICE_H
