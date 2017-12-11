@@ -6,8 +6,7 @@
 #include "Repositories.h"
 #include "Gos.h"
 
-class Service
-{
+class Service {
     public:
         Service();
         void add_topping(const Topping& topping);

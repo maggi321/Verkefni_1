@@ -3,8 +3,7 @@
 #include<iostream>
 using namespace std;
 
-class Gos
-{
+class Gos {
     public:
         Gos();
         Gos(string name, int price);

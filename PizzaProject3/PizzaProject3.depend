@@ -15,7 +15,7 @@
 	"Gos.h"
 	<stdlib.h>
 
-1512950075 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\service\service.h
+1512992667 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\service\service.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
@@ -58,7 +58,7 @@
 	"Topping.h"
 	<vector>
 
-1512950441 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
+1512992667 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
@@ -71,12 +71,12 @@
 1512950451 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
 	"Repositories.h"
 
-1512950590 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+1512992547 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
 1512935719 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizza.h
 
-1512936574 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzasize.h
+1512992667 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzasize.h
 	<iostream>
 
 1512935719 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizza.cpp
@@ -91,7 +91,7 @@
 1512948901 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
 	"Medlaeti.h"
 
-1512950208 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\gos.h
+1512992667 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\gos.h
 	<iostream>
 
 1512950196 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\gos.cpp

@@ -3,8 +3,7 @@
 #include<iostream>
 using namespace std;
 
-class PizzaSize
-{
+class PizzaSize {
     public:
         PizzaSize();
         PizzaSize(int tommur, int price);
