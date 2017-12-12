@@ -146,6 +146,6 @@ void Order::create_order() {
     total += order_pizza_topping();
     total += order_medlaeti();
     total += order_gos();
-    cout << "heildarverd er " << total;
+    cout << "heildarverd er " << total << endl;
 
 }
