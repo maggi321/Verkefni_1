@@ -119,10 +119,10 @@ void UmsjonUI::displayUmsjonUI() {
         else if(selection == '7') {
             system("CLS");
             cout << "Afhendingarstadir i kerfi: " << endl;
-            vector<Afhendingarstadir> afhendingarstadur = afhendingarstadir_service.load_afhendingarstadur();
-            for (unsigned int i = 0; i < afhendingarstadur.size(); i++){
-                string name = afhendingarstadur[i].get_name();
-                int number = afhendingarstadur[i].get_number();
+            vector<Afhendingarstadir> afhendingarstadir = afhendingarstadir_service.load_afhendingarstadir();
+            for (unsigned int i = 0; i < afhendingarstadir.size(); i++){
+                string name = afhendingarstadir[i].get_name();
+                int number = afhendingarstadir[i].get_number();
                 cout << "[" << i+1 << "] " << name << ", " << number << endl;
             }
             while(select == 'y') {
@@ -130,7 +130,7 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid afhendingarstad (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    afhendingarstadir_service.add_afhendingarstadur(create_afhendingarstadir());
+                    afhendingarstadir_service.add_afhendingarstadir(create_afhendingarstadir());
                 }
             }
 

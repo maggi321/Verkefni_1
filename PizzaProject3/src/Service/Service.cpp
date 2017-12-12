@@ -28,10 +28,10 @@ void Service::add_gos(const Gos& gos) {
 vector<Gos> Service::load_gos() {
     return gos_repo.load_gos();
 }
-void Service::add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur) {
-    afhendingarstadir_repo.add_afhendingarstadur(afhendingarstadur);
+void Service::add_afhendingarstadir(const Afhendingarstadir& afhendingarstadir) {
+    afhendingarstadir_repo.add_afhendingarstadir(afhendingarstadir);
 }
-vector<Afhendingarstadir> Service::load_afhendingarstadur() {
+vector<Afhendingarstadir> Service::load_afhendingarstadir() {
     return afhendingarstadir_repo.load_afhendingarstadir();
 }
 void Service::add_pizzabotn(const PizzaBotn& pizzabotn) {
@@ -43,4 +43,7 @@ vector<PizzaBotn> Service::load_pizzabotn() {
 
 void Service::add_order(string name) {
     order_repo.add_order(name);
+}
+void Service::add_order_end(string name) {
+    order_repo.add_order_end(name);
 }

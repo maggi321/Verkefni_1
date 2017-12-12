@@ -31,8 +31,8 @@ class Repositories {
         void retrive_gos();
         vector<Gos> load_gos();
 
-        void add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur);
-        void retrive_afhendingarstadur();
+        void add_afhendingarstadir(const Afhendingarstadir& afhendingarstadir);
+        void retrive_afhendingarstadir();
         vector<Afhendingarstadir> load_afhendingarstadir();
 
         void add_pizzabotn(const PizzaBotn& pizzabotn);
@@ -40,6 +40,8 @@ class Repositories {
         vector<PizzaBotn> load_pizzabotn();
 
         void add_order(string name);
+        void add_order_end(string name);
+
 
     private:
         string file;
@@ -47,7 +49,7 @@ class Repositories {
         vector<PizzaSize> pizza_sizes;
         vector<Medlaeti> medlaeti;
         vector<Gos> gos;
-        vector<Afhendingarstadir> afhendingarstadur;
+        vector<Afhendingarstadir> afhendingarstadir;
         vector<PizzaBotn> pizzabotn;
 };
 
