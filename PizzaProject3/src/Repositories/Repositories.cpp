@@ -224,7 +224,6 @@ vector<Gos> Repositories::load_gos() {
     return all_gos;
 }
 
-
 void Repositories::add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur) {
     ofstream fout;
     fout.open("afhendingarstadur.txt", ios::app);

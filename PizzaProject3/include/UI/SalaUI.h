@@ -1,9 +1,9 @@
 #ifndef SALAUI_H
 #define SALAUI_H
 #include "Order.h"
-#include "PizzaSize.h"
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include <stdlib.h>
 using namespace std;
 
