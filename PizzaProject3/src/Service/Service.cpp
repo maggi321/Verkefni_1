@@ -41,3 +41,6 @@ vector<PizzaBotn> Service::load_pizzabotn() {
     return pizzabotn_repo.load_pizzabotn();
 }
 
+void Service::add_order(string name) {
+    order_repo.add_order(name);
+}

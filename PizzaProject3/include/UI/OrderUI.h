@@ -18,6 +18,13 @@ class OrderUI {
         Service topping_service;
         Service medlaeti_service;
         Service gos_service;
+
+        Order adding_order();
+        Service order_service;
+
+        string name;
+        int price;
+        string tommur;
 };
 
 #endif // ORDER_H
