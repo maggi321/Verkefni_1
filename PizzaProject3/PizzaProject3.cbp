@@ -53,6 +53,7 @@
 		<Unit filename="include/UI/AfhendingUI.h" />
 		<Unit filename="include/UI/BaksturUI.h" />
 		<Unit filename="include/UI/MainUI.h" />
+		<Unit filename="include/UI/OrderUI.h" />
 		<Unit filename="include/UI/SalaUI.h" />
 		<Unit filename="include/UI/UmsjonUI.h" />
 		<Unit filename="main.cpp" />
@@ -69,6 +70,7 @@
 		<Unit filename="src/UI/AfhendingUI.cpp" />
 		<Unit filename="src/UI/BaksturUI.cpp" />
 		<Unit filename="src/UI/MainUI.cpp" />
+		<Unit filename="src/UI/OrderUI.cpp" />
 		<Unit filename="src/UI/SalaUI.cpp" />
 		<Unit filename="src/UI/UmsjonUI.cpp" />
 		<Extensions>
