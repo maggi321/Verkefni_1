@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #ifndef ORDER_H
 #define ORDER_H
 #include<iostream>
@@ -24,4 +21,3 @@ class Order {
 };
 
 #endif // ORDER_H
->>>>>>> 0c2303eb8df41a36604de70bf7761c5982ae66dc

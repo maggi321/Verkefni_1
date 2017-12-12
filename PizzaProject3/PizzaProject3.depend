@@ -113,7 +113,7 @@
 	"PizzaBotn.h"
 	<stdlib.h>
 
-1513001059 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
+1513098839 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
@@ -127,13 +127,14 @@
 1513090243 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzasize.h
 	<iostream>
 
-1513000884 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
+1513098839 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
 	"Gos.h"
 	"Afhendingarstadir.h"
 	"PizzaBotn.h"
+	"Order.h"
 	<fstream>
 	<string>
 	<vector>
@@ -247,8 +248,8 @@
 1513098431 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\orderui.h
 	"Service.h"
 
-1513084426 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
-	"Service.h"
+1513098930 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
+	<iostream>
 
 1513091227 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\order.cpp
 
@@ -262,7 +263,7 @@
 
 1513089622 3c66b25d3863c523a8345bf8c01253442ec7a
 
-1513090243 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\orderui.h
+1513098839 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\orderui.h
 	"Service.h"
 
 1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\main.cpp

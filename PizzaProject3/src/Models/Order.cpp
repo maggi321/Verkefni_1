@@ -1,7 +1,3 @@
-
-
-<<<<<<< HEAD
-=======
 Order::Order(string name, int price) {
     this->name = name;
     this->price = price;
@@ -22,4 +18,4 @@ ostream& operator<< (ostream& out, const Order& order) {
     out << order.name << "-";
     return out;
 }
->>>>>>> 0c2303eb8df41a36604de70bf7761c5982ae66dc
+
