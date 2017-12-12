@@ -251,3 +251,131 @@
 1513089622 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
 	"OrderUI.h"
 
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\main.cpp
+	"MainUI.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	<iostream>
+	<cstdlib>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\topping.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzasize.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\medlaeti.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\gos.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\afhendingarstadir.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzabotn.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\orderui.h
+	"Service.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\gos.cpp
+	"Gos.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\order.cpp
+	"Order.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
+	"Service.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizza.cpp
+	"Pizza.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizza.h
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\topping.cpp
+	"Topping.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\service\service.cpp
+	"Service.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\afhendingui.h
+	<stdlib.h>
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\baksturui.h
+	<stdlib.h>
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
