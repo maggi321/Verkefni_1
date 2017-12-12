@@ -7,6 +7,8 @@
 #include "Gos.h"
 #include "Afhendingarstadir.h"
 
+//#include "Order.h"
+
 class Service {
     public:
         Service();
@@ -16,6 +18,8 @@ class Service {
         void add_gos(const Gos& gos);
         void add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur);
         void add_pizzabotn(const PizzaBotn& pizzabotn);
+
+        void add_order(string name);
 
         vector<Topping> load_topping();
         vector<PizzaSize> load_pizza_size();
@@ -31,6 +35,8 @@ class Service {
         Repositories gos_repo;
         Repositories afhendingarstadir_repo;
         Repositories pizzabotn_repo;
+
+        Repositories order_repo;
 };
 
 #endif // SERVICE_H

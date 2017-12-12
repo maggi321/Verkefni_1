@@ -6,6 +6,7 @@
 #include "Gos.h"
 #include "Afhendingarstadir.h"
 #include "PizzaBotn.h"
+#include "Order.h"
 #include <fstream>
 #include <string>
 #include <vector>
@@ -37,6 +38,8 @@ class Repositories {
         void add_pizzabotn(const PizzaBotn& pizzabotn);
         void retrive_pizzabotn();
         vector<PizzaBotn> load_pizzabotn();
+
+        void add_order(string name);
 
     private:
         string file;

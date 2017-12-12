@@ -333,3 +333,15 @@ vector<PizzaBotn> Repositories::load_pizzabotn() {
     }
     return all_pizzabotn;
 }
+
+void Repositories::add_order(string name) {
+    ofstream fout;
+    fout.open("pantanir.txt", ios::app);
+    if(fout.is_open()) {
+        fout << name << "-";
+        fout.close();
+    }
+    else {
+        cout << "File write error!" << endl;
+    }
+}
