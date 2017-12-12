@@ -29,11 +29,11 @@
 1512925790 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\topping.h
 	<iostream>
 
-1513012377 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\salaui.h
+1513081244 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\salaui.h
 	"Order.h"
-	"PizzaSize.h"
 	<iostream>
 	<fstream>
+	<vector>
 	<stdlib.h>
 
 1512917936 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\baksturui.h
@@ -56,12 +56,11 @@
 	"BaksturUI.h"
 	<iostream>
 
-1513002991 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+1513012399 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\mainui.cpp
 	"MainUI.h"
 
-1513011817 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+1513081833 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\salaui.cpp
 	"SalaUI.h"
-	<vector>
 
 1513002349 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
 	"Topping.h"
@@ -75,7 +74,7 @@
 	<vector>
 	<sstream>
 
-1513002350 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+1513082204 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
 	"Repositories.h"
 
 1513003190 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
@@ -239,11 +238,10 @@
 1513002350 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
 	"PizzaBotn.h"
 
-1513012377 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\order.h
+1513083300 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\order.h
 	"Service.h"
-	"PizzaSize.h"
 
-1513012377 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
+1513083929 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
 	"Order.h"
 
 1513012000 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h

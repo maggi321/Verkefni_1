@@ -1,8 +1,4 @@
 #include "SalaUI.h"
-//#include "UmsjonUI.h"
-//#include "Topping.h"
-//#include "Pizza.h"
-#include <vector>
 
 SalaUI::SalaUI() {
     //ctor
@@ -33,7 +29,7 @@ void SalaUI::displaySalaUI() {
         if (selection == '1') {
             system("CLS");
             Order order;
-            order.order_pizza_size();
+            order.create_order();
 
         }
         else if(selection == '2') {
