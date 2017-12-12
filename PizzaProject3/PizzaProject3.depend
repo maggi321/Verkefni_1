@@ -162,25 +162,21 @@
 1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\baksturui.h
 	<stdlib.h>
 
-1513002911 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+1513012489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
 	"MainUI.h"
 
-1513009328 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+1513012489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\salaui.cpp
 	"SalaUI.h"
-	"UmsjonUI.h"
-	"Topping.h"
 	<vector>
 
-1513012001 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
+1513012489 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
 	"Order.h"
 	"PizzaSize.h"
 	<iostream>
 	<fstream>
-	<Service.h>
-	"PizzaSize.h"
 	<stdlib.h>
 
-1513002625 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+1513012000 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
 1512946369 h"
@@ -253,4 +249,7 @@
 1513012000 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
 	"Service.h"
 	"PizzaSize.h"
+
+1513012489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\order.cpp
+	"Order.h"
 

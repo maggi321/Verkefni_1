@@ -133,3 +133,59 @@
 	<iostream>
 	<sstream>
 
+1512576191 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\main.cpp
+	"MainUI.h"
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\ui\mainui.h
+	"Employee.h"
+	"EmployeeService.h"
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\models\employee.h
+	<string>
+	<iostream>
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\services\employeeservice.h
+	"Employee.h"
+	"EmployeeRepository.h"
+	"InvalidNameException.h"
+	"InvalidSsnException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\repositories\employeerepository.h
+	"Employee.h"
+	<fstream>
+	<vector>
+	<sstream>
+	<string>
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\exceptions\invalidnameexception.h
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\exceptions\invalidssnexception.h
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\exceptions\invalidsalaryexception.h
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\exceptions\invalidmonthexception.h
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\exceptions\invalidyearexception.h
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\models\employee.cpp
+	"Employee.h"
+	<string>
+	<iostream>
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\repositories\employeerepository.cpp
+	"EmployeeRepository.h"
+	<sstream>
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\services\employeeservice.cpp
+	"EmployeeService.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\ui\mainui.cpp
+	"MainUI.h"
+	<cstdlib>
+
