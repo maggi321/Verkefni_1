@@ -82,11 +82,7 @@ void Repositories::retrive_pizza_size() {
 
             while(getline(ss, item, ',')) {
                 if(counter == 0) {
-                    string s = item;
-                    stringstream testing(s);
-                    int x = 0;
-                    testing >> x;
-                    PS.set_tommur(x);
+                    PS.set_tommur(item);
                 }
                 else if(counter == 1) {
                     string s = item;

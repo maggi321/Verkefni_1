@@ -2,17 +2,17 @@
 
 PizzaSize::PizzaSize() {}
 
-PizzaSize::PizzaSize(int tommur, int price) {
+PizzaSize::PizzaSize(string tommur, int price) {
     this->tommur = tommur;
     this->price = price;
 }
-int PizzaSize::get_tommur() const {
+string PizzaSize::get_tommur() const {
     return this->tommur;
 }
 int PizzaSize::get_price() const {
     return this->price;
 }
-void PizzaSize::set_tommur(int newtommur) {
+void PizzaSize::set_tommur(string newtommur) {
     tommur = newtommur;
 }
 void PizzaSize::set_price(int newprice) {
@@ -24,7 +24,8 @@ ostream& operator<< (ostream& out, const PizzaSize& pizza_size) {
 }
 istream& operator >>(istream& in, PizzaSize pizza_size) {
     cout << "Staerd(tommur): ";
-    in >> pizza_size.tommur;
+    in >> ws;
+    getline(in, pizza_size.tommur);
 
     cout << "Verd: ";
     in >> pizza_size.price;

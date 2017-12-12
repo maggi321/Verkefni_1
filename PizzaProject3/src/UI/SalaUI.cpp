@@ -28,8 +28,8 @@ void SalaUI::displaySalaUI() {
 
         if (selection == '1') {
             system("CLS");
-            Order order;
-            order.create_order();
+            OrderUI orderui;
+            orderui.create_order();
 
         }
         else if(selection == '2') {
