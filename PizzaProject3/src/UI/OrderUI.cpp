@@ -1,21 +1,19 @@
-#include "Order.h"
+#include "OrderUI.h"
 
-Order::Order() {}
+OrderUI::OrderUI() {}
 
-
-<<<<<<< HEAD
-int Order::order_pizza_size() {
+int OrderUI::order_pizza_size() {
     cout << "Vorunr  Tommur  Verd" << endl;
     vector<PizzaSize> pizza_size = pizza_size_service.load_pizza_size();
     for (unsigned int i = 0; i < pizza_size.size(); i++){
-        int tommur = pizza_size[i].get_tommur();
+        string tommur = pizza_size[i].get_tommur();
         int price = pizza_size[i].get_price();
         cout << "[" << i+1 << "] " << '\t' << tommur << '\t' << price << endl;
     }
     cout << "Veldu Vorunr til ad setja staerd pizzu i pontun: ";
     unsigned int x;
     cin >> x;
-    int tommur;
+    string tommur;
     int price;
     for (unsigned int i = 0; i < pizza_size.size(); i++){
         if(x-1 == i) {
@@ -27,7 +25,7 @@ int Order::order_pizza_size() {
     cout << tommur << '\t' << price << endl << endl;
     return price;
 }
-int Order::order_pizza_botn() {
+int OrderUI::order_pizza_botn() {
     cout << "Vorunr  Botn   Verd" << endl;
     vector<PizzaBotn> pizza_botn = pizzabotn_service.load_pizzabotn();
     for (unsigned int i = 0; i < pizza_botn.size(); i++){
@@ -50,7 +48,7 @@ int Order::order_pizza_botn() {
     cout << name << '\t' << price << endl << endl;
     return price;
 }
-int Order::order_pizza_topping() {
+int OrderUI::order_pizza_topping() {
     int total = 0;
     cout << "Vorunr  Alegg   Verd" << endl;
     vector<Topping> toppings = topping_service.load_topping();
@@ -76,7 +74,7 @@ int Order::order_pizza_topping() {
     }
     return total;
 }
-int Order::order_medlaeti() {
+int OrderUI::order_medlaeti() {
     char select = '\0';
     cout << "Viltu baeta vid medlaeti ? (y/n) ";
     cin >> select;
@@ -108,7 +106,7 @@ int Order::order_medlaeti() {
         return price;
     }
 }
-int Order::order_gos() {
+int OrderUI::order_gos() {
     char select = '\0';
     cout << "Viltu baeta vid gosi ? (y/n) ";
     cin >> select;
@@ -140,7 +138,7 @@ int Order::order_gos() {
         return price;
     }
 }
-void Order::create_order() {
+void OrderUI::create_order() {
     int total = 0;
     total += order_pizza_size();
     total += order_pizza_botn();
@@ -148,7 +146,4 @@ void Order::create_order() {
     total += order_medlaeti();
     total += order_gos();
     cout << "heildarverd er " << total << endl;
-
 }
-=======
->>>>>>> 8ee3c66b25d3863c523a8345bf8c01253442ec7a

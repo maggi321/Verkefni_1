@@ -28,7 +28,7 @@ void UmsjonUI::displayUmsjonUI() {
             cout << "Pizzu staerdir og verd i kerfinu: " << endl;
             vector<PizzaSize> pizza_size = pizza_size_service.load_pizza_size();
             for (unsigned int i = 0; i < pizza_size.size(); i++){
-                int tommur = pizza_size[i].get_tommur();
+                string tommur = pizza_size[i].get_tommur();
                 int price = pizza_size[i].get_price();
                 cout << "[" << i+1 << "] " << tommur << ", " << price << endl;
             }
@@ -153,7 +153,7 @@ Topping UmsjonUI::create_topping() {
     return topping;
 }
 PizzaSize UmsjonUI::create_pizza_size() {
-    int tommur;
+    string tommur;
     int price;
 
     cout << "Staerd i tommum: ";

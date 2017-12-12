@@ -1,6 +1,6 @@
 #ifndef SALAUI_H
 #define SALAUI_H
-#include "Order.h"
+#include "OrderUI.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -13,7 +13,6 @@ class SalaUI {
         SalaUI();
         virtual ~SalaUI();
         void displaySalaUI();
-        //void getOrder();
 
     private:
 };
