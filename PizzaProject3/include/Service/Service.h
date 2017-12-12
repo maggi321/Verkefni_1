@@ -16,16 +16,17 @@ class Service {
         void add_pizza_size(const PizzaSize& pizza_size);
         void add_medlaeti(const Medlaeti& medlaeti);
         void add_gos(const Gos& gos);
-        void add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur);
+        void add_afhendingarstadir(const Afhendingarstadir& afhendingarstadir);
         void add_pizzabotn(const PizzaBotn& pizzabotn);
 
         void add_order(string name);
+        void add_order_end(string name);
 
         vector<Topping> load_topping();
         vector<PizzaSize> load_pizza_size();
         vector<Medlaeti> load_medlaeti();
         vector<Gos> load_gos();
-        vector<Afhendingarstadir> load_afhendingarstadur();
+        vector<Afhendingarstadir> load_afhendingarstadir();
         vector<PizzaBotn> load_pizzabotn();
 
     private:

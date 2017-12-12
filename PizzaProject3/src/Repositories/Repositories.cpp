@@ -220,18 +220,18 @@ vector<Gos> Repositories::load_gos() {
     return all_gos;
 }
 
-void Repositories::add_afhendingarstadur(const Afhendingarstadir& afhendingarstadur) {
+void Repositories::add_afhendingarstadir(const Afhendingarstadir& afhendingarstadir) {
     ofstream fout;
     fout.open("afhendingarstadur.txt", ios::app);
     if(fout.is_open()) {
-        fout << afhendingarstadur;
+        fout << afhendingarstadir;
         fout.close();
     }
     else {
         cout << "File write error!" << endl;
     }
 }
-void Repositories::retrive_afhendingarstadur() {
+void Repositories::retrive_afhendingarstadir() {
     ifstream fin;
     fin.open("afhendingarstadur.txt");
 
@@ -257,7 +257,7 @@ void Repositories::retrive_afhendingarstadur() {
                 }
                 counter++;
             }
-            afhendingarstadur.push_back(A);
+            afhendingarstadir.push_back(A);
 
         }
         fin.close();
@@ -267,14 +267,14 @@ void Repositories::retrive_afhendingarstadur() {
     }
 }
 vector<Afhendingarstadir> Repositories::load_afhendingarstadir() {
-    afhendingarstadur.clear();
-    retrive_afhendingarstadur();
-    vector<Afhendingarstadir> all_afhendingarstadur;
+    afhendingarstadir.clear();
+    retrive_afhendingarstadir();
+    vector<Afhendingarstadir> all_afhendingarstadir;
 
-    for(unsigned int i = 0; i < afhendingarstadur.size(); i++) {
-        all_afhendingarstadur.push_back(afhendingarstadur[i]);
+    for(unsigned int i = 0; i < afhendingarstadir.size(); i++) {
+        all_afhendingarstadir.push_back(afhendingarstadir[i]);
     }
-    return all_afhendingarstadur;
+    return all_afhendingarstadir;
 }
 
 void Repositories::add_pizzabotn(const PizzaBotn& pizzabotn) {
@@ -339,6 +339,17 @@ void Repositories::add_order(string name) {
     fout.open("pantanir.txt", ios::app);
     if(fout.is_open()) {
         fout << name << "-";
+        fout.close();
+    }
+    else {
+        cout << "File write error!" << endl;
+    }
+}
+void Repositories::add_order_end(string name) {
+    ofstream fout;
+    fout.open("pantanir.txt", ios::app);
+    if(fout.is_open()) {
+        fout << name << "-" << endl;
         fout.close();
     }
     else {

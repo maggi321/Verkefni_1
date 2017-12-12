@@ -1,8 +1,26 @@
 #include "OrderUI.h"
 
 OrderUI::OrderUI() {}
-
+void OrderUI::order_afhendingarstadir() {
+    vector<Afhendingarstadir> afhendingarstadir = afhendingarstadir_service.load_afhendingarstadir();
+    for (unsigned int i = 0; i < afhendingarstadir.size(); i++){
+        string name = afhendingarstadir[i].get_name();
+        int number = afhendingarstadir[i].get_number();
+        cout << i+1 << ": " << name << " " << number << endl;
+    }
+    cout << "Veldu numer a afhendingarstad: ";
+    unsigned int x;
+    cin >> x;
+    for (unsigned int i = 0; i < afhendingarstadir.size(); i++){
+        if(x-1 == i) {
+            name = afhendingarstadir[i].get_name();
+            number = afhendingarstadir[i].get_number();
+        }
+    }
+    order_service.add_order(name);
+}
 int OrderUI::order_pizza_size() {
+    system("CLS");
     cout << "Vorunr  Tommur  Verd" << endl;
     vector<PizzaSize> pizza_size = pizza_size_service.load_pizza_size();
     for (unsigned int i = 0; i < pizza_size.size(); i++){
@@ -20,11 +38,10 @@ int OrderUI::order_pizza_size() {
         }
     }
     order_service.add_order(tommur);
-    cout << "tetta er staerdin" << endl;
-    cout << tommur << '\t' << price << endl << endl;
     return price;
 }
 int OrderUI::order_pizza_botn() {
+    system("CLS");
     cout << "Vorunr  Botn   Verd" << endl;
     vector<PizzaBotn> pizza_botn = pizzabotn_service.load_pizzabotn();
     for (unsigned int i = 0; i < pizza_botn.size(); i++){
@@ -42,11 +59,10 @@ int OrderUI::order_pizza_botn() {
         }
     }
     order_service.add_order(name);
-    cout << "tetta er botninn" << endl;
-    cout << name << '\t' << price << endl << endl;
     return price;
 }
 int OrderUI::order_pizza_topping() {
+    system("CLS");
     int total = 0;
     cout << "Vorunr  Alegg   Verd" << endl;
     vector<Topping> toppings = topping_service.load_topping();
@@ -76,6 +92,7 @@ int OrderUI::order_pizza_topping() {
     return total;
 }
 int OrderUI::order_medlaeti() {
+    system("CLS");
     char select = '\0';
     cout << "Viltu baeta vid medlaeti ? (y/n) ";
     cin >> select;
@@ -97,8 +114,6 @@ int OrderUI::order_medlaeti() {
             }
         }
         order_service.add_order(name);
-        cout << "tetta er medlaetid" << endl;
-        cout << name << '\t' << price << endl << endl;
         return price;
     }
     else {
@@ -107,6 +122,7 @@ int OrderUI::order_medlaeti() {
     }
 }
 int OrderUI::order_gos() {
+    system("CLS");
     char select = '\0';
     cout << "Viltu baeta vid gosi ? (y/n) ";
     cin >> select;
@@ -128,8 +144,6 @@ int OrderUI::order_gos() {
             }
         }
         order_service.add_order(name);
-        cout << "tetta er gosid" << endl;
-        cout << name << '\t' << price << endl << endl;
         return price;
     }
     else {
@@ -137,12 +151,33 @@ int OrderUI::order_gos() {
         return price;
     }
 }
+void OrderUI::order_greitt() {
+    char select = '\0';
+    cout << "Merkja greitt (y/n): ";
+    cin >> select;
+    if(select == 'y') {
+        name = "Greitt";
+    }
+    else if(select == 'n') {
+        name = "Ogreitt";
+    }
+    order_service.add_order_end(name);
+}
 void OrderUI::create_order() {
     int total = 0;
+    order_afhendingarstadir();
     total += order_pizza_size();
     total += order_pizza_botn();
     total += order_pizza_topping();
     total += order_medlaeti();
     total += order_gos();
-    cout << "heildarverd er " << total << endl;
+    system("CLS");
+    cout << "Heildarverd er " << total << " kronur" << endl;
+    ostringstream str1;
+    str1 << total;
+    string sum = str1.str();
+    order_service.add_order(sum);
+
+    order_greitt();
+
 }
