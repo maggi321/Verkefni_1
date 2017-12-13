@@ -381,10 +381,22 @@ void Repositories::retrive_order() {
                     O.set_alegg(item);
                 }
                 else if(counter == 4) {
-                    O.set_medlaeti(item);
+                    if(item == "Ekkert") {
+                        item = "Ekkert medlaeti";
+                        O.set_medlaeti(item);
+                    }
+                    else {
+                        O.set_medlaeti(item);
+                    }
                 }
                 else if(counter == 5) {
-                    O.set_gos(item);
+                    if(item == "Ekkert") {
+                        item = "Ekkert medlaeti";
+                        O.set_gos(item);
+                    }
+                    else {
+                        O.set_gos(item);
+                    }
                 }
                 else if(counter == 6) {
                     O.set_verd(item);
