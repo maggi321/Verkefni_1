@@ -59,7 +59,7 @@
 1513012399 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\mainui.cpp
 	"MainUI.h"
 
-1513089052 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+1513104378 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\salaui.cpp
 	"SalaUI.h"
 
 1513103955 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
@@ -245,7 +245,7 @@
 1513099580 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
 	"Order.h"
 
-1513103549 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\orderui.h
+1513168502 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\orderui.h
 	"Service.h"
 	<stdlib.h>
 
@@ -259,7 +259,7 @@
 1513089100 d86f4e20202c6ef0922604640f7c9201b531c
 	"Service.h"
 
-1513104094 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+1513168509 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
 	"OrderUI.h"
 
 1513089622 3c66b25d3863c523a8345bf8c01253442ec7a

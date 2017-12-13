@@ -161,6 +161,11 @@ void OrderUI::order_greitt() {
     else if(select == 'n') {
         name = "Ogreitt";
     }
+    order_service.add_order(name);
+}
+void OrderUI::order_name() {
+    cout << "skrifadu nafn a pontun: ";
+    cin >> name;
     order_service.add_order_end(name);
 }
 void OrderUI::create_order() {
@@ -171,6 +176,7 @@ void OrderUI::create_order() {
     total += order_pizza_topping();
     total += order_medlaeti();
     total += order_gos();
+
     system("CLS");
     cout << "Heildarverd er " << total << " kronur" << endl;
     ostringstream str1;
@@ -179,5 +185,6 @@ void OrderUI::create_order() {
     order_service.add_order(sum);
 
     order_greitt();
+    order_name();
 
 }

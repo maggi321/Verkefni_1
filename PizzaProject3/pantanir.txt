@@ -1,2 +1,3 @@
-Miklabraut-9-Klassiskur-Pepperoni,-Sukkuladisprengja-1700-Greitt-
-Jolavegur-16-Italskur-Pepperoni,Beikon,Skinka,-Sukkuladisprengja-Appelsin-3500-Ogreitt-
+Miklabraut-12-Italskur-Pepperoni,Beikon,Skinka,Ostur,-Sukkuladisprengja-3000-Greitt-kalli-
+Jolavegur-16-Klassiskur-Pepperoni,Beikon,Skinka,Ostur,Rjomaostur,-Sukkuladisprengja-3200-Greitt-jonas-
+Jolavegur-9-Italskur-Pepperoni,-1600-Ogreitt-kukur-
