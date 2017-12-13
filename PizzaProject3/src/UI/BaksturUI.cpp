@@ -52,12 +52,14 @@ void BaksturUI::displayBaksturUI() {
                     string verd = test[i].get_verd();
                     string greitt = test[i].get_greitt();
                     string nafn = test[i].get_nafn();
+                    string merking = test[i].get_merking();
                     cout << "Stadur : " << name << endl;
                     cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                     cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                     cout << "Heildarverd: " << verd << endl;
                     cout << "greitt eda ogreitt: " << greitt << endl;
                     cout << "Nafn a pontun: " << nafn << endl << endl;
+                    //cout << "Merking: " << merking << endl << endl;
                     }
             }
             else if(select == '2') {

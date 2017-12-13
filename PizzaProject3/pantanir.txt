@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+Miklabraut-9-Klassiskur-Pepperoni,-Sukkuladisprengja-Pepsi-2100-Ogreitt-kalli-merking-
+Jolavegur-9-Klassiskur-Pepperoni,-Ekkert-Ekkert-1300-Ogreitt-jonas-merking-
+Miklabraut-12-Italskur-Beikon,-Sukkuladisprengja-Ekkert-2200-Ogreitt-jonina-merking-
+Jolavegur-18-Ponnu-Paprika,Beikonsulta,Piparostur,-Ekkert-Pepsi-3250-Greitt-sveinki-merking-
+=======
+<<<<<<< HEAD
 Miklabraut-9-Klassiskur-Pepperoni,-Sukkuladisprengja-1700-Greitt-
 Jolavegur-16-Italskur-Pepperoni,Beikon,Skinka,-Sukkuladisprengja-Appelsin-3500-Ogreitt-
 Miklabraut-9-Klassiskur-Pepperoni,Beikon,Rjomaostur,-Pepsi-2200-Greitt-
@@ -8,3 +14,4 @@ Jolavegur-16-Klassiskur-Pepperoni,Beikon,Skinka,Ostur,Rjomaostur,-Sukkuladispren
 Jolavegur-9-Italskur-Pepperoni,-1600-Ogreitt-kukur-
 >>>>>>> 3491db36240a938a7cb3548cad52504ea705e105
 Miklabraut-9-Klassiskur-Pepperoni,-1300-Greitt-Hland-
+>>>>>>> 6e6a3a6b7320ce7be13fef7a20355404fd7e9bdd
