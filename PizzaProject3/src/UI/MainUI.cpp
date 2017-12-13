@@ -31,10 +31,10 @@ void MainUI::displayMainUI() {
             salaui.displaySalaUI();
         }
         else if(selection == 'b') {
-            /*
+
             BaksturUI bakstur;
             bakstur.displayBakstur();
-            */
+
         }
         else if (selection == 'a') {
             /*
