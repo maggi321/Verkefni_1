@@ -13,6 +13,7 @@ class OrderUI {
         int order_medlaeti();
         int order_gos();
         void order_greitt();
+        void order_name();
         void create_order();
 
     private:
