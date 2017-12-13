@@ -28,6 +28,8 @@ class Service {
         vector<Gos> load_gos();
         vector<Afhendingarstadir> load_afhendingarstadir();
         vector<PizzaBotn> load_pizzabotn();
+        vector<Order> find_order(string name);
+        vector<Order> find_order_name(string name);
 
     private:
         Repositories topping_repo;

@@ -41,6 +41,9 @@ class Repositories {
 
         void add_order(string name);
         void add_order_end(string name);
+        void retrive_order();
+        vector<Order> find_order(string name);
+        vector<Order> find_order_name(string name);
 
 
     private:
@@ -51,6 +54,7 @@ class Repositories {
         vector<Gos> gos;
         vector<Afhendingarstadir> afhendingarstadir;
         vector<PizzaBotn> pizzabotn;
+        vector<Order> order;
 };
 
 #endif // REPOSITORIES_H

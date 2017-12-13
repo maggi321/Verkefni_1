@@ -1,16 +1,22 @@
-#ifndef BAKSTUR_H
-#define BAKSTUR_H
+#ifndef BAKSTURUI_H
+#define BAKSTURUI_H
+#include "Service.h"
 #include <stdlib.h>
 
-class Bakstur {
+class BaksturUI {
     public:
-        Bakstur();
-        virtual ~Bakstur();
-        void displayBakstur();
-
-    protected:
+        BaksturUI();
+        void displayBaksturUI();
+        char eftir_val();
 
     private:
+        Service afhendingarstadir_service;
+        string name;
+        int number;
+        char select;
+
+        string place;
+        string tommur;
 };
 
-#endif // BAKSTUR_H
+#endif // BAKSTURUI_H
