@@ -2,7 +2,7 @@
 #define MAINUI_H
 #include "UmsjonUI.h"
 #include "SalaUI.h"
-//#include "BaksturUI.h"
+#include "BaksturUI.h"
 //#include "AfhendingUI.h"
 #include <iostream>
 #include <cstdlib>
