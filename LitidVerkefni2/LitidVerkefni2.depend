@@ -189,3 +189,23 @@
 	"MainUI.h"
 	<cstdlib>
 
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\exceptions\invalidssnexception.cpp
+	"InvalidSsnException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\models\findssn.cpp
+	"FindSsn.h"
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\include\models\findssn.h
+	<string>
+	<iostream>
+	<sstream>
+

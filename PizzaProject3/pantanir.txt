@@ -7,3 +7,4 @@ Miklabraut-12-Italskur-Pepperoni,Beikon,Skinka,Ostur,-Sukkuladisprengja-3000-Gre
 Jolavegur-16-Klassiskur-Pepperoni,Beikon,Skinka,Ostur,Rjomaostur,-Sukkuladisprengja-3200-Greitt-jonas-
 Jolavegur-9-Italskur-Pepperoni,-1600-Ogreitt-kukur-
 >>>>>>> 3491db36240a938a7cb3548cad52504ea705e105
+Miklabraut-9-Klassiskur-Pepperoni,-1300-Greitt-Hland-
