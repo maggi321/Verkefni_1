@@ -189,3 +189,15 @@
 	"MainUI.h"
 	<cstdlib>
 
+1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidssnexception.cpp
+	"InvalidSsnException.h"
+
+1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
