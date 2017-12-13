@@ -30,6 +30,7 @@ class Service {
         vector<PizzaBotn> load_pizzabotn();
         vector<Order> find_order(string name);
         vector<Order> find_order_name(string name);
+        vector<Order> change_merking(string name, string merking);
 
     private:
         Repositories topping_repo;
