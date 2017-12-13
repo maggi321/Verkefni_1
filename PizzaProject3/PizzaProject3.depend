@@ -99,9 +99,10 @@
 1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\main.cpp
 	"MainUI.h"
 
-1513002945 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\mainui.h
+1513183209 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\mainui.h
 	"UmsjonUI.h"
 	"SalaUI.h"
+	"BaksturUI.h"
 	<iostream>
 	<cstdlib>
 
@@ -166,7 +167,7 @@
 	"Service.h"
 	<stdlib.h>
 
-1513167995 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+1513183444 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
 	"MainUI.h"
 
 1513104489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\salaui.cpp

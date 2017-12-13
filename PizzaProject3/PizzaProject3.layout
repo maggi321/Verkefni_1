@@ -2,79 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-<<<<<<< HEAD
+	<File name="src\UI\MainUI.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="136" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\UI\BaksturUI.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-=======
-	<File name="src\UI\MainUI.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="805" topLine="0" />
->>>>>>> 5f1e2488e66f249102af727fa3bb61f3b34b6802
-		</Cursor>
-	</File>
-	<File name="src\UI\MainUI.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-<<<<<<< HEAD
-			<Cursor1 position="807" topLine="0" />
-=======
-			<Cursor1 position="405" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\UI\MainUI.h" open="1" top="1" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="318" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\UI\BaksturUI.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1470" topLine="27" />
-		</Cursor>
-	</File>
-	<File name="include\UI\OrderUI.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="801" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="src\Service\Service.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1074" topLine="23" />
-		</Cursor>
-	</File>
-	<File name="src\UI\OrderUI.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6188" topLine="158" />
-		</Cursor>
-	</File>
-	<File name="include\Service\Service.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1362" topLine="13" />
-		</Cursor>
-	</File>
-	<File name="src\Repositories\Repositories.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="11411" topLine="402" />
-		</Cursor>
-	</File>
-	<File name="include\Models\Order.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1339" topLine="20" />
-		</Cursor>
-	</File>
-	<File name="src\Models\Order.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1671" topLine="45" />
-		</Cursor>
-	</File>
-	<File name="include\Repositories\Repositories.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1726" topLine="28" />
->>>>>>> 5f1e2488e66f249102af727fa3bb61f3b34b6802
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
