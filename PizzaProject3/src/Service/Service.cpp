@@ -47,3 +47,9 @@ void Service::add_order(string name) {
 void Service::add_order_end(string name) {
     order_repo.add_order_end(name);
 }
+vector<Order> Service::find_order(string name) {
+    return order_repo.find_order(name);
+}
+vector<Order> Service::find_order_name(string name) {
+    return order_repo.find_order_name(name);
+}

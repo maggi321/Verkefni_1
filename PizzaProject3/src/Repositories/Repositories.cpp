@@ -219,7 +219,6 @@ vector<Gos> Repositories::load_gos() {
     }
     return all_gos;
 }
-
 void Repositories::add_afhendingarstadir(const Afhendingarstadir& afhendingarstadir) {
     ofstream fout;
     fout.open("afhendingarstadur.txt", ios::app);
@@ -276,7 +275,6 @@ vector<Afhendingarstadir> Repositories::load_afhendingarstadir() {
     }
     return all_afhendingarstadir;
 }
-
 void Repositories::add_pizzabotn(const PizzaBotn& pizzabotn) {
     ofstream fout;
     fout.open("pizzabotn.txt", ios::app);
@@ -355,4 +353,82 @@ void Repositories::add_order_end(string name) {
     else {
         cout << "File write error!" << endl;
     }
+}
+void Repositories::retrive_order() {
+    ifstream fin;
+    fin.open("pantanir.txt");
+
+    if(fin.is_open()) {
+        while(fin >> file) {
+            Order O;
+
+            stringstream ss(file);
+            string item;
+            int counter = 0;
+
+            while(getline(ss, item, '-')) {
+                //O.set_name(item);
+                if(counter == 0) {
+                    O.set_name(item);
+                }
+                else if(counter == 1) {
+                    O.set_tommur(item);
+                }
+                else if(counter == 2) {
+                    O.set_botn(item);
+                }
+                else if(counter == 3) {
+                    O.set_alegg(item);
+                }
+                else if(counter == 4) {
+                    O.set_medlaeti(item);
+                }
+                else if(counter == 5) {
+                    O.set_gos(item);
+                }
+                else if(counter == 6) {
+                    O.set_verd(item);
+                }
+                else if(counter == 7) {
+                    O.set_greitt(item);
+                }
+                else if(counter == 8) {
+                    O.set_nafn(item);
+                }
+                counter++;
+            }
+            order.push_back(O);
+
+        }
+        fin.close();
+    }
+    else {
+        cout << "File not opened!" << endl;
+    }
+}
+vector<Order> Repositories::find_order(string name) {
+    order.clear();
+    retrive_order();
+    //string ssn_output = "";
+    vector<Order> allOrdersWithPlace;
+
+    for (unsigned int i = 0; i < order.size(); i++){
+        if (order[i].get_name() == name){
+            allOrdersWithPlace.push_back(order[i]);
+        }
+    }
+    return allOrdersWithPlace;
+}
+vector<Order> Repositories::find_order_name(string name) {
+    order.clear();
+    retrive_order();
+    //string ssn_output = "";
+    vector<Order> allOrdersWithNafn;
+
+    for (unsigned int i = 0; i < order.size(); i++){
+        if (order[i].get_nafn() == name){
+            allOrdersWithNafn.push_back(order[i]);
+        }
+    }
+    return allOrdersWithNafn;
 }
