@@ -2,9 +2,10 @@
 1512917858 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\main.cpp
 	"MainUI.h"
 
-1513002913 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\mainui.h
+1513183015 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\mainui.h
 	"UmsjonUI.h"
 	"SalaUI.h"
+	"BaksturUI.h"
 	<iostream>
 	<cstdlib>
 
