@@ -424,7 +424,6 @@ void Repositories::retrive_order() {
 vector<Order> Repositories::find_order(string name) {
     order.clear();
     retrive_order();
-    //string ssn_output = "";
     vector<Order> allOrdersWithPlace;
 
     for (unsigned int i = 0; i < order.size(); i++){
@@ -437,7 +436,6 @@ vector<Order> Repositories::find_order(string name) {
 vector<Order> Repositories::find_order_name(string name) {
     order.clear();
     retrive_order();
-    //string ssn_output = "";
     vector<Order> allOrdersWithNafn;
 
     for (unsigned int i = 0; i < order.size(); i++){
@@ -446,4 +444,72 @@ vector<Order> Repositories::find_order_name(string name) {
         }
     }
     return allOrdersWithNafn;
+}
+void Repositories::retrive_order_rewrite() {
+    ifstream fin;
+    fin.open("pantanir.txt");
+
+    if(fin.is_open()) {
+        while(fin >> file) {
+            Order O;
+
+            stringstream ss(file);
+            string item;
+            int counter = 0;
+
+            while(getline(ss, item, '-')) {
+                //O.set_name(item);
+                if(counter == 0) {
+                    O.set_name(item);
+                }
+                else if(counter == 1) {
+                    O.set_tommur(item);
+                }
+                else if(counter == 2) {
+                    O.set_botn(item);
+                }
+                else if(counter == 3) {
+                    O.set_alegg(item);
+                }
+                else if(counter == 4) {
+                    O.set_medlaeti(item);
+                }
+                else if(counter == 5) {
+                    O.set_gos(item);
+                }
+                else if(counter == 6) {
+                    O.set_verd(item);
+                }
+                else if(counter == 7) {
+                    O.set_greitt(item);
+                }
+                else if(counter == 8) {
+                    O.set_nafn(item);
+                }
+                else if(counter == 9) {
+                    O.set_merking(item);
+                }
+                counter++;
+            }
+            order.push_back(O);
+
+        }
+        fin.close();
+    }
+    else {
+        cout << "File not opened!" << endl;
+    }
+}
+vector<Order> Repositories::change_merking(string name, string merking) {
+    order.clear();
+    retrive_order_rewrite();
+    vector<Order> allOrdersWithMerking;
+
+    for (unsigned int i = 0; i < order.size(); i++){
+        if (order[i].get_nafn() == name) {
+            merking = order[i].get_merking();
+            allOrdersWithMerking.push_back(order[i]);
+        }
+    }
+    return allOrdersWithMerking;
 }

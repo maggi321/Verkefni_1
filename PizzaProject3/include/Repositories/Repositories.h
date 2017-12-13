@@ -44,6 +44,8 @@ class Repositories {
         void retrive_order();
         vector<Order> find_order(string name);
         vector<Order> find_order_name(string name);
+        void retrive_order_rewrite();
+        vector<Order> change_merking(string name, string merking);
 
 
     private:
