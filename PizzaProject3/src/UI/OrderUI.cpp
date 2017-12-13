@@ -116,6 +116,12 @@ int OrderUI::order_medlaeti() {
         order_service.add_order(name);
         return price;
     }
+    else if(select == 'n') {
+        name = "Ekkert";
+        order_service.add_order(name);
+        int price = 0;
+        return price;
+    }
     else {
         int price = 0;
         return price;
@@ -144,6 +150,12 @@ int OrderUI::order_gos() {
             }
         }
         order_service.add_order(name);
+        return price;
+    }
+    else if(select == 'n') {
+        name = "Ekkert";
+        order_service.add_order(name);
+        int price = 0;
         return price;
     }
     else {
