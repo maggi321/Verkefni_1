@@ -54,7 +54,7 @@
 	"AfhendingUI.h"
 	<iostream>
 
-1513182204 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
+1513186345 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
 	"BaksturUI.h"
 	<iostream>
 
@@ -77,7 +77,7 @@
 	<vector>
 	<sstream>
 
-1513182310 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+1513186230 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
 	"Repositories.h"
 
 1513101906 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
@@ -241,10 +241,10 @@
 1513002350 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
 	"PizzaBotn.h"
 
-1513182141 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\order.h
+1513185894 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\order.h
 	<iostream>
 
-1513182141 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
+1513185894 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
 	"Order.h"
 
 1513182290 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\orderui.h
@@ -261,7 +261,7 @@
 1513089100 d86f4e20202c6ef0922604640f7c9201b531c
 	"Service.h"
 
-1513182290 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+1513185540 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
 	"OrderUI.h"
 
 1513089622 3c66b25d3863c523a8345bf8c01253442ec7a

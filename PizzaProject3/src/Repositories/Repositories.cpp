@@ -347,7 +347,7 @@ void Repositories::add_order_end(string name) {
     ofstream fout;
     fout.open("pantanir.txt", ios::app);
     if(fout.is_open()) {
-        fout << name << "-" << endl;
+        fout << name << "-merking-" << endl;
         fout.close();
     }
     else {
@@ -406,6 +406,9 @@ void Repositories::retrive_order() {
                 }
                 else if(counter == 8) {
                     O.set_nafn(item);
+                }
+                else if(counter == 9) {
+                    O.set_merking(item);
                 }
                 counter++;
             }
