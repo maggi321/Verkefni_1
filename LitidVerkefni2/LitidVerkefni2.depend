@@ -189,6 +189,7 @@
 	"MainUI.h"
 	<cstdlib>
 
+<<<<<<< HEAD
 1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidmonthexception.cpp
 	"InvalidMonthException.h"
 
@@ -201,3 +202,25 @@
 1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidyearexception.cpp
 	"InvalidYearException.h"
 
+=======
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni2\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni2\src\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni2\src\exceptions\invalidssnexception.cpp
+	"InvalidSsnException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni2\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni2\src\models\findssn.cpp
+	"FindSsn.h"
+
+1512829984 c:\users\aron m\documents\hr_nytt\verklegt námskeiğ 1\verkefni_1\litidverkefni2\include\models\findssn.h
+	<string>
+	<iostream>
+	<sstream>
+
+>>>>>>> 6e6a3a6b7320ce7be13fef7a20355404fd7e9bdd
