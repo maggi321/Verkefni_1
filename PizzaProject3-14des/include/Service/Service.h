@@ -34,6 +34,7 @@ class Service {
         vector<Order> find_order_name(string nafn, string name);
         vector<Order> change_merking(string nafn, string name);
         vector<Order> find_tilbuinn(string name);
+        vector<Order> find_tilbuinn_name(string nafn, string name);
 
     private:
         Repositories topping_repo;

@@ -62,3 +62,6 @@ void Service::add_tilbuinn(string name, string tommur, string botn, string alegg
 vector<Order> Service::find_tilbuinn(string name) {
     return order_repo.find_tilbuinn(name);
 }
+vector<Order> Service::find_tilbuinn_name(string nafn, string name) {
+    return order_repo.find_tilbuinn_name(nafn, name);
+}

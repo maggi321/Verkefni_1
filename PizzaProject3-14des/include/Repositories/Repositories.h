@@ -49,6 +49,7 @@ class Repositories {
         void add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta);
         void retrive_tilbuinn();
         vector<Order> find_tilbuinn(string name);
+        vector<Order> find_tilbuinn_name(string nafn, string name);
 
     private:
         string file;

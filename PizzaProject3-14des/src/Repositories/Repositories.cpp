@@ -607,3 +607,19 @@ vector<Order> Repositories::find_tilbuinn(string name) {
     }
     return allOrdersWithTilbuinn;
 }
+vector<Order> Repositories::find_tilbuinn_name(string nafn, string name) {
+    order.clear();
+    retrive_tilbuinn();
+    vector<Order> allOrdersWithTilbuinnNafn;
+
+    for (unsigned int i = 0; i < order.size(); i++){
+        if (order[i].get_nafn() == nafn && order[i].get_name() == name){
+            allOrdersWithTilbuinnNafn.push_back(order[i]);
+        }
+        else if(order[i].get_nafn() != nafn && order[i].get_name() == name) {
+            cout << "Pontun ekki til" << endl; ///setja exception/villubod (ekki cout)
+            break;
+        }
+    }
+    return allOrdersWithTilbuinnNafn;
+}
