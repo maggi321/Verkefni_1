@@ -2,6 +2,7 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
 	<File name="src\UI\OrderUI.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="6267" topLine="170" />
@@ -83,4 +84,6 @@
 			<Cursor1 position="801" topLine="3" />
 		</Cursor>
 	</File>
+=======
+>>>>>>> ad0830eba9b145fb40c7349cdc33adad58c838fe
 </CodeBlocks_layout_file>

@@ -536,3 +536,137 @@
 1513202350 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
 	"Repositories.h"
 
+1512946369 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\main.cpp
+	"MainUI.h"
+
+1513276220 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	"AfhendingUI.h"
+	<iostream>
+	<cstdlib>
+
+1513000750 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513277876 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\topping.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\pizzasize.h
+	<iostream>
+
+1512951099 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\medlaeti.h
+	<iostream>
+
+1513277713 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1512992976 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\gos.h
+	<iostream>
+
+1512996053 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\afhendingarstadir.h
+	<iostream>
+
+1513001966 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\pizzabotn.h
+	<iostream>
+
+1513276973 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\order.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513169031 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513275378 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1512996093 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1512992976 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\gos.cpp
+	"Gos.h"
+
+1512951099 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513276973 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\order.cpp
+	"Order.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\pizza.cpp
+	"Pizza.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\pizza.h
+
+1513000750 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513090243 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\topping.cpp
+	"Topping.h"
+
+1513277713 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513277876 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\service\service.cpp
+	"Service.h"
+
+1513278644 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513276317 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\afhendingui.h
+	"Service.h"
+	<stdlib.h>
+
+1513275378 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513276220 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513185595 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+

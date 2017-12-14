@@ -43,10 +43,10 @@ void MainUI::displayMainUI() {
 
         }
         else if (selection == 'a') {
-            /*
+
             AfhendingUI afhending;
-            afhending.displayAfhending();
-            */
+            afhending.displayAfhendingUI();
+
         }
         else if (selection == 'q') {
             cout << "Bye bye" << endl;

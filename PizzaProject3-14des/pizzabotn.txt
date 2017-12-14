@@ -1,0 +1,3 @@
+Klassiskur,0,
+Italskur,300,
+Ponnu,450,
