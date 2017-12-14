@@ -92,6 +92,7 @@ void BaksturUI::displayBaksturUI() {
                         cout << "1: merkja i vinnslu" << endl;
                         cout << "2: merkja tilbuin" << endl;
                         cin >> select;
+                        system("CLS");
                         if(select == '1') {
                             vector<Order> test = afhendingarstadir_service.change_merking(nafn, stadur);
                             for (unsigned int i = 0; i < test.size(); i++){
@@ -109,7 +110,6 @@ void BaksturUI::displayBaksturUI() {
                                 if(merking == 0) {
                                     breyta = "i vinnslu";
                                 }
-
                                 cout << "Stadur : " << name << endl;
                                 cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                                 cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
@@ -136,6 +136,7 @@ void BaksturUI::displayBaksturUI() {
                                 if(merking == 0) {
                                     breyta = "tilbuin";
                                 }
+                                afhendingarstadir_service.add_tilbuinn(name, tommur, botn, alegg, medlaeti, gos, verd, greitt, nafn, breyta);
                                 cout << "Stadur : " << name << endl;
                                 cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                                 cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;

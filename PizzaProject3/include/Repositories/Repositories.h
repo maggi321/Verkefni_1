@@ -46,6 +46,7 @@ class Repositories {
         vector<Order> find_order_name(string nafn, string name);
         void retrive_order_rewrite();
         vector<Order> change_merking(string nafn, string name);
+        void add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta);
 
     private:
         string file;

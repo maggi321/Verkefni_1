@@ -56,3 +56,6 @@ vector<Order> Service::find_order_name(string nafn,string name) {
 vector<Order> Service::change_merking(string nafn, string name) {
     return order_repo.change_merking(nafn, name);
 }
+void Service::add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta) {
+    order_repo.add_tilbuinn(name, tommur, botn, alegg, medlaeti, gos, verd, greitt, nafn, breyta);
+}

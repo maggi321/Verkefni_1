@@ -22,6 +22,8 @@ class Service {
         void add_order(string name);
         void add_order_end(string name);
 
+        void add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta);
+
         vector<Topping> load_topping();
         vector<PizzaSize> load_pizza_size();
         vector<Medlaeti> load_medlaeti();
