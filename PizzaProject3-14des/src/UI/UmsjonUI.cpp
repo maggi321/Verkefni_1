@@ -144,22 +144,65 @@ Topping UmsjonUI::create_topping() {
     string name;
     int price;
 
-    cout << "Nafn: ";
-    cin >> name;
-    cout << "Verd: ";
-    cin >> price;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Nafn: ";
+            cin >> name;
+            allowed = topping_service.isValidName(name);
+        }
+        catch(InvalidSizeException) {
+            cout << "Invalid Name!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Verd: ";
+            cin >> price;
+            allowed = topping_service.isValidPrice(price);
+        }
+        catch(InvalidPriceException) {
+            cout << "Invalid Price!" << endl << endl;
+        }
+
+    }
+    while(!allowed);
 
     Topping topping(name, price);
     return topping;
 }
 PizzaSize UmsjonUI::create_pizza_size() {
+
     string tommur;
     int price;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Staerd i tommum: ";
+            cin >> tommur;
+            allowed = pizza_size_service.isValidSize(tommur);
+        }
+        catch(InvalidSizeException) {
+            cout << "Invalid Size!" << endl << endl;
+        }
+    }
+    while(!allowed);
 
-    cout << "Staerd i tommum: ";
-    cin >> tommur;
-    cout << "Verd: ";
-    cin >> price;
+    allowed = false;
+    do {
+        try {
+            cout << "Verd: ";
+            cin >> price;
+            allowed = pizza_size_service.isValidPrice(price);
+        }
+        catch(InvalidPriceException) {
+            cout << "Invalid Price!" << endl << endl;
+        }
+    }
+    while(!allowed);
 
     PizzaSize pizza_size(tommur, price);
     return pizza_size;
@@ -168,10 +211,31 @@ Medlaeti UmsjonUI::create_medlaeti() {
     string name;
     int price;
 
-    cout << "Nafn: ";
-    cin >> name;
-    cout << "Verd: ";
-    cin >> price;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Nafn: ";
+            cin >> name;
+            allowed = medlaeti_service.isValidName(name);
+        }
+        catch(InvalidNameException) {
+            cout << "Invalid Name!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Verd: ";
+            cin >> price;
+            allowed = medlaeti_service.isValidPrice(price);
+        }
+        catch(InvalidPriceException) {
+            cout << "Invalid Price!" << endl << endl;
+        }
+    }
+    while(!allowed);
 
     Medlaeti medlaeti(name, price);
     return medlaeti;
@@ -180,10 +244,31 @@ Gos UmsjonUI::create_gos() {
     string name;
     int price;
 
-    cout << "Nafn: ";
-    cin >> name;
-    cout << "Verd: ";
-    cin >> price;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Nafn: ";
+            cin >> name;
+            allowed = gos_service.isValidName(name);
+        }
+        catch(InvalidNameException) {
+            cout << "Invalid Name!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Verd: ";
+            cin >> price;
+            allowed = gos_service.isValidPrice(price);
+        }
+        catch(InvalidPriceException) {
+            cout << "Invalid Price!" << endl << endl;
+        }
+    }
+    while(!allowed);
 
     Gos gos(name, price);
     return gos;
@@ -192,10 +277,31 @@ Afhendingarstadir UmsjonUI::create_afhendingarstadir() {
     string name;
     int number;
 
-    cout << "Gotuheiti: ";
-    cin >> name;
-    cout << "Numer: ";
-    cin >> number;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Gotuheiti: ";
+            cin >> name;
+            allowed = afhendingarstadir_service.isValidName(name);
+        }
+        catch(InvalidNameException) {
+            cout << "Invalid Name!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Numer: ";
+            cin >> number;
+            allowed = afhendingarstadir_service.isValidPrice(number);
+        }
+        catch(InvalidPriceException) {
+            cout << "Invalid Number!" << endl << endl;
+        }
+    }
+    while(!allowed);
 
     Afhendingarstadir afhendingarstadir(name, number);
     return afhendingarstadir;
@@ -204,10 +310,31 @@ PizzaBotn UmsjonUI::create_pizzabotn() {
     string name;
     int price;
 
-    cout << "Tegund a botni: ";
-    cin >> name;
-    cout << "Verd: ";
-    cin >> price;
+    bool allowed = false;
+    do {
+        try {
+            cout << "Nafn: ";
+            cin >> name;
+            allowed = pizzabotn_service.isValidName(name);
+        }
+        catch(InvalidSizeException) {
+            cout << "Invalid Name!" << endl << endl;
+        }
+    }
+    while(!allowed);
+
+    allowed = false;
+    do {
+        try {
+            cout << "Verd: ";
+            cin >> price;
+            allowed = pizzabotn_service.isValidPrice(price);
+        }
+        catch(InvalidPriceException) {
+            cout << "Invalid Price!" << endl << endl;
+        }
+    }
+    while(!allowed);
 
     PizzaBotn pizzabotn(name, price);
     return pizzabotn;
