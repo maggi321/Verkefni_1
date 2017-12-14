@@ -77,6 +77,7 @@ void BaksturUI::displayBaksturUI() {
                         string verd = test[i].get_verd();
                         string greitt = test[i].get_greitt();
                         string nafn = test[i].get_nafn();
+                        string merking = test[i].get_merking();
                         cout << "Stadur : " << name << endl;
                         cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                         cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
@@ -84,9 +85,46 @@ void BaksturUI::displayBaksturUI() {
                         cout << "greitt eda ogreitt: " << greitt << endl;
                         cout << "Nafn a pontun: " << nafn << endl << endl;
                     }
-            }
-            else if(select == '3') {
+                    cout << "merkja pontun (y/n) ? ";
+                    cin >> select;
+                    if(select == 'y') {
+                        cout << "1: merkja i vinnslu" << endl;
+                        cout << "2: merkja tilbuin" << endl;
+                        cin >> select;
+                        if(select == '1') {
+                            string breyta = "vinnslu";
+                            vector<Order> test = afhendingarstadir_service.change_merking(temp, breyta);
+                            for (unsigned int i = 0; i < test.size(); i++){
+                                string name = test[i].get_name();
+                                string tommur = test[i].get_tommur();
+                                string botn = test[i].get_botn();
+                                string alegg = test[i].get_alegg();
+                                string medlaeti = test[i].get_medlaeti();
+                                string gos = test[i].get_gos();
+                                string verd = test[i].get_verd();
+                                string greitt = test[i].get_greitt();
+                                string nafn = test[i].get_nafn();
+                                string merking = test[i].get_merking();
 
+                                cout << "nafn: " << nafn << endl;
+                                cout << "merking: " << merking << endl << endl;
+
+                                cout << "Stadur : " << name << endl;
+                                cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
+                                cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
+                                cout << "Heildarverd: " << verd << endl;
+                                cout << "greitt eda ogreitt: " << greitt << endl;
+                                cout << "Nafn a pontun: " << nafn << endl << endl;
+                            }
+                        }
+                        else if(select == '2') {
+                            string merking = "tilbuin";
+                            afhendingarstadir_service.change_merking(temp, merking);
+                        }
+                    }
+                    else if(select == 'n') {
+
+                    }
             }
             else if(select == 'q') {
             system("CLS");
@@ -98,8 +136,6 @@ char BaksturUI::eftir_val() {
     char selection = '\0';
     cout << "1: Fa lista af pontudum pizzum" << endl;
     cout << "2: Fa upp pantada pizzu" << endl;
-    cout << "3: Merkja i vinnslu" << endl;
-    cout << "4: Merkja tilbuna" << endl;
     cout << "q: Til baka" << endl;
 
     cin >> selection;

@@ -53,3 +53,6 @@ vector<Order> Service::find_order(string name) {
 vector<Order> Service::find_order_name(string name) {
     return order_repo.find_order_name(name);
 }
+vector<Order> Service::change_merking(string name, string merking) {
+    return order_repo.change_merking(name, merking);
+}
