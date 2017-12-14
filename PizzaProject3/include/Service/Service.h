@@ -22,6 +22,8 @@ class Service {
         void add_order(string name);
         void add_order_end(string name);
 
+        void add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta);
+
         vector<Topping> load_topping();
         vector<PizzaSize> load_pizza_size();
         vector<Medlaeti> load_medlaeti();
@@ -29,8 +31,8 @@ class Service {
         vector<Afhendingarstadir> load_afhendingarstadir();
         vector<PizzaBotn> load_pizzabotn();
         vector<Order> find_order(string name);
-        vector<Order> find_order_name(string name);
-        vector<Order> change_merking(string name, string merking);
+        vector<Order> find_order_name(string nafn, string name);
+        vector<Order> change_merking(string nafn, string name);
 
     private:
         Repositories topping_repo;
