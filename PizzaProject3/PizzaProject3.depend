@@ -253,7 +253,7 @@
 	"Service.h"
 	<stdlib.h>
 
-1513182564 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
+1513186632 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
 	<iostream>
 
 1513182564 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\order.cpp
@@ -401,7 +401,7 @@
 1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
-1513169031 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+1513185595 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\orderui.cpp
 	"OrderUI.h"
 
 1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\main.cpp
