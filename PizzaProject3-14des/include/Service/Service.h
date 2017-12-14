@@ -6,6 +6,9 @@
 #include "Repositories.h"
 #include "Gos.h"
 #include "Afhendingarstadir.h"
+#include "InvalidNameException.h"
+#include "InvalidPriceException.h"
+#include "InvalidSizeException.h"
 
 //#include "Order.h"
 
@@ -21,6 +24,10 @@ class Service {
 
         void add_order(string name);
         void add_order_end(string name);
+
+        bool isValidSize(string name);
+        bool isValidPrice(int price);
+        bool isValidName(string name);
 
         void add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta);
 
