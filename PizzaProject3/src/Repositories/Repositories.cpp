@@ -408,7 +408,8 @@ void Repositories::retrive_order() {
                     O.set_nafn(item);
                 }
                 else if(counter == 9) {
-                    O.set_merking(item);
+                    //item;
+                    //O.set_merking(item);
                 }
                 counter++;
             }
@@ -433,14 +434,18 @@ vector<Order> Repositories::find_order(string name) {
     }
     return allOrdersWithPlace;
 }
-vector<Order> Repositories::find_order_name(string name) {
+vector<Order> Repositories::find_order_name(string nafn, string name) {
     order.clear();
     retrive_order();
     vector<Order> allOrdersWithNafn;
 
     for (unsigned int i = 0; i < order.size(); i++){
-        if (order[i].get_nafn() == name){
+        if (order[i].get_nafn() == nafn && order[i].get_name() == name){
             allOrdersWithNafn.push_back(order[i]);
+        }
+        else if(order[i].get_nafn() == nafn && order[i].get_name() != name) {
+            cout << "No order on this name" << endl;
+            break;
         }
     }
     return allOrdersWithNafn;
@@ -458,7 +463,6 @@ void Repositories::retrive_order_rewrite() {
             int counter = 0;
 
             while(getline(ss, item, '-')) {
-                //O.set_name(item);
                 if(counter == 0) {
                     O.set_name(item);
                 }
@@ -487,7 +491,7 @@ void Repositories::retrive_order_rewrite() {
                     O.set_nafn(item);
                 }
                 else if(counter == 9) {
-                    O.set_merking(item);
+                    //O.set_merking(item);
                 }
                 counter++;
             }
@@ -500,16 +504,27 @@ void Repositories::retrive_order_rewrite() {
         cout << "File not opened!" << endl;
     }
 }
-vector<Order> Repositories::change_merking(string name, string merking) {
+vector<Order> Repositories::change_merking(string nafn, string name) {
     order.clear();
     retrive_order_rewrite();
     vector<Order> allOrdersWithMerking;
-
+    bool foundOrNot = false;
     for (unsigned int i = 0; i < order.size(); i++){
-        if (order[i].get_nafn() == name) {
-            merking = order[i].get_merking();
+        if (order[i].get_nafn() == nafn && order[i].get_name() == name && order[i].get_merking() == false) {
+            order[i].set_merking(false);
+            foundOrNot = true;
             allOrdersWithMerking.push_back(order[i]);
+            break;
         }
+        else if (order[i].get_nafn() == nafn && order[i].get_name() == name && order[i].get_merking() == true) {
+            order[i].set_merking(true);
+            foundOrNot = true;
+            allOrdersWithMerking.push_back(order[i]);
+            break;
+        }
+    }
+    if (foundOrNot == false){
+        cout << "Order not found" << endl;
     }
     return allOrdersWithMerking;
 }

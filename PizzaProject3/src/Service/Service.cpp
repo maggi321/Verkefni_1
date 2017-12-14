@@ -50,9 +50,9 @@ void Service::add_order_end(string name) {
 vector<Order> Service::find_order(string name) {
     return order_repo.find_order(name);
 }
-vector<Order> Service::find_order_name(string name) {
-    return order_repo.find_order_name(name);
+vector<Order> Service::find_order_name(string nafn,string name) {
+    return order_repo.find_order_name(nafn, name);
 }
-vector<Order> Service::change_merking(string name, string merking) {
-    return order_repo.change_merking(name, merking);
+vector<Order> Service::change_merking(string nafn, string name) {
+    return order_repo.change_merking(nafn, name);
 }

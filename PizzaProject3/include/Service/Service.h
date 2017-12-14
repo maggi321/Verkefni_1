@@ -29,8 +29,8 @@ class Service {
         vector<Afhendingarstadir> load_afhendingarstadir();
         vector<PizzaBotn> load_pizzabotn();
         vector<Order> find_order(string name);
-        vector<Order> find_order_name(string name);
-        vector<Order> change_merking(string name, string merking);
+        vector<Order> find_order_name(string nafn, string name);
+        vector<Order> change_merking(string nafn, string name);
 
     private:
         Repositories topping_repo;

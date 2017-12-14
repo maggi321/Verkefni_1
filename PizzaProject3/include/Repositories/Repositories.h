@@ -43,10 +43,9 @@ class Repositories {
         void add_order_end(string name);
         void retrive_order();
         vector<Order> find_order(string name);
-        vector<Order> find_order_name(string name);
+        vector<Order> find_order_name(string nafn, string name);
         void retrive_order_rewrite();
-        vector<Order> change_merking(string name, string merking);
-
+        vector<Order> change_merking(string nafn, string name);
 
     private:
         string file;

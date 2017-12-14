@@ -75,9 +75,9 @@ string Order::get_gos() const {
 void Order::set_gos(string newgos) {
     gos = newgos;
 }
-string Order::get_merking() const {
+bool Order::get_merking() const {
     return this->merking;
 }
-void Order::set_merking(string newmerking) {
+void Order::set_merking(bool newmerking) {
     merking = newmerking;
 }

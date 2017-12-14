@@ -14,9 +14,11 @@ class BaksturUI {
         string name;
         int number;
         char select;
+        string stadur;
 
         string place;
         string tommur;
+        string breyta;
 };
 
 #endif // BAKSTURUI_H

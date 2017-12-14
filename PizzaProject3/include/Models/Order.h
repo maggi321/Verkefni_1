@@ -21,7 +21,7 @@ class Order {
         string get_verd() const;
         string get_greitt() const;
         string get_nafn() const;
-        string get_merking() const;
+        bool get_merking() const;
         void set_place(string place);
         void set_tommur(string tommur);
         void set_botn(string botn);
@@ -31,7 +31,7 @@ class Order {
         void set_verd(string verd);
         void set_greitt(string greitt);
         void set_nafn(string nafn);
-        void set_merking(string merking);
+        void set_merking(bool merking);
 
         friend ostream& operator<< (ostream& out, const Order& order);
 
@@ -48,8 +48,7 @@ class Order {
         string verd;
         string greitt;
         string nafn;
-        string merking;
-
+        bool merking;
 };
 
 #endif // ORDER_H
