@@ -1,0 +1,7 @@
+#ifndef INVALIDSIZEEXCEPTIONS_H
+#define INVALIDSIZEEXCEPTIONS_H
+
+
+class InvalidSizeExceptions {};
+
+#endif // INVALIDSIZEEXCEPTIONS_H

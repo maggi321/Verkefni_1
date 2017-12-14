@@ -1,0 +1,1215 @@
+# depslib dependency file v1.0
+1512917858 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\main.cpp
+	"MainUI.h"
+
+1513183015 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	<iostream>
+	<cstdlib>
+
+1513002350 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513274525 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1512925790 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\topping.h
+	<iostream>
+
+1513089052 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513268114 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1512918139 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\afhendingui.h
+	<stdlib.h>
+
+1512929271 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\topping.cpp
+	"Topping.h"
+
+1513274525 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\service\service.cpp
+	"Service.h"
+
+1512922439 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513275266 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513186568 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513104378 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513274525 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1513274631 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513101906 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1512935719 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizza.h
+
+1513089531 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzasize.h
+	<iostream>
+
+1512935719 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizza.cpp
+	"Pizza.h"
+
+1513089547 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513281445 D
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\main.cpp
+	"MainUI.h"
+
+1513183209 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	<iostream>
+	<cstdlib>
+
+1513000750 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513275378 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\topping.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzasize.h
+	<iostream>
+
+1513275378 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\topping.cpp
+	"Topping.h"
+
+1513251926 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513251926 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\service\service.cpp
+	"Service.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\afhendingui.h
+	<stdlib.h>
+
+1513251926 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513275378 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1513254203 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513090243 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1512946369 h"
+
+1512948927 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\medlaeti.h
+	<iostream>
+
+1512948901 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1512992667 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\gos.h
+	<iostream>
+
+1512992667 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\gos.cpp
+	"Gos.h"
+
+1512950196 f9f5e64c94465b4c14d74f008563ab9abc7c1
+
+1512951099 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\medlaeti.h
+	<iostream>
+
+1512992976 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\gos.h
+	<iostream>
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizza.cpp
+	"Pizza.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizza.h
+
+1513090243 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1512992976 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\gos.cpp
+	"Gos.h"
+
+1512951099 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1512996053 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\afhendingarstadir.h
+	<iostream>
+
+1512996093 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513001966 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzabotn.h
+	<iostream>
+
+1513000750 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1512999365 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\afhendingarstadir.h
+	<iostream>
+
+1513002349 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzabotn.h
+	<iostream>
+
+1512999365 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513002350 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513259132 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\models\order.h
+	<iostream>
+
+1513259157 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
+	"Order.h"
+
+1513182290 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513275378 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
+	<iostream>
+
+1513186632 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\order.cpp
+	"Order.h"
+
+1513281307 
+
+1513089100 d86f4e20202c6ef0922604640f7c9201b531c
+	"Service.h"
+
+1513185540 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513089622 3c66b25d3863c523a8345bf8c01253442ec7a
+
+1513169031 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\main.cpp
+	"MainUI.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	<iostream>
+	<cstdlib>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\topping.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzasize.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\medlaeti.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\gos.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\afhendingarstadir.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizzabotn.h
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\orderui.h
+	"Service.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\gos.cpp
+	"Gos.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\order.cpp
+	"Order.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\order.h
+	"Service.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizza.cpp
+	"Pizza.h"
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\models\pizza.h
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\models\topping.cpp
+	"Topping.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\service\service.cpp
+	"Service.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\afhendingui.h
+	<stdlib.h>
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513089996 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\include\ui\baksturui.h
+	<stdlib.h>
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513089996 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1513185595 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\main.cpp
+	"MainUI.h"
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	<iostream>
+	<cstdlib>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513197966 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\topping.h
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzasize.h
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\medlaeti.h
+	<iostream>
+
+1513197890 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\gos.h
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\afhendingarstadir.h
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizzabotn.h
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\order.h
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\gos.cpp
+	"Gos.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\order.cpp
+	"Order.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizza.cpp
+	"Pizza.h"
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\models\pizza.h
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\models\topping.cpp
+	"Topping.h"
+
+1513197966 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\service\service.cpp
+	"Service.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513197362 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\include\ui\afhendingui.h
+	<stdlib.h>
+
+1513202494 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513197362 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1513202350 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\main.cpp
+	"MainUI.h"
+
+1513276220 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	"AfhendingUI.h"
+	<iostream>
+	<cstdlib>
+
+1513000750 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513277876 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\topping.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\pizzasize.h
+	<iostream>
+
+1512951099 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\medlaeti.h
+	<iostream>
+
+1513277713 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1512992976 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\gos.h
+	<iostream>
+
+1512996053 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\afhendingarstadir.h
+	<iostream>
+
+1513001966 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\pizzabotn.h
+	<iostream>
+
+1513276973 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\order.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513169031 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513275378 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1512996093 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1512992976 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\gos.cpp
+	"Gos.h"
+
+1512951099 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513276973 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\order.cpp
+	"Order.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\pizza.cpp
+	"Pizza.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\models\pizza.h
+
+1513000750 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513090243 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\models\topping.cpp
+	"Topping.h"
+
+1513277713 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513277876 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\service\service.cpp
+	"Service.h"
+
+1513278644 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513276317 c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\include\ui\afhendingui.h
+	"Service.h"
+	<stdlib.h>
+
+1513275378 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513276220 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513185595 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\æfingamappa_verklegt1\pizzaproject3-14des2\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\main.cpp
+	"MainUI.h"
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	"AfhendingUI.h"
+	<iostream>
+	<cstdlib>
+
+1513278994 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513280689 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\topping.h
+	<iostream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\pizzasize.h
+	<iostream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\medlaeti.h
+	<iostream>
+
+1513280656 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\gos.h
+	<iostream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\afhendingarstadir.h
+	<iostream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\pizzabotn.h
+	<iostream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\order.h
+	<iostream>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
+	"Service.h"
+	<stdlib.h>
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\gos.cpp
+	"Gos.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\order.cpp
+	"Order.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\pizza.cpp
+	"Pizza.h"
+
+1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\pizza.h
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\topping.cpp
+	"Topping.h"
+
+1513281187 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513280656 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\service\service.cpp
+	"Service.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1513280656 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\main.cpp
+	"MainUI.h"
+
+1513276220 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\mainui.h
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\main.cpp
+	"MainUI.h"
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\mainui.h
+
+1513282160 3dca2e43bbeb236bf156c66a75a148f5084d5
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	"AfhendingUI.h"
+	<iostream>
+	<cstdlib>
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513000750 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+
+1513282160 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+
+1513281307 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\service\service.h
+
+1513282029 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\service\service.h
+
+1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\topping.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\pizzasize.h
+	<iostream>
+
+1512951099 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\medlaeti.h
+	<iostream>
+
+1513281307 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\repositories\repositories.h
+	"InvalidNameException.h"
+	"InvalidPriceException.h"
+	"InvalidSizeException.h"
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\topping.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\pizzasize.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\medlaeti.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\repositories\repositories.h
+
+1512992976 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\gos.h
+	<iostream>
+
+1512996053 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\afhendingarstadir.h
+	<iostream>
+
+1513001966 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\pizzabotn.h
+	<iostream>
+
+1513276973 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\order.h
+	<iostream>
+
+1513090243 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\salaui.h
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\gos.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\afhendingarstadir.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\pizzabotn.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\order.h
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\salaui.h
+
+1513169031 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513275378 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1513276317 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
+	"Service.h"
+	<stdlib.h>
+
+1512996093 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1512992976 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\gos.cpp
+	"Gos.h"
+
+1512951099 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513276973 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\order.cpp
+	"Order.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\pizza.cpp
+	"Pizza.h"
+
+1512946369 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\pizza.h
+
+1513000750 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513090243 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\topping.cpp
+	"Topping.h"
+
+1513275378 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513276220 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513185595 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513104489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1513281307 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513281307 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\service\service.cpp
+	"Service.h"
+
+1513281307 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
+	"Service.h"
+	<stdlib.h>
+
+1513281707 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1513281707 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\exceptions\invalidnameexception.h
+
+1513281707 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\exceptions\invalidpriceexception.cpp
+	"InvalidPriceException.h"
+
+1513281707 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\exceptions\invalidpriceexception.h
+
+1513281707 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\exceptions\invalidsizeexceptions.cpp
+	"InvalidSizeExceptions.h"
+
+1513281707 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\exceptions\invalidsizeexceptions.h
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\gos.cpp
+	"Gos.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\order.cpp
+	"Order.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\pizza.cpp
+	"Pizza.h"
+
+1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\models\pizza.h
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\topping.cpp
+	"Topping.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513281445 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513282029 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\exceptions\invalidsizeexception.h
+
+1513282029 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\exceptions\invalidsizeexception.cpp
+	"InvalidSizeException.h"
+
+1513281899 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\service\service.cpp
+	"Service.h"
+
+1513282160 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\main.cpp
+	"MainUI.h"
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\mainui.h
+	"UmsjonUI.h"
+	"SalaUI.h"
+	"BaksturUI.h"
+	"AfhendingUI.h"
+	<iostream>
+	<cstdlib>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\service\service.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"InvalidNameException.h"
+	"InvalidPriceException.h"
+	"InvalidSizeException.h"
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\topping.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\pizzasize.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\medlaeti.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\repositories\repositories.h
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\gos.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\afhendingarstadir.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\pizzabotn.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\order.h
+	<iostream>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\exceptions\invalidnameexception.h
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\exceptions\invalidpriceexception.h
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\exceptions\invalidsizeexception.h
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\salaui.h
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
+	"Service.h"
+	<stdlib.h>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
+	"Service.h"
+	<stdlib.h>
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
+	"Service.h"
+	<stdlib.h>
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidpriceexception.cpp
+	"InvalidPriceException.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidsizeexception.cpp
+	"InvalidSizeException.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\afhendingarstadir.cpp
+	"Afhendingarstadir.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\gos.cpp
+	"Gos.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\medlaeti.cpp
+	"Medlaeti.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\order.cpp
+	"Order.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\pizza.cpp
+	"Pizza.h"
+
+1513287991 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\pizza.h
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\pizzabotn.cpp
+	"PizzaBotn.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\pizzasize.cpp
+	"PizzaSize.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\topping.cpp
+	"Topping.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
+	"Repositories.h"
+
+1513289397 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\service\service.cpp
+	"Service.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
+	"AfhendingUI.h"
+	<iostream>
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
+	"BaksturUI.h"
+	<iostream>
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
+	"MainUI.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
+	"OrderUI.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
+	"SalaUI.h"
+
+1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+	"UmsjonUI.h"
+

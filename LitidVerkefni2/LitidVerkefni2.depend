@@ -59,11 +59,11 @@
 	"Employee.h"
 	"EmployeeService.h"
 
-1512595691 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\models\employee.h
+1512828623 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\models\employee.h
 	<string>
 	<iostream>
 
-1512598228 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\services\employeeservice.h
+1512828623 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\services\employeeservice.h
 	"Employee.h"
 	"EmployeeRepository.h"
 	"InvalidNameException.h"
@@ -72,28 +72,31 @@
 	"InvalidMonthException.h"
 	"InvalidYearException.h"
 
-1512599068 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\repositories\employeerepository.h
+1512828623 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\repositories\employeerepository.h
 	"Employee.h"
 	<fstream>
 	<vector>
+	<sstream>
+	<string>
 
 1512590277 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\exceptions\invalidnameexception.h
 
 1512590277 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidnameexception.cpp
 	"InvalidNameException.h"
 
-1512595691 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\models\employee.cpp
+1512828623 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\models\employee.cpp
 	"Employee.h"
 	<string>
 	<iostream>
 
-1512599514 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\repositories\employeerepository.cpp
+1512828623 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\repositories\employeerepository.cpp
 	"EmployeeRepository.h"
+	<sstream>
 
-1512598228 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\services\employeeservice.cpp
+1512828623 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\services\employeeservice.cpp
 	"EmployeeService.h"
 
-1512598228 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\ui\mainui.cpp
+1512828623 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\ui\mainui.cpp
 	"MainUI.h"
 	<cstdlib>
 
@@ -189,7 +192,8 @@
 	"MainUI.h"
 	<cstdlib>
 
-<<<<<<< HEAD
+1512829984 D
+
 1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidmonthexception.cpp
 	"InvalidMonthException.h"
 
@@ -202,7 +206,8 @@
 1512599892 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\litidverkefni2\src\exceptions\invalidyearexception.cpp
 	"InvalidYearException.h"
 
-=======
+1512599892 arException.h"
+
 1512829984 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\litidverkefni2\src\exceptions\invalidmonthexception.cpp
 	"InvalidMonthException.h"
 
@@ -223,4 +228,13 @@
 	<iostream>
 	<sstream>
 
->>>>>>> 6e6a3a6b7320ce7be13fef7a20355404fd7e9bdd
+1512829984 a3a6b7320ce7be13fef7a20355404fd7e9bdd
+
+1512828623 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\src\models\findssn.cpp
+	"FindSsn.h"
+
+1512828623 c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\litidverkefni2\include\models\findssn.h
+	<string>
+	<iostream>
+	<sstream>
+
