@@ -53,8 +53,5 @@ void MainUI::displayMainUI() {
             cout << "Bye bye" << endl;
 
         }
-
     }
-
-
 }

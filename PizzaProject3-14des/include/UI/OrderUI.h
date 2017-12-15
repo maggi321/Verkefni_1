@@ -17,14 +17,7 @@ class OrderUI {
         void create_order();
 
     private:
-        Service afhendingarstadir_service;
-        Service pizza_size_service;
-        Service pizzabotn_service;
-        Service topping_service;
-        Service medlaeti_service;
-        Service gos_service;
-
-        Service order_service;
+        Service service;
 
         string name;
         int price;

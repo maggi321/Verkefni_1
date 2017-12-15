@@ -681,7 +681,7 @@
 	<iostream>
 	<cstdlib>
 
-1513337847 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+1513338517 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
 	"Service.h"
 	"Topping.h"
 	"PizzaSize.h"
@@ -743,15 +743,15 @@
 	<vector>
 	<stdlib.h>
 
-1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
+1513338643 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
 	"Service.h"
 	<stdlib.h>
 
-1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
+1513338692 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
 	"Service.h"
 	<stdlib.h>
 
-1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
+1513338728 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
 	"Service.h"
 	<stdlib.h>
 
@@ -787,23 +787,23 @@
 1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\service\service.cpp
 	"Service.h"
 
-1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
+1513338692 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
 	"BaksturUI.h"
 	<iostream>
 
-1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
+1513338912 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
 	"MainUI.h"
 
-1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
+1513338643 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
 	"OrderUI.h"
 
 1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
 	"SalaUI.h"
 
-1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+1513338517 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
-1513280656 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
+1513338728 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
 	"AfhendingUI.h"
 	<iostream>
 
