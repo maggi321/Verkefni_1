@@ -17,6 +17,7 @@
 					<Add directory="include/Service" />
 					<Add directory="include/Models" />
 					<Add directory="include/Repositories" />
+					<Add directory="include/Exceptions" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -30,6 +31,7 @@
 					<Add directory="include/Service" />
 					<Add directory="include/Models" />
 					<Add directory="include/Repositories" />
+					<Add directory="include/Exceptions" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,6 +42,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Exceptions/InvalidNameException.h" />
+		<Unit filename="include/Exceptions/InvalidPriceException.h" />
+		<Unit filename="include/Exceptions/InvalidSizeException.h" />
 		<Unit filename="include/Models/Afhendingarstadir.h" />
 		<Unit filename="include/Models/Gos.h" />
 		<Unit filename="include/Models/Medlaeti.h" />
@@ -57,6 +62,9 @@
 		<Unit filename="include/UI/SalaUI.h" />
 		<Unit filename="include/UI/UmsjonUI.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Exceptions/InvalidNameException.cpp" />
+		<Unit filename="src/Exceptions/InvalidPriceException.cpp" />
+		<Unit filename="src/Exceptions/InvalidSizeException.cpp" />
 		<Unit filename="src/Models/Afhendingarstadir.cpp" />
 		<Unit filename="src/Models/Gos.cpp" />
 		<Unit filename="src/Models/Medlaeti.cpp" />

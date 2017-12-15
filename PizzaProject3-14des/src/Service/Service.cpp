@@ -65,3 +65,25 @@ vector<Order> Service::find_tilbuinn(string name) {
 vector<Order> Service::find_tilbuinn_name(string nafn, string name) {
     return order_repo.find_tilbuinn_name(nafn, name);
 }
+bool Service::isValidSize(string tommur) {
+    for(unsigned int i = 0; i < tommur.length(); i++) {
+        if(!isdigit(tommur[i])) {
+            throw InvalidSizeException();
+        }
+    }
+    return true;
+}
+bool Service::isValidPrice(int price) {
+    if(price < 0){
+        throw InvalidPriceException();
+    }
+    return true;
+}
+bool Service::isValidName(string name) {
+    for(unsigned int i = 0; i < name.length(); i++) {
+        if(!isalpha(name[i])) {
+            throw InvalidNameException();
+        }
+    }
+    return true;
+}
