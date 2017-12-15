@@ -681,7 +681,7 @@
 	<iostream>
 	<cstdlib>
 
-1513278994 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+1513337847 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
 	"Service.h"
 	"Topping.h"
 	"PizzaSize.h"
@@ -691,13 +691,16 @@
 	"PizzaBotn.h"
 	<stdlib.h>
 
-1513280689 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\service\service.h
+1513337846 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\service\service.h
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
 	"Repositories.h"
 	"Gos.h"
 	"Afhendingarstadir.h"
+	"InvalidNameException.h"
+	"InvalidPriceException.h"
+	"InvalidSizeException.h"
 
 1513278993 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\models\topping.h
 	<iostream>
@@ -778,10 +781,10 @@
 1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\models\topping.cpp
 	"Topping.h"
 
-1513281187 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
+1513281232 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
 	"Repositories.h"
 
-1513280656 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\service\service.cpp
+1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\service\service.cpp
 	"Service.h"
 
 1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
@@ -797,7 +800,7 @@
 1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
 	"SalaUI.h"
 
-1513278994 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
 1513280656 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
@@ -1212,4 +1215,19 @@
 
 1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
+
+1513337846 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\exceptions\invalidnameexception.h
+
+1513337846 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\exceptions\invalidpriceexception.h
+
+1513337846 c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\include\exceptions\invalidsizeexception.h
+
+1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidpriceexception.cpp
+	"InvalidPriceException.h"
+
+1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidsizeexception.cpp
+	"InvalidSizeException.h"
 
