@@ -1,0 +1,8 @@
+Pepperoni,300, 
+Beikon,300,
+Skinka,300,
+Ostur,200,
+Rjomaostur,200,
+Piparostur,200,
+Beikonsulta,300,
+Paprika,200,
