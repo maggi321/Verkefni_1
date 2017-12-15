@@ -13,10 +13,9 @@ void UmsjonUI::displayUmsjonUI() {
         cout << "1: Skra pizzu staerd" << endl; ///(stærð/botn) stærð komið(hafa botn líka ?).
         cout << "2. Skra pizza botn" << endl;///botn komið.
         cout << "3: Skra aleggstegundir"  << endl; ///áleggstegundir komið.
-        cout << "4: Skra matsedil" << endl;
-        cout << "5: Skra medlaeti" << endl; ///Meðlæti komið.
-        cout << "6: Skra gos" << endl; ///Gos komið.
-        cout << "7: Skra afhendingarstadi" << endl; ///Afhendingarstaðir komnir
+        cout << "4: Skra medlaeti" << endl; ///Meðlæti komið.
+        cout << "5: Skra gos" << endl; ///Gos komið.
+        cout << "6: Skra afhendingarstadi" << endl; ///Afhendingarstaðir komnir
         cout << "q: Til baka" << endl;
 
         cin >> selection;
@@ -26,7 +25,7 @@ void UmsjonUI::displayUmsjonUI() {
         if(selection == '1') {
             system("CLS");
             cout << "Pizzu staerdir og verd i kerfinu: " << endl;
-            vector<PizzaSize> pizza_size = pizza_size_service.load_pizza_size();
+            vector<PizzaSize> pizza_size = service.load_pizza_size();
             for (unsigned int i = 0; i < pizza_size.size(); i++){
                 string tommur = pizza_size[i].get_tommur();
                 int price = pizza_size[i].get_price();
@@ -37,7 +36,7 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid pizzu staerd i kerfi (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    pizza_size_service.add_pizza_size(create_pizza_size());
+                    service.add_pizza_size(create_pizza_size());
                 }
             }
         }
@@ -45,7 +44,7 @@ void UmsjonUI::displayUmsjonUI() {
         else if (selection == '2') {
             system("CLS");
             cout << "Pizza botnar og verd i kerfi: " << endl;
-            vector<PizzaBotn> pizzabotn = pizzabotn_service.load_pizzabotn();
+            vector<PizzaBotn> pizzabotn = service.load_pizzabotn();
             for (unsigned int i = 0; i < pizzabotn.size(); i++){
                 string name = pizzabotn[i].get_name();
                 int price = pizzabotn[i].get_price();
@@ -56,7 +55,7 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid botn i kerfi (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    pizzabotn_service.add_pizzabotn(create_pizzabotn());
+                    service.add_pizzabotn(create_pizzabotn());
                 }
             }
         }
@@ -64,7 +63,7 @@ void UmsjonUI::displayUmsjonUI() {
         else if (selection == '3') {
             system("CLS");
             cout << "Aleggstegund og verd i kerfi: " << endl;
-            vector<Topping> topping = topping_service.load_topping();
+            vector<Topping> topping = service.load_topping();
             for (unsigned int i = 0; i < topping.size(); i++){
                 string name = topping[i].get_name();
                 int price = topping[i].get_price();
@@ -75,15 +74,15 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid aleggstegund i kerfi (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    topping_service.add_topping(create_topping());
+                    service.add_topping(create_topping());
                 }
             }
         }
 
-        else if(selection == '5') {
+        else if(selection == '4') {
             system("CLS");
             cout << "Medlaeti og verd i kerfinu: " << endl;
-            vector<Medlaeti> medlaeti = medlaeti_service.load_medlaeti();
+            vector<Medlaeti> medlaeti = service.load_medlaeti();
             for (unsigned int i = 0; i < medlaeti.size(); i++){
                 string name = medlaeti[i].get_name();
                 int price = medlaeti[i].get_price();
@@ -94,14 +93,14 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid medlaeti i kerfi (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    medlaeti_service.add_medlaeti(create_medlaeti());
+                    service.add_medlaeti(create_medlaeti());
                 }
             }
         }
-        else if(selection == '6') {
+        else if(selection == '5') {
             system("CLS");
             cout << "Gos og verd i kerfi: " << endl;
-            vector<Gos> gos = gos_service.load_gos();
+            vector<Gos> gos = service.load_gos();
             for (unsigned int i = 0; i < gos.size(); i++){
                 string name = gos[i].get_name();
                 int price = gos[i].get_price();
@@ -112,14 +111,14 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid aleggstegund i kerfi (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    gos_service.add_gos(create_gos());
+                    service.add_gos(create_gos());
                 }
             }
         }
-        else if(selection == '7') {
+        else if(selection == '6') {
             system("CLS");
             cout << "Afhendingarstadir i kerfi: " << endl;
-            vector<Afhendingarstadir> afhendingarstadir = afhendingarstadir_service.load_afhendingarstadir();
+            vector<Afhendingarstadir> afhendingarstadir = service.load_afhendingarstadir();
             for (unsigned int i = 0; i < afhendingarstadir.size(); i++){
                 string name = afhendingarstadir[i].get_name();
                 int number = afhendingarstadir[i].get_number();
@@ -130,7 +129,7 @@ void UmsjonUI::displayUmsjonUI() {
                 cout << "Baeta vid afhendingarstad (y/n) ? ";
                 cin >> select;
                 if(select == 'y') {
-                    afhendingarstadir_service.add_afhendingarstadir(create_afhendingarstadir());
+                    service.add_afhendingarstadir(create_afhendingarstadir());
                 }
             }
 
@@ -149,7 +148,7 @@ Topping UmsjonUI::create_topping() {
         try {
             cout << "Nafn: ";
             cin >> name;
-            allowed = topping_service.isValidName(name);
+            allowed = service.isValidName(name);
         }
         catch(InvalidSizeException) {
             cout << "Invalid Name!" << endl << endl;
@@ -162,7 +161,7 @@ Topping UmsjonUI::create_topping() {
         try {
             cout << "Verd: ";
             cin >> price;
-            allowed = topping_service.isValidPrice(price);
+            allowed = service.isValidPrice(price);
         }
         catch(InvalidPriceException) {
             cout << "Invalid Price!" << endl << endl;
@@ -183,7 +182,7 @@ PizzaSize UmsjonUI::create_pizza_size() {
         try {
             cout << "Staerd i tommum: ";
             cin >> tommur;
-            allowed = pizza_size_service.isValidSize(tommur);
+            allowed = service.isValidSize(tommur);
         }
         catch(InvalidSizeException) {
             cout << "Invalid Size!" << endl << endl;
@@ -196,7 +195,7 @@ PizzaSize UmsjonUI::create_pizza_size() {
         try {
             cout << "Verd: ";
             cin >> price;
-            allowed = pizza_size_service.isValidPrice(price);
+            allowed = service.isValidPrice(price);
         }
         catch(InvalidPriceException) {
             cout << "Invalid Price!" << endl << endl;
@@ -216,7 +215,7 @@ Medlaeti UmsjonUI::create_medlaeti() {
         try {
             cout << "Nafn: ";
             cin >> name;
-            allowed = medlaeti_service.isValidName(name);
+            allowed = service.isValidName(name);
         }
         catch(InvalidNameException) {
             cout << "Invalid Name!" << endl << endl;
@@ -229,7 +228,7 @@ Medlaeti UmsjonUI::create_medlaeti() {
         try {
             cout << "Verd: ";
             cin >> price;
-            allowed = medlaeti_service.isValidPrice(price);
+            allowed = service.isValidPrice(price);
         }
         catch(InvalidPriceException) {
             cout << "Invalid Price!" << endl << endl;
@@ -249,7 +248,7 @@ Gos UmsjonUI::create_gos() {
         try {
             cout << "Nafn: ";
             cin >> name;
-            allowed = gos_service.isValidName(name);
+            allowed = service.isValidName(name);
         }
         catch(InvalidNameException) {
             cout << "Invalid Name!" << endl << endl;
@@ -262,7 +261,7 @@ Gos UmsjonUI::create_gos() {
         try {
             cout << "Verd: ";
             cin >> price;
-            allowed = gos_service.isValidPrice(price);
+            allowed = service.isValidPrice(price);
         }
         catch(InvalidPriceException) {
             cout << "Invalid Price!" << endl << endl;
@@ -282,7 +281,7 @@ Afhendingarstadir UmsjonUI::create_afhendingarstadir() {
         try {
             cout << "Gotuheiti: ";
             cin >> name;
-            allowed = afhendingarstadir_service.isValidName(name);
+            allowed = service.isValidName(name);
         }
         catch(InvalidNameException) {
             cout << "Invalid Name!" << endl << endl;
@@ -295,7 +294,7 @@ Afhendingarstadir UmsjonUI::create_afhendingarstadir() {
         try {
             cout << "Numer: ";
             cin >> number;
-            allowed = afhendingarstadir_service.isValidPrice(number);
+            allowed = service.isValidPrice(number);
         }
         catch(InvalidPriceException) {
             cout << "Invalid Number!" << endl << endl;
@@ -315,7 +314,7 @@ PizzaBotn UmsjonUI::create_pizzabotn() {
         try {
             cout << "Nafn: ";
             cin >> name;
-            allowed = pizzabotn_service.isValidName(name);
+            allowed = service.isValidName(name);
         }
         catch(InvalidSizeException) {
             cout << "Invalid Name!" << endl << endl;
@@ -328,7 +327,7 @@ PizzaBotn UmsjonUI::create_pizzabotn() {
         try {
             cout << "Verd: ";
             cin >> price;
-            allowed = pizzabotn_service.isValidPrice(price);
+            allowed = service.isValidPrice(price);
         }
         catch(InvalidPriceException) {
             cout << "Invalid Price!" << endl << endl;

@@ -50,12 +50,9 @@ void Service::add_order_end(string name) {
 vector<Order> Service::find_order(string name) {
     return order_repo.find_order(name);
 }
-vector<Order> Service::find_order_name(string nafn,string name) {
-    return order_repo.find_order_name(nafn, name);
+vector<Order> Service::find_order_name(string name) {
+    return order_repo.find_order_name(name);
 }
-vector<Order> Service::change_merking(string nafn, string name) {
-    return order_repo.change_merking(nafn, name);
-}
-void Service::add_tilbuinn(string name, string tommur, string botn, string alegg, string medlaeti, string gos, string verd, string greitt, string nafn, string breyta) {
-    order_repo.add_tilbuinn(name, tommur, botn, alegg, medlaeti, gos, verd, greitt, nafn, breyta);
+vector<Order> Service::change_merking(string name, string merking) {
+    return order_repo.change_merking(name, merking);
 }

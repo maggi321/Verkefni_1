@@ -14,7 +14,7 @@ void BaksturUI::displayBaksturUI() {
         cout << "--------Bakstur--------" << endl;
         cout << "=======================" << endl;
 
-        vector<Afhendingarstadir> afhendingarstadir = afhendingarstadir_service.load_afhendingarstadir();
+        vector<Afhendingarstadir> afhendingarstadir = service.load_afhendingarstadir();
         for (unsigned int i = 0; i < afhendingarstadir.size(); i++){
             string name = afhendingarstadir[i].get_name();
             int number = afhendingarstadir[i].get_number();
@@ -41,7 +41,7 @@ void BaksturUI::displayBaksturUI() {
             cout << "=======================" << endl;
             select = eftir_val();
             if(select == '1') {
-                vector<Order> test = afhendingarstadir_service.find_order(stadur);
+                vector<Order> test = service.find_order(stadur);
                 for (unsigned int i = 0; i < test.size(); i++){
                     string name = test[i].get_name();
                     string tommur = test[i].get_tommur();
@@ -67,7 +67,7 @@ void BaksturUI::displayBaksturUI() {
                 string nafn;
                 cout << "Skrifadu nafn sem a pontun: ";
                 cin >> nafn;
-                vector<Order> test = afhendingarstadir_service.find_order_name(nafn, stadur);
+                vector<Order> test = service.find_order_name(nafn, stadur);
                     for (unsigned int i = 0; i < test.size(); i++){
                         string name = test[i].get_name();
                         string tommur = test[i].get_tommur();
@@ -94,7 +94,7 @@ void BaksturUI::displayBaksturUI() {
                         cin >> select;
                         system("CLS");
                         if(select == '1') {
-                            vector<Order> test = afhendingarstadir_service.change_merking(nafn, stadur);
+                            vector<Order> test = service.change_merking(nafn, stadur);
                             for (unsigned int i = 0; i < test.size(); i++){
                                 string name = test[i].get_name();
                                 string tommur = test[i].get_tommur();
@@ -120,7 +120,7 @@ void BaksturUI::displayBaksturUI() {
                             }
                         }
                         else if(select == '2') {
-                            vector<Order> test = afhendingarstadir_service.change_merking(nafn, stadur);
+                            vector<Order> test = service.change_merking(nafn, stadur);
                             for (unsigned int i = 0; i < test.size(); i++){
                                 string name = test[i].get_name();
                                 string tommur = test[i].get_tommur();
@@ -136,7 +136,7 @@ void BaksturUI::displayBaksturUI() {
                                 if(merking == 0) {
                                     breyta = "tilbuin";
                                 }
-                                afhendingarstadir_service.add_tilbuinn(name, tommur, botn, alegg, medlaeti, gos, verd, greitt, nafn, breyta);
+                                service.add_tilbuinn(name, tommur, botn, alegg, medlaeti, gos, verd, greitt, nafn, breyta);
                                 cout << "Stadur : " << name << endl;
                                 cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                                 cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;

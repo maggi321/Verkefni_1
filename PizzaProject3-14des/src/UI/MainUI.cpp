@@ -49,11 +49,9 @@ void MainUI::displayMainUI() {
 
         }
         else if (selection == 'q') {
+            system("CLS");
             cout << "Bye bye" << endl;
 
         }
-
     }
-
-
 }

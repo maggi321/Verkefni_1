@@ -10,7 +10,6 @@ void MainUI::displayMainUI() {
     char selection = '\0';
 
     while(selection != 'q') {
-
         cout << "-------Main Menu-------" << endl;
         cout << "=======================" << endl;
 
@@ -52,8 +51,5 @@ void MainUI::displayMainUI() {
             cout << "Bye bye" << endl;
 
         }
-
     }
-
-
 }

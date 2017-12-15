@@ -14,7 +14,7 @@ system("CLS");
         cout << "--------Afhending--------" << endl;
         cout << "=======================" << endl;
 
-        vector<Afhendingarstadir> afhendingarstadir = afhendingarstadir_service.load_afhendingarstadir();
+        vector<Afhendingarstadir> afhendingarstadir = service.load_afhendingarstadir();
         for (unsigned int i = 0; i < afhendingarstadir.size(); i++){
             string name = afhendingarstadir[i].get_name();
             int number = afhendingarstadir[i].get_number();
@@ -41,7 +41,7 @@ system("CLS");
             cout << "=======================" << endl;
             select = eftir_val();
             if(select == '1') {
-                vector<Order> test = afhendingarstadir_service.find_order(stadur);
+                vector<Order> test = service.find_order(stadur);
                 for (unsigned int i = 0; i < test.size(); i++){
                     string name = test[i].get_name();
                     string tommur = test[i].get_tommur();
@@ -62,7 +62,7 @@ system("CLS");
                     }
             }
             else if(select == '2') {
-                vector<Order> test = afhendingarstadir_service.find_tilbuinn(stadur);
+                vector<Order> test = service.find_tilbuinn(stadur);
                     for (unsigned int i = 0; i < test.size(); i++){
                         string name = test[i].get_name();
                         string tommur = test[i].get_tommur();
@@ -88,7 +88,7 @@ system("CLS");
                 string nafn;
                 cout << "Skrifadu nafn sem a pontun: ";
                 cin >> nafn;
-                vector<Order> test = afhendingarstadir_service.find_tilbuinn_name(nafn, stadur);
+                vector<Order> test = service.find_tilbuinn_name(nafn, stadur);
                     for (unsigned int i = 0; i < test.size(); i++){
                         string name = test[i].get_name();
                         string tommur = test[i].get_tommur();

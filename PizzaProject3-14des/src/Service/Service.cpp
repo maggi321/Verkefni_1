@@ -73,18 +73,13 @@ bool Service::isValidSize(string tommur) {
     }
     return true;
 }
-
-bool Service::isValidPrice(int price)
-{
-    if(price < 0)
-    {
+bool Service::isValidPrice(int price) {
+    if(price < 0){
         throw InvalidPriceException();
     }
     return true;
 }
-
-bool Service::isValidName(string name)
-{
+bool Service::isValidName(string name) {
     for(unsigned int i = 0; i < name.length(); i++) {
         if(!isalpha(name[i])) {
             throw InvalidNameException();

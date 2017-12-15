@@ -10,7 +10,7 @@ class AfhendingUI {
         char eftir_val();
 
     private:
-        Service afhendingarstadir_service;
+        Service service;
         string name;
         int number;
         char select;

@@ -20,22 +20,17 @@ class UmsjonUI {
     private:
 
         Topping create_topping();
-        Service topping_service;
+        Service service;
 
         PizzaSize create_pizza_size();
-        Service pizza_size_service;
 
         Medlaeti create_medlaeti();
-        Service medlaeti_service;
 
         Gos create_gos();
-        Service gos_service;
 
         Afhendingarstadir create_afhendingarstadir();
-        Service afhendingarstadir_service;
 
         PizzaBotn create_pizzabotn();
-        Service pizzabotn_service;
 };
 
 #endif // UMSJONUI_H
