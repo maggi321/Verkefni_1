@@ -94,7 +94,40 @@
 1513089547 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3\src\models\pizzasize.cpp
 	"PizzaSize.h"
 
-1513281445 D
+1513282160 D
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Repositories.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	"Order.h"
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"OrderUI.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+	"InvalidNameException.h"
+	"InvalidPriceException.h"
+	"InvalidSizeException.h"
 
 1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3\main.cpp
 	"MainUI.h"
@@ -824,7 +857,18 @@
 	"AfhendingUI.h"
 	<iostream>
 	<cstdlib>
-<<<<<<< HEAD
+
+1513339114 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
+	"Service.h"
+	"Topping.h"
+	"PizzaSize.h"
+	"Medlaeti.h"
+	"Gos.h"
+	"Afhendingarstadir.h"
+	"PizzaBotn.h"
+	<stdlib.h>
+
+1513337847 e378f53909b9add1e7416009a7608eed1482f
 	"Service.h"
 	"Topping.h"
 	"PizzaSize.h"
@@ -839,52 +883,22 @@
 	"Repositories.h"
 	"Gos.h"
 	"Afhendingarstadir.h"
-	"Topping.h"
-	"PizzaSize.h"
-	"Medlaeti.h"
-	"Gos.h"
-	"Afhendingarstadir.h"
-	"PizzaBotn.h"
-	"Order.h"
-	<fstream>
-	<string>
-	<vector>
-	<sstream>
-	"OrderUI.h"
-	<iostream>
-	<fstream>
-	<vector>
-	<stdlib.h>
-
-1513282329 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
-=======
->>>>>>> 32fe378f53909b9add1e7416009a7608eed1482f
-	"Service.h"
-	"Topping.h"
-	"PizzaSize.h"
-	"Medlaeti.h"
-	"Gos.h"
-	"Afhendingarstadir.h"
-	"PizzaBotn.h"
-	<stdlib.h>
-<<<<<<< HEAD
+	"InvalidSizeException.h"
 
 1513282160 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
 
 1513282329 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\service\service.h
-=======
->>>>>>> 32fe378f53909b9add1e7416009a7608eed1482f
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
 	"Repositories.h"
 	"Gos.h"
 	"Afhendingarstadir.h"
-<<<<<<< HEAD
 	"InvalidNameException.h"
 	"InvalidPriceException.h"
 	"InvalidSizeException.h"
-=======
+
+1513282329 zeException.h"
 	"Topping.h"
 	"PizzaSize.h"
 	"Medlaeti.h"
@@ -901,13 +915,6 @@
 	<fstream>
 	<vector>
 	<stdlib.h>
-
-1513000750 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
-
-1513282160 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\umsjonui.h
-
-1513281307 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\service\service.h
->>>>>>> 32fe378f53909b9add1e7416009a7608eed1482f
 
 1513282029 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\service\service.h
 
@@ -964,15 +971,15 @@
 
 1513281445 c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\salaui.h
 
-1513169031 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
+1513339114 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\orderui.h
 	"Service.h"
 	<stdlib.h>
 
-1513275378 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
+1513339114 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\baksturui.h
 	"Service.h"
 	<stdlib.h>
 
-1513276317 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
+1513339114 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\ui\afhendingui.h
 	"Service.h"
 	<stdlib.h>
 
@@ -1002,29 +1009,29 @@
 1512946369 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\models\topping.cpp
 	"Topping.h"
 
-1513275378 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
+1513340097 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\baksturui.cpp
 	"BaksturUI.h"
 	<iostream>
 
-1513276220 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
+1513339114 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\mainui.cpp
 	"MainUI.h"
 
-1513185595 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
+1513339640 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\orderui.cpp
 	"OrderUI.h"
 
 1513104489 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\salaui.cpp
 	"SalaUI.h"
 
-1513282329 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
+1513339114 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
 1513281307 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\repositories\repositories.cpp
 	"Repositories.h"
 
-1513282329 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\service\service.cpp
+1513339114 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\service\service.cpp
 	"Service.h"
 
-1513281307 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
+1513339665 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\afhendingui.cpp
 	"AfhendingUI.h"
 	<iostream>
 
@@ -1112,7 +1119,6 @@
 1513282160 source:c:\users\notandi\desktop\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\ui\umsjonui.cpp
 	"UmsjonUI.h"
 
-<<<<<<< HEAD
 1513282329 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\exceptions\invalidnameexception.h
 
 1513282329 c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\include\exceptions\invalidpriceexception.h
@@ -1126,7 +1132,7 @@
 	"InvalidPriceException.h"
 
 1513282329 source:c:\users\aron m\documents\hr_nytt\verklegt námskeið 1\verkefni_1\pizzaproject3-14des\src\exceptions\invalidsizeexception.cpp
-=======
+
 1513287991 source:c:\users\maggi\documents\skóli\3viknaafangi\verkefni_1\pizzaproject3-14des\main.cpp
 	"MainUI.h"
 
@@ -1292,6 +1298,4 @@
 	"InvalidPriceException.h"
 
 1513337847 source:c:\users\maggi\documents\3viknaafangi\verkefni_1\pizzaproject3-14des\src\exceptions\invalidsizeexception.cpp
->>>>>>> 32fe378f53909b9add1e7416009a7608eed1482f
-	"InvalidSizeException.h"
 

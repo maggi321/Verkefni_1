@@ -176,7 +176,7 @@ void OrderUI::order_greitt() {
     service.add_order(name);
 }
 void OrderUI::order_name() {
-    cout << "skrifadu nafn a pontun: ";
+    cout << "Nafn: ";
     cin >> name;
     service.add_order_end(name);
 }

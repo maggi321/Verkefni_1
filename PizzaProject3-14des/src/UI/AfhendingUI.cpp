@@ -21,7 +21,7 @@ system("CLS");
             cout << i+1 << ": " << name << " " << number << endl;
         }
         unsigned int temp = (afhendingarstadir.size()+1);
-        cout << temp << ": til ad fara til baka" << endl;
+        cout << temp << ": Til baka" << endl;
         cout << "Veldu thinn afhendingarstad: ";
         unsigned int x;
         cin >> x;
@@ -57,7 +57,7 @@ system("CLS");
                     cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                     cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                     cout << "Heildarverd: " << verd << endl;
-                    cout << "greitt eda ogreitt: " << greitt << endl;
+                    cout << "Greitt eda Ogreitt: " << greitt << endl;
                     cout << "Nafn a pontun: " << nafn << endl << endl;
                     }
             }
@@ -78,7 +78,7 @@ system("CLS");
                         cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                         cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                         cout << "Heildarverd: " << verd << endl;
-                        cout << "greitt eda ogreitt: " << greitt << endl;
+                        cout << "Greitt eda Ogreitt: " << greitt << endl;
                         cout << "Nafn a pontun: " << nafn << endl;
                         cout << "Stada: " << breyta << endl;
                     }
@@ -104,7 +104,7 @@ system("CLS");
                         cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                         cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                         cout << "Heildarverd: " << verd << endl;
-                        cout << "greitt eda ogreitt: " << greitt << endl;
+                        cout << "Greitt eda Ogreitt: " << greitt << endl;
                         cout << "Nafn a pontun: " << nafn << endl << endl;
                         if(greitt == "Ogreitt") {
                         cout << "Merkja pontun greitt (y/n) ? ";
@@ -115,13 +115,13 @@ system("CLS");
                             cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                             cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                             cout << "Heildarverd: " << verd << endl;
-                            cout << "greitt eda ogreitt: " << greitt << endl;
+                            cout << "Greitt eda Ogreitt: " << greitt << endl;
                             cout << "Nafn a pontun: " << nafn << endl << endl;
                         }
                         else if(select == 'n') {
 
                         }
-                        cout << "Merkja pontun afhent (y/n) ? ";
+                        cout << "Merkja pontun afhenta (y/n) ? ";
                         cin >> select;
                         if(select == 'y') {
                             breyta = "Afhent";
@@ -129,7 +129,7 @@ system("CLS");
                             cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                             cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                             cout << "Heildarverd: " << verd << endl;
-                            cout << "greitt eda ogreitt: " << greitt << endl;
+                            cout << "Greitt eda Ogreitt: " << greitt << endl;
                             cout << "Nafn a pontun: " << nafn << endl;
                             cout << "Stada: " << breyta << endl << endl;
                         }
