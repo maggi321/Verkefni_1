@@ -21,7 +21,7 @@ void BaksturUI::displayBaksturUI() {
             cout << i+1 << ": " << name << " " << number << endl;
         }
         unsigned int temp = (afhendingarstadir.size()+1);
-        cout << temp << ": til ad fara til baka" << endl;
+        cout << temp << ": Til baka" << endl;
         cout << "Veldu thinn afhendingarstad: ";
         unsigned int x;
         cin >> x;
@@ -57,7 +57,7 @@ void BaksturUI::displayBaksturUI() {
                     cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                     cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                     cout << "Heildarverd: " << verd << endl;
-                    cout << "greitt eda ogreitt: " << greitt << endl;
+                    cout << "Greitt eda Ogreitt: " << greitt << endl;
                     cout << "Nafn a pontun: " << nafn << endl << endl;
                     //cout << "Merking: " << merking << endl << endl;
                     }
@@ -83,14 +83,15 @@ void BaksturUI::displayBaksturUI() {
                         cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                         cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                         cout << "Heildarverd: " << verd << endl;
-                        cout << "greitt eda ogreitt: " << greitt << endl;
+                        cout << "Greitt eda Ogreitt: " << greitt << endl;
                         cout << "Nafn a pontun: " << nafn << endl << endl;
                     }
-                    cout << "merkja hver stada a pontun er (y/n) ? ";
+                    cout << "Merkja hver stada a pontun er (y/n) ? ";
                     cin >> select;
                     if(select == 'y') {
-                        cout << "1: merkja i vinnslu" << endl;
-                        cout << "2: merkja tilbuin" << endl;
+                        system("cls");
+                        cout << "1: I vinnslu" << endl;
+                        cout << "2: Tilbuin" << endl;
                         cin >> select;
                         system("CLS");
                         if(select == '1') {
@@ -114,7 +115,7 @@ void BaksturUI::displayBaksturUI() {
                                 cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                                 cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                                 cout << "Heildarverd: " << verd << endl;
-                                cout << "greitt eda ogreitt: " << greitt << endl;
+                                cout << "Greitt eda Ogreitt: " << greitt << endl;
                                 cout << "Nafn a pontun: " << nafn << endl;
                                 cout << "Stada: " << breyta << endl << endl;
                             }
@@ -141,7 +142,7 @@ void BaksturUI::displayBaksturUI() {
                                 cout << "Pizzan: " << tommur << " tommu " << botn << " botn med " <<  alegg << endl;
                                 cout << "Medlaeti & gos: " << medlaeti << " og " << gos << endl;
                                 cout << "Heildarverd: " << verd << endl;
-                                cout << "greitt eda ogreitt: " << greitt << endl;
+                                cout << "Greitt eda Ogreitt: " << greitt << endl;
                                 cout << "Nafn a pontun: " << nafn << endl;
                                 cout << "Stada: " << breyta << endl << endl;
                         }

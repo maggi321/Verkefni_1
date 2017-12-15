@@ -176,7 +176,11 @@ void OrderUI::order_greitt() {
     service.add_order(name);
 }
 void OrderUI::order_name() {
+<<<<<<< HEAD
+    cout << "Nafn: ";
+=======
     cout << "Skrifadu nafn a pontun: ";
+>>>>>>> dda91828895de7c18771841eddba8cc3fda8b95e
     cin >> name;
     service.add_order_end(name);
 }

@@ -2,6 +2,7 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
 	<File name="src\UI\OrderUI.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="5797" topLine="170" />
@@ -53,10 +54,19 @@
 		</Cursor>
 	</File>
 	<File name="include\UI\SalaUI.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="include\Service\Service.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="760" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="src\Service\Service.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 421e61a679f03304b22d30ba8f241b676b278835
+		<Cursor>
+			<Cursor1 position="1429" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
 	<File name="src\UI\UmsjonUI.cpp" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="6075" topLine="0" />
@@ -75,6 +85,46 @@
 	<File name="include\UI\BaksturUI.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="241" topLine="0" />
+=======
+	<File name="include\UI\OrderUI.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="376" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\UI\SalaUI.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Repositories\Repositories.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Repositories\Repositories.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9507" topLine="448" />
+		</Cursor>
+	</File>
+	<File name="src\UI\UmsjonUI.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="174" />
+		</Cursor>
+	</File>
+	<File name="src\UI\AfhendingUI.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="775" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="src\UI\OrderUI.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="724" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="src\UI\BaksturUI.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6216" topLine="119" />
+>>>>>>> 421e61a679f03304b22d30ba8f241b676b278835
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
