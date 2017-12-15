@@ -4,6 +4,7 @@ Miklabraut-12-Italskur-Beikon,-Sukkuladisprengja-Ekkert-2200-Ogreitt-jonina-merk
 Jolavegur-18-Ponnu-Paprika,Beikonsulta,Piparostur,-Ekkert-Pepsi-3250-Greitt-sveinki-merking-
 Miklabraut-9-Italskur-Pepperoni,-Ekkert-Ekkert-1600-Greitt-asdfr-merking-
 Jolavegur-12-Italskur-Beikon,-Sukkuladisprengja-Appelsin-2600-Ogreitt-kilju-merking-
+<<<<<<< HEAD
 Miklabraut-9-Klassiskur-Pepperoni,Beikon,-Ekkert-Ekkert-1600-Ogreitt-kanina-merking-
 Jolavegur-12-Klassiskur-Piparostur,Rjomaostur,-Ekkert-Pepsi-2000-Ogreitt-skyrgamur-merking-
 Jolavegur-12-Italskur-Beikon,-Sukkuladisprengja-Pepsi-2600-Ogreitt-mus-merking-
@@ -11,3 +12,6 @@ Miklabraut-9-Klassiskur-Pepperoni,-Sukkuladisprengja-Ekkert-1700-Ogreitt-Blad-me
 Miklabraut-9-Klassiskur-Pepperoni,-Ekkert-Pepsi-1700-Greitt-svali-merking-
 Miklabraut-9-Klassiskur-Pepperoni,-Ekkert-Ekkert-1300-Ogreitt-bord-merking-
 Miklabraut-9-Klassiskur-Pepperoni,-Ekkert-Ekkert-1300-Ogreitt-kall-merking-
+=======
+Miklabraut-9-Klassiskur-Pepperoni,-Sukkuladisprengja-Ekkert-1700-Ogreitt-jonina-merking-
+>>>>>>> dda91828895de7c18771841eddba8cc3fda8b95e
