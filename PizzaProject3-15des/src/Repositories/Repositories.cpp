@@ -8,9 +8,6 @@ void Repositories::add_topping(const Topping& topping) {
         fout << topping;
         fout.close();
     }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 void Repositories::retrive_topping() {
     ifstream fin;
@@ -43,9 +40,6 @@ void Repositories::retrive_topping() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<Topping> Repositories::load_topping() {
     toppings.clear();
@@ -63,9 +57,6 @@ void Repositories::add_pizza_size(const PizzaSize& pizza_size) {
     if(fout.is_open()) {
         fout << pizza_size;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 void Repositories::retrive_pizza_size() {
@@ -97,9 +88,6 @@ void Repositories::retrive_pizza_size() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<PizzaSize> Repositories::load_pizza_size() {
     pizza_sizes.clear();
@@ -117,9 +105,6 @@ void Repositories::add_medlaeti(const Medlaeti& medlaeti) {
     if(fout.is_open()) {
         fout << medlaeti;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 void Repositories::retrive_medlaeti() {
@@ -151,9 +136,6 @@ void Repositories::retrive_medlaeti() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<Medlaeti> Repositories::load_medlaeti() {
     medlaeti.clear();
@@ -171,9 +153,6 @@ void Repositories::add_gos(const Gos& gos) {
     if(fout.is_open()) {
         fout << gos;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 void Repositories::retrive_gos() {
@@ -205,9 +184,6 @@ void Repositories::retrive_gos() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<Gos> Repositories::load_gos() {
     gos.clear();
@@ -225,9 +201,6 @@ void Repositories::add_afhendingarstadir(const Afhendingarstadir& afhendingarsta
     if(fout.is_open()) {
         fout << afhendingarstadir;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 void Repositories::retrive_afhendingarstadir() {
@@ -261,9 +234,6 @@ void Repositories::retrive_afhendingarstadir() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<Afhendingarstadir> Repositories::load_afhendingarstadir() {
     afhendingarstadir.clear();
@@ -281,9 +251,6 @@ void Repositories::add_pizzabotn(const PizzaBotn& pizzabotn) {
     if(fout.is_open()) {
         fout << pizzabotn;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 void Repositories::retrive_pizzabotn() {
@@ -317,9 +284,6 @@ void Repositories::retrive_pizzabotn() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<PizzaBotn> Repositories::load_pizzabotn() {
     pizzabotn.clear();
@@ -339,9 +303,6 @@ void Repositories::add_order(string name) {
         fout << name << "-";
         fout.close();
     }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 void Repositories::add_order_end(string name) {
     ofstream fout;
@@ -349,9 +310,6 @@ void Repositories::add_order_end(string name) {
     if(fout.is_open()) {
         fout << name << "-merking-" << endl;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 void Repositories::retrive_order() {
@@ -418,9 +376,6 @@ void Repositories::retrive_order() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<Order> Repositories::find_order(string name) {
     order.clear();
@@ -444,7 +399,6 @@ vector<Order> Repositories::find_order_name(string nafn, string name) {
             allOrdersWithNafn.push_back(order[i]);
         }
         else if(order[i].get_nafn() == nafn && order[i].get_name() != name) {
-            cout << "No order on this name" << endl; ///setja exception/villubod (ekki cout)
             break;
         }
     }
@@ -500,31 +454,22 @@ void Repositories::retrive_order_rewrite() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
 }
 vector<Order> Repositories::change_merking(string nafn, string name) {
     order.clear();
     retrive_order_rewrite();
     vector<Order> allOrdersWithMerking;
-    bool foundOrNot = false;
     for (unsigned int i = 0; i < order.size(); i++){
         if (order[i].get_nafn() == nafn && order[i].get_name() == name && order[i].get_merking() == false) {
             order[i].set_merking(false);
-            foundOrNot = true;
             allOrdersWithMerking.push_back(order[i]);
             break;
         }
         else if (order[i].get_nafn() == nafn && order[i].get_name() == name && order[i].get_merking() == true) {
             order[i].set_merking(true);
-            foundOrNot = true;
             allOrdersWithMerking.push_back(order[i]);
             break;
         }
-    }
-    if (foundOrNot == false){
-        cout << "Order not found" << endl; ///setja exception/villubod (ekki cout)
     }
     return allOrdersWithMerking;
 }
@@ -535,9 +480,6 @@ void Repositories::add_tilbuinn(string name, string tommur, string botn, string 
         fout << name << "-" << tommur << "-" << botn << "-" << alegg << "-" << medlaeti << "-";
         fout << gos << "-" << verd << "-" << greitt << "-" << nafn << "-" << breyta << "-" << endl;
         fout.close();
-    }
-    else {
-        cout << "File write error!" << endl; ///setja exception/villubod (ekki cout)
     }
 }
 
@@ -589,10 +531,6 @@ void Repositories::retrive_tilbuinn() {
         }
         fin.close();
     }
-    else {
-        cout << "File not opened!" << endl; ///setja exception/villubod (ekki cout)
-    }
-
 }
 
 vector<Order> Repositories::find_tilbuinn(string name) {
@@ -617,7 +555,6 @@ vector<Order> Repositories::find_tilbuinn_name(string nafn, string name) {
             allOrdersWithTilbuinnNafn.push_back(order[i]);
         }
         else if(order[i].get_nafn() != nafn && order[i].get_name() == name) {
-            cout << "Pontun ekki til" << endl; ///setja exception/villubod (ekki cout)
             break;
         }
     }
